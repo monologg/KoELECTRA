@@ -108,7 +108,7 @@ In case of `KoELECTRA-Base`, it shows better performance than `KoBERT`, and simi
 
 In case of `KoELECTRA-Small`, overall performance is better than `DistilKoBERT`.
 
-## Acknowledgment
+## Acknowledgement
 
 KoELECTRA was created with Cloud TPU support from the Tensorflow Research Cloud (TFRC) program.
 

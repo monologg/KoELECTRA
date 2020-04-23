@@ -109,7 +109,7 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-discrimin
 
 `KoELECTRA-Small`의 경우 전반적으로 `DistilKoBERT`보다 좋은 성능을 보입니다.
 
-## Acknowledgment
+## Acknowledgement
 
 KoELECTRA은 Tensorflow Research Cloud (TFRC) 프로그램의 Cloud TPU 지원으로 제작되었습니다.
 
