@@ -2,9 +2,9 @@
 
 # Finetuning (Benchmark on subtask)
 
-- [Transformers examples](https://github.com/huggingface/transformers/blob/master/examples/README.md)를 참고하여 제작
-- Finetuning에는 `discriminator`를 사용
-- Single GPU 기준으로 코드 작성
+- Write the code based on [Transformers examples](https://github.com/huggingface/transformers/blob/master/examples/README.md)
+- For finetuning, `discriminator` was used
+- Write the code based on single GPU
 
 ## How to Run
 
@@ -31,7 +31,7 @@ $ python3 run_squad.py --task korquad --config_file xlm-roberta.json
 | HanBERT            | 614M  |       90.16        |       **87.31**        |        82.1        |      **80.87**       |       **78.74 / 92.02**       |
 | **KoELECTRA-Base** | 423M  |     **90.21**      |         86.87          |       81.55        |        80.41         |         61.10 / 89.59         |
 
-\*HanBERT의 Size는 Bert Model과 Tokenizer DB를 합친 것입니다.
+\*The size of HanBERT = Bert Model + Tokenizer DB
 
 ### Small Model
 
@@ -40,10 +40,11 @@ $ python3 run_squad.py --task korquad --config_file xlm-roberta.json
 | DistilKoBERT        | 108M |       88.41        |       **84.13**        |       62.35        |        70.55         |         54.12 / 77.80         |
 | **KoELECTRA-Small** | 53M  |     **88.76**      |         84.11          |     **74.15**      |      **75.94**       |       **58.13 / 86.82**       |
 
-\***config의 세팅을 그대로 하여 돌린 결과이며, hyperparameter tuning을 추가적으로 할 시 더 좋은 성능이 나올 수 있습니다.**
+\***This is the result of running with the config as it is, and if hyperparameter tuning is additionally performed, better performance may come out.**
 
-- `KoELECTRA-Base`의 경우 `KoBERT`보다 좋은 성능을 보이며, `HanBERT`와 일부 Task에서 유사한 성능을 보입니다.
-- `KoELECTRA-Small`의 경우 전반적으로 `DistilKoBERT`보다 좋은 성능을 보입니다.
+In case of `KoELECTRA-Base`, it shows better performance than `KoBERT`, and similar performance in `HanBERT` on some tasks.
+
+In case of `KoELECTRA-Small`, overall performance is better than `DistilKoBERT`.
 
 ## Reference
 

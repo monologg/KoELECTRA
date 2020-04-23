@@ -1,3 +1,5 @@
+[한국어](./wordpiece_vocab.md) | [English](./wordpiece_vocab_EN.md)
+
 # Wordpiece Vocabulary
 
 한국어 Tokenizer의 대안으로는 크게 `Sentencepiece`, `Mecab`, `Wordpiece`가 있습니다.

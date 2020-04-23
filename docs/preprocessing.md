@@ -1,3 +1,5 @@
+[한국어](./preprocessing.md) | [English](./preprocessing_EN.md)
+
 # Preprocessing
 
 Pretrained Language Model 성능에 가장 큰 영향을 주는 것은 `Corpus의 quality`라고 생각합니다. 그러나 뉴스 등의 데이터를 보면 불필요한 문장들이 많기에 이를 전처리하는 과정이 필요했습니다.
@@ -10,7 +12,7 @@ Pretrained Language Model 성능에 가장 큰 영향을 주는 것은 `Corpus�
 re.compile(r'[^ .,?!/@$%~％·∼()\x00-\x7F가-힣]+')
 ```
 
-특히 **한자**의 경우 Vocab의 quality가 많이 떨어뜨린다고 판단하여 제외하였습니다
+특히 **한자**의 경우 Vocab의 quality를 많이 떨어뜨린다고 판단하여 제외하였습니다
 
 ### 2. 해시태그, 이메일, @user 제거
 
@@ -24,7 +26,7 @@ re.compile(r'[^ .,?!/@$%~％·∼()\x00-\x7F가-힣]+')
 $ pip3 install kss
 ```
 
-### 5. 문장 분리 후 **일정 길이**를 넘지 못하는 문장은 제외
+### 5. 문장 분리 후 일정 길이를 넘지 못하는 문장은 제외
 
 ### 6. 뉴스 관련 문장 제거
 

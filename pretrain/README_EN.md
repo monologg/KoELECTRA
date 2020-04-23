@@ -2,14 +2,14 @@
 
 # ELECTRA Pretraining
 
-config 폴더에 `base`와 `small`에 사용한 hparams이 있습니다.
+In the config folder, there are hparams used for `base` and `small`.
 
-직접 사용하시려면 config에서 `tpu_name`, `tpu_zone`, `vocab_size`를 바꿔야 합니다.
+To use it yourself, you need to change `tpu_name`, `tpu_zone`, and `vocab_size` in config.
 
 ## Make tfrecords
 
 ```bash
-# 우선 `data` 디렉토리를 만든 후, corpus를 여러 개로 분리해 놓습니다.
+# First, create the `data` directory, then separate the corpus
 $ mkdir data
 $ split -a 4 -l {$NUM_LINES_PER_FILE} -d {$CORPUS_FILE} ./data/data_
 ```
