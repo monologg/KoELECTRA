@@ -1,0 +1,7 @@
+data/
+venv/
+__pycache__
+pretrain_tfrecords
+
+*.tar.gz
+tfdata*

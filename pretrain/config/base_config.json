@@ -1,0 +1,9 @@
+{
+  "tpu_name": "electra-base",
+  "tpu_zone": "europe-west4-a",
+  "vocab_size": 32200,
+  "num_train_steps": 700000,
+  "save_checkpoints_steps": 25000,
+  "train_batch_size": 256,
+  "learning_rate": 2e-4
+}
