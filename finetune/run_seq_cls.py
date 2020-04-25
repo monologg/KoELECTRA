@@ -15,12 +15,12 @@ from transformers import (
 )
 
 from src import (
-    CONFIG_CLASSES, 
-    TOKENIZER_CLASSES, 
+    CONFIG_CLASSES,
+    TOKENIZER_CLASSES,
     MODEL_FOR_SEQUENCE_CLASSIFICATION,
-    init_logger, 
-    set_seed, 
-    acc_score
+    init_logger,
+    set_seed,
+    compute_metrics
 )
 from processor import seq_cls_load_and_cache_examples as load_and_cache_examples
 from processor import seq_cls_tasks_num_labels as tasks_num_labels
@@ -135,7 +135,7 @@ def train(args,
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
-            
+
         mb.write("Epoch {} done".format(epoch + 1))
 
         if args.max_steps > 0 and global_step > args.max_steps:
@@ -192,7 +192,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
         preds = np.argmax(preds, axis=1)
     elif output_modes[args.task] == "regression":
         preds = np.squeeze(preds)
-    result = acc_score(out_label_ids, preds)
+    result = compute_metrics(args.task, out_label_ids, preds)
     results.update(result)
 
     output_dir = os.path.join(args.output_dir, mode)
@@ -223,13 +223,9 @@ def main(cli_args):
     init_logger()
     set_seed(args)
 
-    processor = processors[args.task](args)
-    labels = processor.get_labels()
     config = CONFIG_CLASSES[args.model_type].from_pretrained(
         args.model_name_or_path,
         num_labels=tasks_num_labels[args.task],
-        id2label={str(i): label for i, label in enumerate(labels)},
-        label2ids={label: i for i, label in enumerate(labels)},
     )
     tokenizer = TOKENIZER_CLASSES[args.model_type].from_pretrained(
         args.model_name_or_path,

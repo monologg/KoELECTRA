@@ -1,0 +1,1380 @@
+genre	filename	year	id	score	sentence1	sentence2
+main-captions	MSRvid	2012test	0024	2.500	한 소녀가 머리를 스타일링하고 있다.	한 소녀가 머리를 빗고 있다.
+main-captions	MSRvid	2012test	0033	3.600	한 무리의 남자들이 해변에서 축구를 한다.	한 무리의 소년들이 해변에서 축구를 하고 있다.
+main-captions	MSRvid	2012test	0045	5.000	한 여성이 다른 여성의 발목을 재고 있다.	한 여자는 다른 여자의 발목을 측정한다.
+main-captions	MSRvid	2012test	0063	4.200	한 남자가 오이를 자르고 있다.	한 남자가 오이를 자르고 있다.
+main-captions	MSRvid	2012test	0066	1.500	한 남자가 하프를 연주하고 있다.	한 남자가 키보드를 연주하고 있다.
+main-captions	MSRvid	2012test	0074	1.800	한 여자가 양파를 자르고 있다.	한 여자가 두부를 자르고 있다.
+main-captions	MSRvid	2012test	0076	3.500	한 남자가 전기 자전거를 타고 있다.	한 남자가 자전거를 타고 있다.
+main-captions	MSRvid	2012test	0082	2.200	한 남자가 드럼을 치고 있다.	남자가 기타를 치고 있다.
+main-captions	MSRvid	2012test	0092	2.200	한 남자가 기타를 치고 있다.	한 여성이 기타를 연주하고 있다.
+main-captions	MSRvid	2012test	0095	1.714	한 남자가 기타를 치고 있다.	한 남자가 트럼펫을 연주하고 있다.
+main-captions	MSRvid	2012test	0096	1.714	한 남자가 기타를 치고 있다.	한 남자가 트럼펫을 연주하고 있다.
+main-captions	MSRvid	2012test	0100	5.000	한 남자가 양파를 자르고 있다.	한 남자가 양파를 잘랐다.
+main-captions	MSRvid	2012test	0103	0.600	한 남자가 자전거를 타고 있다.	한 남자가 말하고 있다.
+main-captions	MSRvid	2012test	0107	4.400	한 남자가 생선을 썰어 열고 있다.	한 남자가 생선을 자르고 있다.
+main-captions	MSRvid	2012test	0124	2.000	한 남자가 토마토를 자르고 있다.	한 남자가 빵을 자르고 있다.
+main-captions	MSRvid	2012test	0127	1.800	한 남자가 기타를 치고 있다.	한 남자가 키보드를 연주하고 있다.
+main-captions	MSRvid	2012test	0128	4.400	아기 판다가 미끄럼틀을 타고 아래로 내려간다.	판다가 미끄럼틀 아래로 미끄러진다.
+main-captions	MSRvid	2012test	0134	3.600	한 남자가 노래를 부르며 기타를 연주하고 있다.	한 남자가 기타를 치고 있다.
+main-captions	MSRvid	2012test	0137	3.600	한 남자가 여자를 공격한다.	한 남자가 여자를 때린다.
+main-captions	MSRvid	2012test	0139	1.200	한 남자가 차를 운전하고 있다.	한 남자가 말을 타고 있다.
+main-captions	MSRvid	2012test	0146	2.400	한 여자가 두부를 자르고 있다.	여자가 양파를 자르고 있다.
+main-captions	MSRvid	2012test	0150	0.200	여자가 그녀의 머리를 스타일링하고 있다.	여자가 약초를 썰고 있다.
+main-captions	MSRvid	2012test	0156	4.200	두 얼룩말이 열린 필드에서 놀고 있다.	두 얼룩말이 들판에서 놀고 있다.
+main-captions	MSRvid	2012test	0162	4.400	한 남자가 감자를 자르고 있다.	한 남자가 감자를 썰고 있다.
+main-captions	MSRvid	2012test	0169	2.250	한 남자가 양파를 자르고 있다.	한 여성이 호박을 썰고 있다.
+main-captions	MSRvid	2012test	0170	2.000	한 남자가 춤을 추고 있다.	한 남자와 여자가 춤을 추고 있다.
+main-captions	MSRvid	2012test	0171	0.750	한 남자가 오토바이를 타고 있다.	한 여자가 말을 타고 있다.
+main-captions	MSRvid	2012test	0174	2.200	한 여성이 마늘을 썰고 있다.	한 여성이 양파를 자르고 있다.
+main-captions	MSRvid	2012test	0181	0.800	한 남자가 말하고 있다.	한 남자가 요리를 하고 있다.
+main-captions	MSRvid	2012test	0183	2.200	한 어린 소년이 노래를 부르고 기타를 치고 있다.	한 남자가 노래를 부르고 기타를 연주하고 있다.
+main-captions	MSRvid	2012test	0197	3.200	거북이가 물속에서 헤엄치고 있다.	거북이가 물속에서 걷고 있다.
+main-captions	MSRvid	2012test	0209	4.800	한 젊은 여성이 얼굴에 스티커를 붙이고 있다.	한 여성이 얼굴에 스티커를 붙이고 있다.
+main-captions	MSRvid	2012test	0229	1.400	한 여자가 두부를 싸고 있다.	한 여자가 반죽을 구르고 있다.
+main-captions	MSRvid	2012test	0232	4.250	고양이가 옥수수를 먹고 있다.	고양이가 거미줄에서 옥수수를 먹고 있다.
+main-captions	MSRvid	2012test	0242	3.400	한 남자가 음식을 먹고 있다.	한 남자가 빵 한 조각을 먹고 있다.
+main-captions	MSRvid	2012test	0244	0.533	한 남자가 기타를 치고 있다.	한 남자가 파스타를 먹고 있다.
+main-captions	MSRvid	2012test	0248	0.400	한 남자가 물냄비를 걷어차고 있다.	한 남자가 꽃을 따고 있다.
+main-captions	MSRvid	2012test	0251	1.200	한 남자가 가위로 파이프를 자르고 있다.	한 남자가 칼로 카펫을 자르고 있다.
+main-captions	MSRvid	2012test	0253	5.000	한 여성이 빗속에서 춤을 추고 있다.	한 여자가 밖에 빗속에서 춤을 춘다.
+main-captions	MSRvid	2012test	0258	0.538	한 여성이 목욕을 하고 있다.	한 여자가 말을 타고 있다.
+main-captions	MSRvid	2012test	0266	3.750	한 남자가 냄비에 채소를 섞는다.	한 사람이 냄비에 채소를 넣고 저어대고 있다.
+main-captions	MSRvid	2012test	0276	3.000	한 여성이 휴대폰으로 통화하고 있다.	한 남자와 여자가 전화로 이야기하고 있다.
+main-captions	MSRvid	2012test	0279	3.600	한 남자가 기타를 치고 있다.	한 남자가 기타를 연주하면서 노래를 부르고 있다.
+main-captions	MSRvid	2012test	0281	0.500	한 남자가 기타를 치고 있다.	한 남자가 차를 운전하고 있다.
+main-captions	MSRvid	2012test	0302	1.500	한 남자가 손으로 사과를 자르고 있다.	한 남자가 칼로 카펫을 자르고 있다.
+main-captions	MSRvid	2012test	0308	0.800	한 남자가 문을 열고 있다.	한 남자가 양파를 자르고 있다.
+main-captions	MSRvid	2012test	0310	0.800	한 남자가 토마토를 자르고 있다.	한 남자가 말을 타고 있다.
+main-captions	MSRvid	2012test	0313	0.600	한 남자가 검으로 종이를 자르고 있다.	한 여성이 토마토를 자르고 있다.
+main-captions	MSRvid	2012test	0321	4.400	한 소년이 달력을 공부한다.	한 소년이 달력을 보고 있다.
+main-captions	MSRvid	2012test	0326	1.750	발레리나가 춤을 추고 있다.	한 남자가 춤을 추고 있다.
+main-captions	MSRvid	2012test	0330	0.400	한 여자가 춤을 추고 있다.	한 여성이 바이올린을 연주하고 있다.
+main-captions	MSRvid	2012test	0333	1.400	한 여성이 토마토를 썰고 있다.	한 여성이 감자를 자르고 있다.
+main-captions	MSRvid	2012test	0337	0.400	한 여성이 수상스키를 타고 있다.	한 여성이 생선을 자르고 있다.
+main-captions	MSRvid	2012test	0341	0.800	남자가 플루트를 연주하고 있다.	한 남자가 스쿠터를 타고 있다.
+main-captions	MSRvid	2012test	0343	2.000	한 남자가 피아노를 치고 있다.	한 남자가 기타를 연주했다.
+main-captions	MSRvid	2012test	0346	0.133	한 여자가 캔을 따고 있다.	한 남자가 기타를 치고 있다.
+main-captions	MSRvid	2012test	0353	4.000	한 남자가 팬에 고기 세 조각을 넣는다.	한 남자가 팬에 고기를 넣고 있다.
+main-captions	MSRvid	2012test	0356	0.267	여자가 양파를 자르고 있다.	한 여성이 정원을 청소하고 있다.
+main-captions	MSRvid	2012test	0358	3.400	몇몇 남자들이 톱질을 하고 있다.	남자들이 통나무를 톱질하고 있다.
+main-captions	MSRvid	2012test	0363	1.200	차 한 대가 도로를 따라 운행된다.	한 소녀가 길을 따라 걷고 있다.
+main-captions	MSRvid	2012test	0370	5.000	남자가 여자에게 키스하고 포옹하고 있다.	한 남자가 여자를 안고 키스하고 있다.
+main-captions	MSRvid	2012test	0383	0.000	기차가 움직이고 있다.	한 남자가 요가를 하고 있다.
+main-captions	MSRvid	2012test	0389	3.800	누군가가 양파를 자르고 있다.	한 여자가 양파를 자르고 있다.
+main-captions	MSRvid	2012test	0396	0.750	한 여성이 바다에서 놀고 있다.	한 여성이 요리를 위해 새우를 준비하고 있다.
+main-captions	MSRvid	2012test	0400	3.400	한 사람이 전자 키보드를 연주하고 있다.	한 아이가 키보드를 연주하고 있다.
+main-captions	MSRvid	2012test	0411	0.000	한 남자가 잎을 들고 있다.	원숭이가 한 남자와 싸우고 있다.
+main-captions	MSRvid	2012test	0412	0.200	한 여성이 새우 껍질을 벗기고 있다.	하 남자가 물을 짜고 있다.
+main-captions	MSRvid	2012test	0421	4.000	한 남자가 앉아서 담배를 피우고 있다.	한 남자가 담배를 피우고 있다.
+main-captions	MSRvid	2012test	0425	0.500	한 남자가 기타를 치고 있다.	한 여자가 말을 타고 있다.
+main-captions	MSRvid	2012test	0435	3.800	한 남자가 창문 앞에 서서 밖을 바라보고 있다.	한 남자가 창밖을 내다보고 있다.
+main-captions	MSRvid	2012test	0436	2.400	스컹크가 여기저기를 보고 있다.	스컹크가 카메라를 본다.
+main-captions	MSRvid	2012test	0452	4.750	한 남자가 기타를 치고 노래를 부르고 있다.	한 남자가 기타로 노래를 부른다.
+main-captions	MSRvid	2012test	0459	0.000	한 여자가 창문을 연다.	한 남자가 기어가고 있다.
+main-captions	MSRvid	2012test	0463	3.750	사람들이 밖에서 춤을 추고 있다.	한 무리의 사람들이 춤을 추고 있다.
+main-captions	MSRvid	2012test	0465	2.600	남자가 카메라를 이용해 못을 박고 있다.	누군가가 카메라 렌즈를 손톱에 대고 두드리고 있다.
+main-captions	MSRvid	2012test	0470	0.000	한 여자가 손톱을 다듬고 있다.	한 남자가 당근 껍질을 벗기고 있다.
+main-captions	MSRvid	2012test	0475	0.750	한 소년이 개집으로 기어들어가고 있다.	한 소년이 나무 피리를 연주하고 있다.
+main-captions	MSRvid	2012test	0487	0.000	한 여성이 물속에서 수영하고 있다.	한 남자가 당근을 썰고 있다.
+main-captions	MSRvid	2012test	0491	3.800	기계가 연필을 갈고 있다.	그 기계는 연필의 끝을 깎아 냈다.
+main-captions	MSRvid	2012test	0509	2.800	원숭이가 드럼을 치고 있다.	고릴라는 드럼을 연주한다.
+main-captions	MSRvid	2012test	0521	0.000	한 남자가 상자를 열고 종이를 꺼내고 있다.	한 여성이 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012test	0533	0.800	한 여자가 춤을 추고 있다.	한 여성이 클라리넷을 연주한다.
+main-captions	MSRvid	2012test	0540	3.000	한 사람이 커다란 터치스크린에 그림을 그리고 있다.	한 남자가 디지털 건식 지우개에 그림을 그리고 있다.
+main-captions	MSRvid	2012test	0544	1.000	놀고 있던 남자들은 잔디밭에 있는 지도자를 따른다.	코뿔소가 풀밭에서 풀을 뜯었다.
+main-captions	MSRvid	2012test	0545	0.000	한 여자가 달걀을 깨고 있다.	한 남자가 여자와 이야기를 하고 있다.
+main-captions	MSRvid	2012test	0548	1.000	한 여성이 손으로 마늘을 벗긴다.	여자가 약초를 썰고 있다.
+main-captions	MSRvid	2012test	0549	3.400	북극곰은 그 살인을 놓고 싸웠다.	북극곰들이 서로 싸우고 있다.
+main-captions	MSRvid	2012test	0554	5.000	한 남자가 카드놀이로 장난을 치고 있다.	한 남자가 카드 트릭을 하고 있다.
+main-captions	MSRvid	2012test	0557	2.333	고양이가 병을 핥고 있다.	고양이가 작은 병으로 놀아요.
+main-captions	MSRvid	2012test	0563	1.400	한 사람이 양파를 자르고 있다.	한 사람이 생강을 잘랐다.
+main-captions	MSRvid	2012test	0572	0.750	한 사람이 감자 껍질을 벗기는 기계로 감자 껍질을 벗기고 있다.	한 남자가 토마토를 절단기로 자르고 있다.
+main-captions	MSRvid	2012test	0579	3.538	두 명의 여성이 군중 앞에서 춤을 추고 노래를 부르고 있다.	여자들이 노래하고 춤추고 있다.
+main-captions	MSRvid	2012test	0590	0.800	한 남자가 당근을 양념하고 있다.	한 여성이 마늘을 썰고 있다.
+main-captions	MSRvid	2012test	0592	3.500	두 남자가 수레를 밀고 숲을 통과했다.	두 남자가 카트를 밀고 있다.
+main-captions	MSRvid	2012test	0599	2.000	한 남자가 축구를 하고 있다.	한 남자가 발로 축구공을 조종하고 있다.
+main-captions	MSRvid	2012test	0602	4.750	그 여자는 감자 껍질을 벗겼다.	한 여성이 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012test	0606	4.000	한 여성이 두부를 자르고 있다.	한 여성이 두부의 한 블록을 작은 정육면체로 자르고 있다.
+main-captions	MSRvid	2012test	0615	4.500	누군가 키보드를 쳤다.	누군가가 타자를 치고 있다.
+main-captions	MSRvid	2012test	0622	1.500	세 명의 젊은이들이 콜라 기계에서 뛰고 뛰어내리고 차고 있다.	세 남자가 벽에서 뛰어내리고 있다.
+main-captions	MSRvid	2012test	0628	2.400	한 젊은 아시아 소녀가 아이라이너를 쓰고 있다.	한 소녀가 눈 화장을 하고 있다.
+main-captions	MSRvid	2012test	0636	0.000	고양이가 집 주위를 돌아다니고 있다.	한 여성이 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012test	0647	0.400	한 여성이 그것을 어루만질 때 그녀의 애완 토끼와 이야기를 나누고 있다.	한 여성이 개를 아스트로 잔디밭으로 데리고 간다.
+main-captions	MSRvid	2012test	0648	2.500	원숭이가 드럼을 치고 있다.	고릴라 의상을 입은 누군가가 드럼 세트를 연주하고 있다.
+main-captions	MSRvid	2012test	0656	2.600	한 남자가 밀폐된 땅에서 흰말을 타고 있다.	누군가가 말을 타고 있다.
+main-captions	MSRvid	2012test	0658	3.600	한 동양인 여성이 당근을 얇은 조각으로 자르고 있다.	한 여성이 당근을 자르고 있다.
+main-captions	MSRvid	2012test	0662	3.000	한 무리의 사람들이 춤을 추고 있다.	여자들이 밖에서 춤을 추고 있다.
+main-captions	MSRvid	2012test	0663	0.000	한 남자가 기타를 치고 있다.	한 소년이 거대한 개와 이야기를 나누고 있다.
+main-captions	MSRvid	2012test	0664	1.600	한 여자는 채소를 섞는다.	한 여성이 프라이팬에 재료를 첨가하고 있다.
+main-captions	MSRvid	2012test	0665	1.250	한 여성이 그릇에 혼합물을 부어 섞는다.	한 여성이 프라이팬에 계란을 준비하고 있다.
+main-captions	MSRvid	2012test	0674	3.600	한 남자가 버터 조각들을 믹싱 볼에 넣고 있다.	버터 조각은 스탠드 믹서에 첨가됩니다.
+main-captions	MSRvid	2012test	0677	2.000	한 남자가 빵 조각에 마늘을 넣고 있다.	한 남자가 여러 조각의 버터를 바른 빵에 양념을 뿌리고 있다.
+main-captions	MSRvid	2012test	0679	3.600	판다 곰은 통나무 위에 누워 있었다.	판다가 누워 있다.
+main-captions	MSRvid	2012test	0683	2.800	다섯 명의 남자가 수영장에 뛰어든다.	수영선수들이 수영장에 떨어진다.
+main-captions	MSRvid	2012test	0698	4.400	치타가 먹이를 쫓아 뛰어가고 있다.	치타는 들판을 가로질러서 먹이를 쫓는다.
+main-captions	MSRvid	2012test	0702	0.000	고양이가 바닥에서 놀고 있다.	한 남자가 마늘을 자르고 있다.
+main-captions	MSRvid	2012test	0703	0.000	한 소년이 무대에서 바이올린을 연주하고 있다.	한 사람이 냄비를 섞고 있다.
+main-captions	MSRvid	2012test	0714	3.750	개가 장난감을 향해 짖고 있다.	그 작은 개가 전자 장난감을 향해 짖었다.
+main-captions	MSRvid	2012test	0720	2.500	한 남자가 자전거를 타고 있다.	한 소년이 자전거를 타고 있다.
+main-captions	MSRvid	2012test	0726	0.000	한 여성이 생강을 썰고 있다.	한 사람이 두 개의 아기 용변을 들고 있다.
+main-captions	MSRvid	2012test	0730	0.800	한 남자가 죽은 사슴을 끌고 있다.	한 남자가 절벽에서 물속으로 뛰어들고 있다.
+main-captions	MSRvid	2012test	0733	1.000	한 남자가 요리를 위해 뱀을 준비하고 있다.	남자가 얇게 썬 오이를 물에 떨어뜨리고 있다.
+main-captions	MSRvid	2012test	0734	0.000	한 여성이 빵 롤에 겨자를 바르고 있다.	한 고양이가 여자의 손가락으로 놀고 있다.
+main-captions	MSRvid	2012test	0739	0.250	누군가가 줄을 씹고 있는 고양이를 만졌다.	누군가가 종이를 자르고 있다.
+main-captions	MSRvid	2012test	0741	0.400	고기가 프라이팬에 넣어지고 있다.	한 여성이 아기를 쓰레기통에 넣고 있다.
+main-captions	MSRvid	2012test	0742	0.000	한 아기 코끼리가 작은 나무를 먹고 있다.	한 어린 소녀가 스쿠터를 만지작거리고 있다.
+main-captions	MSRvid	2012train	0001	5.000	한 여자와 남자가 빗속에서 춤을 추고 있다.	한 남자와 여자가 비 속에서 춤을 추고 있다.
+main-captions	MSRvid	2012train	0002	0.300	누군가가 그림을 그리고 있다.	누군가 춤을 추고 있다.
+main-captions	MSRvid	2012train	0007	2.750	한 남자가 기타를 치고 있다.	한 여성이 기타를 연주하고 있다.
+main-captions	MSRvid	2012train	0008	5.000	두 남자가 링에서 주먹다짐을 하고 있다.	두 남자가 링에서 주먹다짐을 한다.
+main-captions	MSRvid	2012train	0013	4.250	사람은 쟁반에 버터를 바른다.	사람이 쟁반에 버터를 바르고 있다.
+main-captions	MSRvid	2012train	0014	3.400	두 남자가 축구를 하고 있다.	두 남자가 축구를 연습하고 있다.
+main-captions	MSRvid	2012train	0015	1.600	남자가 기타를 연주하고 있다.	소녀가 기타를 치고 있다.
+main-captions	MSRvid	2012train	0019	2.600	한 남자가 감자 껍질을 벗기고 있다.	한 남자가 감자를 자르고 있다.
+main-captions	MSRvid	2012train	0020	5.000	한 여성이 포크로 감자를 찌르고 있다.	한 여성이 포크로 감자를 찔러 넣고 있다.
+main-captions	MSRvid	2012train	0021	3.200	한 아이가 깨어나고 있다.	한 소녀가 깨어나고 있다.
+main-captions	MSRvid	2012train	0022	4.800	한 소년이 키보드를 연주하고 있다.	한 어린 소년이 키보드를 연주하고 있다.
+main-captions	MSRvid	2012train	0028	5.000	한 여성이 플루트를 연주한다.	한 여성이 플루트를 연주하고 있다.
+main-captions	MSRvid	2012train	0036	2.400	한 여성이 일렉트릭 기타를 연주하고 있다.	한 남자가 어쿠스틱 기타를 연주하고 있다.
+main-captions	MSRvid	2012train	0044	2.000	남자가 플루트를 연주하고 있다.	한 남자가 기타를 치고 있다.
+main-captions	MSRvid	2012train	0053	5.000	한 무리의 사람들이 집에서 물을 쓸어내고 있다.	사람들이 집에서 물을 쓸어내고 있다.
+main-captions	MSRvid	2012train	0067	5.000	한 남자가 기타를 연주한다.	한 남자가 기타를 치고 있다.
+main-captions	MSRvid	2012train	0085	3.400	한 남자와 여자가 서로 키스하고 있다.	한 남자와 한 여자가 서로 포옹하고 키스하고 있다.
+main-captions	MSRvid	2012train	0096	4.500	한 여성이 절벽을 오르고 있다.	한 여성이 바위 위를 오르고 있다.
+main-captions	MSRvid	2012train	0098	4.200	북극곰이 해마 무리를 향해 달려가고 있다.	북극곰이 한 무리의 해마를 쫓고 있다.
+main-captions	MSRvid	2012train	0105	2.200	한 여자가 생선을 자르고 있다.	한 여자가 두부를 자르고 있다.
+main-captions	MSRvid	2012train	0107	2.400	누군가 피아노를 치고 있다.	누군가 기타를 치고 있다.
+main-captions	MSRvid	2012train	0112	3.800	한 남자가 쌀 한 송이를 팬에 붓고 있다.	한 남자가 ric-a-roni를 팬에 부었다.
+main-captions	MSRvid	2012train	0118	2.500	한 남자가 손으로 나무판자를 깨고 있다.	한 남자가 손으로 타일을 깨고 있다.
+main-captions	MSRvid	2012train	0119	2.000	한 소녀가 기타를 치고 있다.	한 소녀가 피아노를 치고 있다.
+main-captions	MSRvid	2012train	0120	0.750	한 남자가 기도하고 있다.	한 남자가 춤을 추고 있다.
+main-captions	MSRvid	2012train	0136	2.000	한 남자가 피아노를 치고 있다.	한 남자가 바이올린을 연주하고 있다.
+main-captions	MSRvid	2012train	0141	2.200	한 여성이 양파를 자르고 있다.	한 여성이 레몬을 썰고 있다.
+main-captions	MSRvid	2012train	0144	4.000	한 남자가 개울가에서 말을 타고 있다.	한 남자가 말을 타고 있다.
+main-captions	MSRvid	2012train	0146	3.200	한 남자가 기타를 치고 있다.	한 남자가 기타를 치고 노래를 부르고 있다.
+main-captions	MSRvid	2012train	0163	3.800	한 남자가 나무를 집어 들고 있다.	한 남자가 나무를 들고 있다.
+main-captions	MSRvid	2012train	0168	3.750	한 사람이 감자 껍질을 벗기고 있다.	남자가 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012train	0169	0.500	한 사람이 피아노를 치고 있다.	한 사람이 감자를 자르고 있다.
+main-captions	MSRvid	2012train	0177	0.800	한 남자가 침을 뱉고 있다.	한 남자가 말하고 있다.
+main-captions	MSRvid	2012train	0178	5.000	한 남자가 음악 키보드를 연주하고 있다.	한 남자가 키보드 피아노를 연주하고 있다.
+main-captions	MSRvid	2012train	0189	1.200	한 남자가 춤을 추고 있다.	한 남자가 생각하고 있다.
+main-captions	MSRvid	2012train	0204	5.000	한 남자가 트럼펫을 연주한다.	한 남자가 트럼펫을 연주하고 있다.
+main-captions	MSRvid	2012train	0208	2.800	한 여자가 말을 타고 있다.	한 남자가 말을 탄다.
+main-captions	MSRvid	2012train	0219	1.200	한 밴드가 무대에서 연주하고 있다.	한 여성이 무대에서 춤을 추고 있다.
+main-captions	MSRvid	2012train	0220	3.200	한 여성이 기타를 치고 노래를 부르고 있다.	한 여성이 기타를 연주하고 있다.
+main-captions	MSRvid	2012train	0222	4.600	남자가 먹고 있다.	한 남자가 음식을 먹고 있다.
+main-captions	MSRvid	2012train	0225	4.000	한 소년이 골프공을 치다.	그 어린 소년은 골프공을 향해 휘둘렀다.
+main-captions	MSRvid	2012train	0227	3.800	한 남자가 그의 선글라스를 벗고 있다.	한 소년이 그의 선글라스를 벗고 있다.
+main-captions	MSRvid	2012train	0228	3.400	누군가가 이메일을 읽고 있다.	한 남자가 이메일을 읽고 있다.
+main-captions	MSRvid	2012train	0232	4.600	한 사람이 양파를 자르고 있다.	누군가가 양파를 자르고 있다.
+main-captions	MSRvid	2012train	0238	2.600	한 소녀가 차에 올라오고 있다.	한 소녀가 차 위로 뛰어오른다.
+main-captions	MSRvid	2012train	0258	1.800	한 남자가 드럼을 치고 있다.	한 남자가 그의 기타를 치고 있다.
+main-captions	MSRvid	2012train	0265	0.750	누군가가 양파를 자르고 있다.	누군가가 물고기를 들고 있다.
+main-captions	MSRvid	2012train	0280	4.000	한 여성이 껍질을 벗긴 감자를 굵은 조각으로 썰고 있다.	한 여성이 껍질을 벗긴 감자를 조각들로 자르고 있다.
+main-captions	MSRvid	2012train	0282	2.750	한 어린 소녀가 스쿠터를 만지작거리고 있다.	한 소녀가 스쿠터를 타고 있다.
+main-captions	MSRvid	2012train	0294	3.800	고양이는 스스로 청소를 한다.	고양이가 핥고 있다.
+main-captions	MSRvid	2012train	0295	2.600	한 남자가 축구공을 차고 있다.	한 남자가 축구공으로 묘기를 부리고 있다.
+main-captions	MSRvid	2012train	0297	2.000	한 여자가 창문을 연다.	한 여성이 창밖을 내다보고 있다.
+main-captions	MSRvid	2012train	0301	3.800	세 남자가 거리에서 같은 춤을 추고 있다.	세 명의 셔츠를 벗은 남자들이 거리에서 춤을 추고 있다.
+main-captions	MSRvid	2012train	0310	0.583	남자가 기타를 연주하고 있다.	남자가 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012train	0325	0.400	한 남자가 춤을 추고 있다.	한 여자가 운동을 하고 있다.
+main-captions	MSRvid	2012train	0326	0.250	한 여자가 운동을 하고 있다.	한 남자가 춤을 추고 있다.
+main-captions	MSRvid	2012train	0334	2.800	한 소년이 무대에서 바이올린을 연주하고 있다.	한 소년이 악기를 연주하고 있다.
+main-captions	MSRvid	2012train	0335	3.200	여자가 다른 여자를 재고 있다.	그 여자는 다른 여자의 발목을 재었다.
+main-captions	MSRvid	2012train	0354	0.500	한 남자가 운동을 하고 있다.	한 남자가 소총을 발사하고 있다.
+main-captions	MSRvid	2012train	0363	2.250	개가 장난감을 가지고 놀고 있다.	개가 인형을 먹고 있다.
+main-captions	MSRvid	2012train	0365	0.000	한 남자가 피아노를 치고 있다.	한 남자가 감자 껍질을 벗기고 있다.
+main-captions	MSRvid	2012train	0373	0.000	한 남자가 볼링을 하고 있다.	고양이가 걷고 있다.
+main-captions	MSRvid	2012train	0383	0.308	한 여성이 불 근처에서 춤을 추고 있다.	한 여성이 토마토를 자르고 있다.
+main-captions	MSRvid	2012train	0392	0.750	한 남자가 침대를 만들고 있다.	한 남자가 청중에게 말하고 있다.
+main-captions	MSRvid	2012train	0395	0.400	한 사람이 오토바이를 타고 있다.	한 사람이 양파를 자르고 있다.
+main-captions	MSRvid	2012train	0397	4.200	한 남자가 냄비에 쌀을 붓는다.	한 남자가 밥을 그릇 냄비에 넣고 있다.
+main-captions	MSRvid	2012train	0401	3.750	한 사람이 마늘을 썰고 있다.	한 사람이 칼로 마늘 한 송이를 찔러 넣고 있다.
+main-captions	MSRvid	2012train	0419	1.600	한 여성이 생강을 썰고 있다.	한 여성이 감자를 자르고 있다.
+main-captions	MSRvid	2012train	0420	3.000	남자들이 축구를 하고 있다.	두 팀은 축구를 한다.
+main-captions	MSRvid	2012train	0430	4.000	한 사람이 호박을 문지르고 있다.	한 여성이 야채 붓으로 호박을 문지르고 있다.
+main-captions	MSRvid	2012train	0438	3.000	판다 곰이 막대기를 씹고 있다.	아기 판다가 막대기로 놀아요.
+main-captions	MSRvid	2012train	0440	3.750	사람들이 가방을 들어 올리고 있다.	몇몇 사람들이 큰 가방들을 들고 있다.
+main-captions	MSRvid	2012train	0442	0.400	한 남자가 전화로 말하고 있다.	한 남자가 가게를 문워크로 걷고 있다.
+main-captions	MSRvid	2012train	0447	0.000	한 여성이 그녀의 머리를 땋고 있다.	한 남자가 오토바이를 타고 있다.
+main-captions	MSRvid	2012train	0461	3.000	남자가 나무에 칼을 던지고 있다.	한 남자가 바깥의 가까운 목표물에 칼날을 던지고 있다.
+main-captions	MSRvid	2012train	0463	0.400	여자가 두부를 자르고 있다.	여자가 립스틱을 바르고 있다.
+main-captions	MSRvid	2012train	0465	0.400	한 여자가 종이를 접고 있다.	한 여성이 아이섀도를 바르고 있다.
+main-captions	MSRvid	2012train	0466	0.250	누군가가 종이를 접고 있다.	한 사람이 작은 생강 조각을 자르고 있다.
+main-captions	MSRvid	2012train	0469	0.250	한 남자가 역기를 들어 올리고 있다.	한 남자가 가지를 자르고 있다.
+main-captions	MSRvid	2012train	0500	0.400	한 남자가 첼로를 연주하고 있다.	한 남자가 작은 무게를 빠르게 들어 올리고 있다.
+main-captions	MSRvid	2012train	0501	0.400	남자가 말하고 있다.	한 남자가 계단을 내려가고 있다.
+main-captions	MSRvid	2012train	0502	3.200	한 남자가 뱀에게 쥐를 먹이려고 한다.	한 남자가 쥐로 뱀을 놀리고 있다.
+main-captions	MSRvid	2012train	0510	0.000	한 남자가 드럼을 치고 있다.	한 여성이 잎을 자르고 있다.
+main-captions	MSRvid	2012train	0512	2.200	한 남자가 우쿨렐레를 연주하고 있다.	한 남자가 앉아서 작은 기타를 연주하고 있다.
+main-captions	MSRvid	2012train	0524	0.800	새끼 고양이가 그릇에서 우유를 마시고 있다.	한 어린아이가 컵에서 물을 마시고 있다.
+main-captions	MSRvid	2012train	0531	0.800	한 남자가 다른 남자에게 콘크리트 블록을 부순다.	한 여성이 계란을 팬에 부순다.
+main-captions	MSRvid	2012train	0551	0.300	한 남자가 꽃병으로 소년을 때리고 있다.	한 남자가 매트를 자르고 있다.
+main-captions	MSRvid	2012train	0558	0.000	남자가 휘핑크림을 섞고 있다.	남자가 스컹크를 들고 있다.
+main-captions	MSRvid	2012train	0560	0.750	한 남자가 주스를 저어주고 있다.	한 남자가 양파 껍질을 벗기고 있다.
+main-captions	MSRvid	2012train	0562	2.333	누군가가 조리되지 않은 갈비뼈 두 개를 잘라내고 있다.	누군가가 고기를 자르고 있다.
+main-captions	MSRvid	2012train	0572	1.333	한 남자가 물냄비를 걷어차고 있다.	한 남자가 음식을 돌리고 있다.
+main-captions	MSRvid	2012train	0575	1.200	두 명의 어린 소녀가 전화로 이야기한다.	두 커플이 서로 이야기를 나누고 있다.
+main-captions	MSRvid	2012train	0576	4.200	고양이는 움직이는 천장 팬에 갇힌다.	고양이가 팬 위에서 달랑 거리고 있다.
+main-captions	MSRvid	2012train	0577	3.800	고양이가 우유를 마시고 있다.	흰 고양이가 접시에 보관된 우유를 핥고 마시고 있다.
+main-captions	MSRvid	2012train	0589	3.000	록키와 아폴로 크리드가 해변을 따라 달리고 있다.	남자들이 해변에서 조깅을 하고 있다.
+main-captions	MSRvid	2012train	0590	0.500	한 남자가 기타를 연주하면서 노래를 부르고 있다.	한 남자가 스스로를 음식으로 가득 채우고 있다.
+main-captions	MSRvid	2012train	0594	0.000	한 보트가 물 위를 항해한다.	남자가 기타를 연주하고 있다.
+main-captions	MSRvid	2012train	0600	0.333	오카피가 나무에서 먹고 있다.	무스는 스프링클러에서 마신다.
+main-captions	MSRvid	2012train	0605	1.500	몇몇 아이들이 트램폴린을 타고 위아래로 뛰어내립니다.	한 남자가 트램폴린을 백플립을 하고 있다.
+main-captions	MSRvid	2012train	0609	0.167	한 여성이 프라이팬에 계란을 부어 넣고 있다.	한 남자가 개 두 마리를 쓰다듬고 있다.
+main-captions	MSRvid	2012train	0610	0.500	한 여성이 간 고기를 튀기고 있다.	한 남자가 도끼로 나무 덩이를 자르고 있다.
+main-captions	MSRvid	2012train	0619	1.250	가라데 의상을 입은 세 소년이 싸우고 있다.	세 남자가 들판에서 가라데 동작을 연습하고 있다.
+main-captions	MSRvid	2012train	0630	1.600	수영하는 사람들이 호수에서 경주를 하고 있다.	여자 수영선수들이 출발 플랫폼에서 다이빙을 하고 있다.
+main-captions	MSRvid	2012train	0635	0.000	한 사람이 국수를 끓이고 있다.	고양이가 병을 핥고 있다.
+main-captions	MSRvid	2012train	0639	1.000	한 사람이 양파를 썰고 있다.	한 여성이 허브를 자르고 있다.
+main-captions	MSRvid	2012train	0649	0.000	한 남자가 물고기를 낚아채다.	한 여자가 그릇에 기름을 부어 넣고 있다.
+main-captions	MSRvid	2012train	0658	0.000	여자가 양파를 자르고 있다.	한 말이 서 있다.
+main-captions	MSRvid	2012train	0660	4.000	한 숙녀가 그릇에 고기 혼합물을 섞었다.	한 여자가 그릇에 고기를 넣고 저어대고 있다.
+main-captions	MSRvid	2012train	0666	2.750	한 소녀가 얼굴에 화장을 하고 있다.	한 여성이 화장을 하고 있다.
+main-captions	MSRvid	2012train	0670	3.333	한 여자가 화장을 한다.	한 여성이 아이섀도를 쓰고 있다.
+main-captions	MSRvid	2012train	0673	3.500	고양이가 물속에서 놀고 있다.	고양이가 빨대를 물 접시에서 낚아챘다.
+main-captions	MSRvid	2012train	0681	0.188	한 사람이 팬에 음식을 넣고 있다.	한 남자가 거리에서 춤을 추고 있다.
+main-captions	MSRvid	2012train	0683	0.000	한 남자가 담배를 피우고 있다.	한 아기가 젖꼭지를 빨고 있다.
+main-captions	MSRvid	2012train	0689	0.250	한 사람이 냄비에 치즈를 갈기갈기 찢고 있다.	햄스터가 씨앗을 먹고 있다.
+main-captions	MSRvid	2012train	0695	0.364	한 남자가 분필 판을 지우고 있다.	한 여성이 춤을 추고 노래하고 있다.
+main-captions	MSRvid	2012train	0698	3.200	남자가 운동을 하고 있다.	한 남자가 풀업을 하고 있다.
+main-captions	MSRvid	2012train	0713	0.000	침팬지가 목표물을 걷어차고 있다.	한 여성이 프라이팬에 기름을 넣고 있다.
+main-captions	MSRvid	2012train	0717	0.000	한 남자가 운동을 하고 있다.	한 아기가 웃고 있다.
+main-captions	MSRvid	2012train	0720	0.000	소녀가 아기를 임신하고 있다.	한 남자가 음식을 먹고 있다.
+main-captions	MSRvid	2012train	0726	1.750	몇몇 수영선수들이 물속으로 뛰어든다.	수영하는 사람들이 호수에서 경주를 하고 있다.
+main-captions	MSRvid	2012train	0728	0.000	한 남자가 서핑보드 위에서 회전한다.	한 남자가 닭고기에 바비큐 소스를 얹고 있다.
+main-captions	MSRvid	2012train	0736	2.750	한 젊은이가 스케이트보드를 타고 보도로 뛰어내리고 다른 연석에서 내려온다.	한 남자가 스케이트보드를 타고 있다.
+main-captions	MSRvid	2012train	0740	1.800	한 사람은 오렌지 후추를 썰어 먹는다.	요리사가 피망을 썰고 있다.
+main-captions	MSRvid	2012train	0745	0.000	두 남자가 함께 춤을 추고 있다.	한 여자가 옷장을 연다.
+main-captions	MSRvid	2012train	0747	0.000	한 남자가 이메일을 읽고 있다.	바나나를 여는 한 사람.
+main-captions	images	2014	0011	2.8	호기심 많은 소년들은 헛간을 들여다본다.	숲이 우거진 지역에 있는 두 명의 작은 소년들이 헛간을 보고 있다.
+main-captions	images	2014	0018	4.4	폐허의 계단 앞에서 모페드	폐허 앞에서의 모페드
+main-captions	images	2014	0019	4	한 남자가 무릎에 아기를 안고 잔다.	한 남자가 아기를 안고 의자에 앉아 잠들어 있다.
+main-captions	images	2014	0030	2.6	두 마리의 고양이가 창문을 보고 있다.	흰 고양이가 창문 밖을 내다보고 있다.
+main-captions	images	2014	0037	1.2	헬멧을 쓴 한 사람은 하얀 구조물 근처에서 자전거를 탄다.	검은 반바지와 부츠를 신은 소녀가 파란 오토바이 옆에 서 있다.
+main-captions	images	2014	0054	3.2	커피숍에서 자전거를 든 한 남자.	커피숍의 파티오까지 자전거를 끌고 걸어가는 남자.
+main-captions	images	2014	0079	0.8	흑백 고양이는 높은 나뭇가지 위에 있다.	오른쪽 귀에 꼬리표가 달린 흑백 양.
+main-captions	images	2014	0084	3.4	헬멧을 쓴 어린 금발 소녀가 빨간 자전거를 뒤에 두고 앉아 있습니다.	배경에 자전거를 두고 자전거 헬멧을 쓴 어린 소녀.
+main-captions	images	2014	0088	2	거실에 있는 푸른 소파와 트윈 침대.	햇살이 비치는 푸른 소파
+main-captions	images	2014	0104	0	양 떼가 들판에 흩어져 있다.	하얀 고양이가 바닥에 서 있다.
+main-captions	images	2014	0105	4.6	소파에 앉아 있는 개 두 마리와 고양이 한 마리.	소파에 누워 있는 개 두 마리와 고양이 한 마리.
+main-captions	images	2014	0115	4	자전거가 가게 옆에 주차되어 있다.	서점 밖에 자전거가 주차되어 있다.
+main-captions	images	2014	0119	3.8	검은 가죽 의자에 담요 위에 누워 있는 오렌지색과 흰색 고양이.	적갈색과 흰 고양이가 몸을 웅크리고 가죽 의자에 앉아 잠들어 있었다.
+main-captions	images	2014	0123	4	검은 소파에 앉아 있는 젊은 부부.	소파에 앉아 있는 젊은 부부.
+main-captions	images	2014	0124	2.8	건물 앞에 모페드를 든 흑인 무리.	한 무리의 사람들이 노후한 건물 밖에 있다.
+main-captions	images	2014	0126	3.6	빨간 무늬의 소파에 앉아 있는 노부인은 젊은 여성을 그녀의 팔로 감싼 채.	소파에 앉아 카메라를 위해 포즈를 취하고 있는 두 명의 여성.
+main-captions	images	2014	0135	1.8	오렌지색 SUV의 뒷좌석에 탄 남자.	아주 꽉 찬 노란 밴 뒤에 매달려 있는 아프리카 남자
+main-captions	images	2014	0142	3.6	빨간색과 흰색 버스가 도로를 따라 운전하고 있다.	버스가 바쁜 길을 따라 운전한다.
+main-captions	images	2014	0152	1.2	빨간 쿠션 위에 누워 카메라를 보고 있는 고양이.	카메라를 올려다보는 고양이 침대 위에 누워 있는 황갈색 개.
+main-captions	images	2014	0156	5	선로에 두 개의 녹색과 흰색 열차가 앉아 있다.	두 개의 녹색과 흰색 열차가 기차 선로에 앉아 있다.
+main-captions	images	2014	0168	4	회색 고양이가 나무 탁자 위에 누워 있다.	식탁 위에 누워 있는 회색 고양이.
+main-captions	images	2014	0171	0	뒷마당에 앉아 기타를 연주하는 한 남자	오렌지색 SUV의 뒷좌석에 탄 남자.
+main-captions	images	2014	0175	3.4	무릎에 아기를 앉힌 채 의자에 앉아 낮잠을 자고 있는 아버지.	분홍색 셔츠를 입은 남자가 유아와 함께 의자에 앉아 자고 있다.
+main-captions	images	2014	0176	4.4	클로즈업이 된 타조의 머리	타조의 얼굴의 클로즈업
+main-captions	images	2014	0179	4.2	나뭇가지 위에 자리 잡고 있는 녹색과 흰색의 새.	나뭇가지에 앉아 있는 녹색 머리에 하얀 가슴을 가진 새.
+main-captions	images	2014	0182	5	모자를 쓴 한 남자가 흰말을 탄다.	흰말을 타고 모자를 쓴 한 남자
+main-captions	images	2014	0188	0.2	갈색 말을 타는 한 여자	위에서 자기 사진을 찍는 여자.
+main-captions	images	2014	0200	0.2	잔디밭에 서 있는 두 남자가 차를 응시하고 있다.	분홍색 상의를 입고 맥주를 들고 포즈를 취하는 한 여자.
+main-captions	images	2014	0205	4	물가에 있는 인도 여자 두 명과 인도 소녀 두 명.	두 명의 인도 여성이 해변 위에서 두 명의 인도 소녀와 함께 서 있습니다.
+main-captions	images	2014	0207	2.6	두 사람을 위해 와인과 접시가 놓여 있는 테이블이 마련되어 있다.	나무 테이블에는 양초, 와인, 그리고 보라색 플라스틱 그릇이 놓여 있습니다.
+main-captions	images	2014	0214	0.6	폐허 앞에서의 모페드	건물 앞 잔디밭에 주차된 흰색 버스.
+main-captions	images	2014	0219	1.2	자전거로 당겨지는 카트를 운전하는 한 사람.	바퀴 달린 세 개의 자전거를 타고 방진 마스크를 쓴 한 남자
+main-captions	images	2014	0227	3.8	문 밑바닥을 킁킁거리는 개 한 마리.	닫힌 문을 킁킁거리며 냄새를 맡는 검은색과 흰색의 개.
+main-captions	images	2014	0236	4.2	겨울에 나뭇가지에 앉아 있는 작은 새	작은 새가 얼음이 쌓인 가지 위에 앉았다.
+main-captions	images	2014	0237	2.8	노란 새가 철망 위에서 과일을 먹고 있다.	새 먹이통에 있는 과일을 먹는 노란 새
+main-captions	images	2014	0239	4.2	갈색 오리와 흰색 오리가 잔디 위에 서 있다.	갈색과 흰색 오리들이 녹색 잔디 위를 걷고 있습니다.
+main-captions	images	2014	0240	2.4	줄무늬 소파 위에 검은색과 흰색 고양이와 개.	창문 앞에 서 있는 검정과 흰색 고양이.
+main-captions	images	2014	0244	3.6	검은 정장 차림에 검은 상의 모자를 쓴 남자가 하얀 마술용 말을 타고 있다.	흰말을 타고 모자를 쓴 한 남자
+main-captions	images	2014	0248	3.8	나무에 매달려 있는 새 먹이에서 먹고 있는 작은 갈색 새들.	작은 새가 나무에 매달려 있는 새 먹이에 앉는다.
+main-captions	images	2014	0249	0.6	이것은 큰 도시가 배경에 있는 시골의 사진이다.	배경에 큰 나무가 있는 풀이 무성한 평원에 검은 소들이 있습니다.
+main-captions	images	2014	0259	4.8	공중 비행 중인 파란색과 빨간색 비행기.	비행 중인 파란색과 빨간색 비행기
+main-captions	images	2014	0263	1.2	텐트 안에서 포즈를 취하고 있는 세 남자.	부엌에서 식사를 하고 있는 세 남자.
+main-captions	images	2014	0270	2.4	녹색 눈을 가진 회색 고양이의 클로즈업	크림 소파에 있는 고양이 클로즈업
+main-captions	images	2014	0273	4.2	기차는 기차역에 있다.	그 기차는 기차역에 있다.
+main-captions	images	2014	0276	0	기차는 선로와 산울타리를 따라 내려간다.	파티오 바닥에 있는 한 개가 울타리에 있는 고양이를 보고 있습니다.
+main-captions	images	2014	0278	0.2	한 어린 소녀가 카메라를 보고 웃고 있다.	큰 귀를 가진 하얀 소가 카메라를 들여다본다.
+main-captions	images	2014	0280	3.4	세 명의 젊은 여성이 한 방에 함께 서 있었다.	흰색, 빨간색, 검은색 스웨터를 입은 검은 머리의 젊은 여성 세 명
+main-captions	images	2014	0294	3	긴 오렌지색 다리를 가진 하얀 새가 호수 옆에 서 있다.	긴 오렌지 부리를 가진 커다란 흰 새가 해안선에 서 있다.
+main-captions	images	2014	0297	3.2	눈 덮인 도시를 지나는 빨간 열차	기차가 눈 속에서 선로를 타고 있다.
+main-captions	images	2014	0306	3	세 명의 자전거 타는 사람들이 도시의 다리를 건넌다.	자전거 타는 사람들이 비가 오는 다리에서 건너고 있다.
+main-captions	images	2014	0307	4.4	빨간색과 흰색의 버스가 영국 거리를 따라 운전한다.	빨간색과 흰색의 영국 버스가 거리를 따라 운전한다.
+main-captions	images	2014	0316	1.8	새들이 물속에서 헤엄치고 있다.	새들은 물 위로 낮게 날고 있다.
+main-captions	images	2014	0318	2	검은 개가 카메라를 보고 있다.	흑백 황소가 카메라를 보고 있다.
+main-captions	images	2014	0337	4.8	들판에서 풀을 뜯는 말 무리	풀밭에서 풀을 뜯는 말 무리
+main-captions	images	2014	0340	4	시장 광장에서 오토바이를 탄 몇몇 사람들	도시 거리에 있는 오토바이를 탄 사람들
+main-captions	images	2014	0341	2.2	세 마리의 양이 조수석에서 본 흙길에 서 있다.	차에서 흙길에 있는 양 세 마리가 총에 맞다.
+main-captions	images	2014	0343	4.2	엘비스 복장을 한두 남자와 포즈를 취한 사람들 무리.	엘비스 복장을 한두 명의 다른 사람들과 함께 서 있는 한 무리의 사람들
+main-captions	images	2014	0355	3.4	작은 쇼핑 카트를 밀고 있는 앵무새.	흰 새가 쇼핑 카트를 조종하고 있다.
+main-captions	images	2014	0357	4.2	물속을 헤치고 다니는 노란 카누를 탄 남자.	남자가 해안을 향해 노란 카누를 노를 저어대고 있다.
+main-captions	images	2014	0360	3.4	맥주병(-lrb-harp lager) -rb-는 바닥에 줄지어 있다.	바닥에 줄지어 놓여 있는 맥주병.
+main-captions	images	2014	0361	2.4	밖에 앉아 웃고 있는 두 여자.	버스 밖에 서 있는 두 명의 여성.
+main-captions	images	2014	0364	1	증기 기관과 열차가 카메라를 향해 이동한다.	산비탈에 있는 흰 양 한 마리가 카메라를 보고 있다.
+main-captions	images	2014	0373	1.6	들판에 있는 갈색과 흰색의 소가 카메라를 들여다본다.	흑백 고양이가 카메라를 올려다보고 있다.
+main-captions	images	2014	0377	3.2	눈 더미 근처에 서 있는 흑백 소.	들판에 서 있는 흑백 소
+main-captions	images	2014	0379	3.4	밝은 녹색 벽과 예술품이 있는 홈 오피스 공간.	책상이 여러 개 있고 녹색 벽이 있는 사무실.
+main-captions	images	2014	0382	4	자동차를 운전하는 남자와 오토바이를 가진 사람의 흑백 사진.	클래식 자동차를 탄 남자와 클래식 오토바이를 탄 남자의 흑백 사진.
+main-captions	images	2014	0390	3	세 사람이 노란 카누를 타고 물가에 있다.	카누를 준비하는 세 사람.
+main-captions	images	2014	0400	3.8	말을 탄 승마 모자를 쓴 소녀.	황갈색 말을 탄 소녀
+main-captions	images	2014	0402	0	막대기와 함께 옅은 스카프를 입은 남자.	달리는 사람이 음료수 한 병을 들고 그늘에서 쉬고 있다.
+main-captions	images	2014	0407	0	텔레비전이 있는 매우 복고풍의 거실	회색 고양이가 나무 탁자 위에 누워 있다.
+main-captions	images	2014	0411	2.6	말을 탄 승마 모자를 쓴 소녀.	갈색 말을 탄 한 소녀
+main-captions	images	2014	0416	2.6	거리 위 길가로 끌려져 나오는 차.	언덕 앞 도로변에 주차된 은색 차.
+main-captions	images	2014	0425	3.8	망토를 입고 막대기를 들고 다리를 꼬고 앉아 있는 남자	갈색 천을 입고 나무 막대기를 들고 있는 동안 다리를 꼬고 앉아 있는 남자.
+main-captions	images	2014	0427	2.6	계단 아래에 두 마리의 흑백 개.	한 개가 다른 서있는 개 옆 계단 바닥에 누워 있다.
+main-captions	images	2014	0434	2.8	바다에 있는 오래된 나무로 만든 항해선	부두에 오래된 나무로 만든 범선이 주차되어 있다.
+main-captions	images	2014	0436	0	잔디 위에 다리를 꼬고 앉아 있는 한 남자가 나무를 배경으로 하고 있다.	해안에 가까운 원양 정기선과 그 배경에 집이 있다.
+main-captions	images	2014	0452	2.6	소파에 앉아 창밖을 내다보는 고양이 두 마리.	창밖을 내다보는 고양이.
+main-captions	images	2014	0455	4.6	개 한 마리에 의해 염소 세 마리가 모아지고 있다.	세 마리의 염소가 개에게 쫓긴다.
+main-captions	images	2014	0458	3.8	카펫 깔린 바닥에 있는 황갈색 강아지	하얀 카펫 위에 누워 있는 황갈색 강아지
+main-captions	images	2014	0462	3.4	풀이 무성한 지역에 서 있는 검은 개	긴 머리의 개는 풀이 우거진 숲속에 서 있다.
+main-captions	images	2014	0466	5	역에 있는 기차.	역에 있는 기차
+main-captions	images	2014	0468	4.6	잔디밭에 서 있는 푸른 새	푸른 새가 녹색 잔디 위에 서 있다.
+main-captions	images	2014	0472	3	빈 사무실 좁은 방	좁은 방에 빈 사무실 의자가 하나 있었다.
+main-captions	images	2014	0476	2.2	한 남자와 여자가 식당의 테이블에 앉아 있다.	4명의 여성과 2명의 남성이 식당의 긴 테이블에 앉아 있다.
+main-captions	images	2014	0477	3.8	줄무늬 셔츠를 입은 한 젊은이가 자전거 두 대를 들고 있다.	해변 근처에서 자전거 두 대를 들고 있는 젊은 빨강 머리 남자
+main-captions	images	2014	0482	2.2	밝은 방에 있는 텔레비전, 천을 씌운 의자, 그리고 커피 탁자.	거실에 있는 가죽 소파와 나무 탁자.
+main-captions	images	2014	0495	3.6	소파에 앉아 창밖을 내다보는 고양이 두 마리.	두 마리의 고양이가 창문을 보고 있다.
+main-captions	images	2014	0502	4	작은 개가 스웨터를 입고 카메라를 올려다보고 있다.	재킷을 입은 작은 흰 개 한 마리가 카메라를 올려다본다.
+main-captions	images	2014	0503	0.4	잔디밭에 서 있는 두 남자가 차를 응시하고 있다.	두 여자가 가게의 의자에 앉아 있다.
+main-captions	images	2014	0507	0	한 여성이 눈 속에서 건물 앞에 서 있다.	두 명의 여자와 한 명의 아기가 식당 앞에서 포즈를 취하고 있다.
+main-captions	images	2014	0509	3.8	밝은 녹색 벽과 예술품이 있는 홈 오피스 공간.	밝은 녹색 벽이 있는 작은 사무실 공간.
+main-captions	images	2014	0512	5	술집에 주차된 녹색 차	술집 밖에 주차된 녹색 차.
+main-captions	images	2014	0514	4.8	식당 식탁에 둘러앉은 사람들 무리.	한 무리의 사람들이 식당 테이블에 앉아 있다.
+main-captions	images	2014	0518	2.4	두 마리의 오리가 물가에 서 있다.	새들이 물속에서 헤엄치고 있다.
+main-captions	images	2014	0519	2.8	건초가 든 축사에 있는 흑백 소	담장 뒤에 있는 흑백 소들.
+main-captions	images	2014	0521	1.4	한 남자와 여자가 카메라를 위해 포즈를 취하고 있다.	모래 위에 앉아 카메라를 올려다보는 고양이.
+main-captions	images	2014	0523	3.6	공항에서 출발하는 녹색과 흰색 화물 비행기	활주로를 벗어나는 흰색과 녹색 상업용 여객기
+main-captions	images	2014	0532	0	들판에 주차된 노란색 스쿨버스.	녹색 들판에 있는 갈색 말.
+main-captions	images	2014	0534	4.2	한 노인이 집에서 노트북으로 일한다.	노트북을 들고 소파에 앉아 있는 노신사.
+main-captions	images	2014	0540	0.4	고양이가 고양이 사료 봉지에 앉아 있다.	긴 가지에 앉아 있는 두 마리의 독수리.
+main-captions	images	2014	0546	3.8	나무로 된 큰 물건들이 높이 쌓여 있었다.	커다란 잔 나무 더미
+main-captions	images	2014	0550	4	갈색 말을 타는 한 여자	갈색 말을 탄 한 소녀
+main-captions	images	2014	0551	1.2	소파에 앉아 있는 소녀의 흑백 사진.	나무 아래 있는 소의 흑백 사진
+main-captions	images	2014	0559	4	검은 개 한 마리가 건설 현장의 재료 옆에 서 있다.	검은 개 한 마리가 건설 현장 한가운데 서 있다.
+main-captions	images	2014	0567	3	두 여자가 가게의 의자에 앉아 있다.	두 명의 여성이 카페에 앉아 있다.
+main-captions	images	2014	0572	0	한 여성이 식당이 배경으로 있는 의자를 칠하고 있다.	바다를 배경으로 해변을 따라 걷는 한 남자와 소년.
+main-captions	images	2014	0584	2.4	고양이 한 마리가 베개를 뒤에 두고 버스 위에서 자고 있다.	고양이가 동물 프린트 담요 위에 누워 있다.
+main-captions	images	2014	0586	3.4	두 대의 오토바이가 흙길에서 경주를 하고 있다.	흙길에 오토바이 두 대가 있다.
+main-captions	images	2014	0593	0.8	한 젊은 여성이 흙길 경주장에서 적다를 타고 있다.	남자가 흰 갈기를 가진 말을 바라보고 있다.
+main-captions	images	2014	0621	4.2	갈색 테이블 위에 누워 있는 회색 고양이.	회색 고양이가 나무 탁자 위에 누워 있다.
+main-captions	images	2014	0622	4.4	오토바이가 밖에 있는 차 옆에 주차되어 있었다.	자동차 옆에 주차된 오토바이.
+main-captions	images	2014	0627	4	의자가 위에 있는 중고 목제 건축 자재 더미.	나무 파편 더미 위에 놓여 있는 의자.
+main-captions	images	2014	0643	1.8	시 기차역에서 기다리고 있는 여객 열차	노란색 엔진을 장착한 여객 열차
+main-captions	images	2014	0649	2.8	검은 기차가 선로를 따라 내려간다.	긴 기차가 기차 선로에 있다.
+main-captions	images	2014	0650	5	필립스 평면 TV는 두 개의 리모컨과 함께 보인다.	두 개의 리모컨이 있는 필립스 평면 TV.
+main-captions	images	2014	0651	0	유람선이 정박지 앞에 있다.	문 앞에 계단에 앉아 있는 칼리코 고양이.
+main-captions	images	2014	0656	0.2	건초 속에 서 있는 흑백 소가 카메라를 돌아본다.	풀밭에 흑백 양이 서 있다.
+main-captions	images	2014	0661	4	강을 따라 노를 저어 내려가는 네 사람.	네 사람이 물속에서 카누를 젓는다.
+main-captions	images	2014	0662	3.8	들판에 서 있는 짙은 갈색 말	녹색 들판에 있는 갈색 말.
+main-captions	images	2014	0667	4.4	두 남자가 비행기 앞에서 이야기하고 있다.	두 남자가 작은 비행기 앞에서 이야기하고 있다.
+main-captions	images	2014	0670	3.2	두 마리의 고양이, 한 마리의 갈색과 한 마리의 흰 고양이가 푸른 담요와 함께 침대 위에 누워 있습니다.	두 마리의 고양이, 한 마리의 적갈색, 다른 한 마리의 흰 고양이가 침대에 누워 있습니다.
+main-captions	images	2014	0672	4.6	그 기차는 기차역에 있다.	기차역에 주차된 기차
+main-captions	images	2014	0681	0	바위에 앉아 있는 두 마리의 동물들	갈색 열차가 철로에 앉아 있다.
+main-captions	images	2014	0692	1	담장을 통해 내다보는 흑백 소	흑백 개가 카메라를 보고 있다.
+main-captions	images	2014	0700	0.8	옷 가게에 있는 두 명의 여자.	돛단배에 탄 두 여자
+main-captions	images	2014	0703	4	빨간 오토바이를 보고 있는 나이 든 신사	빨간 오토바이를 보고 있는 한 남자
+main-captions	images	2014	0707	1.6	흑백 소들이 축사에서 풀을 뜯고 있다.	두 마리의 흑백 소가 연못에서 물을 마시고 있다.
+main-captions	images	2014	0708	0	잔디밭에 주차된 작은 위장 비행기	난간에 묶인 분홍색 셔츠를 입은 작은 개
+main-captions	images	2014	0718	3.4	2인용 의자의 흑백 사진	한쪽 끝에 지갑이 있는 소파의 흑백 사진.
+main-captions	images	2014	0723	1	콘크리트 위에 서 있는 검은 새	푸른 새가 녹색 잔디 위에 서 있다.
+main-captions	images	2014	0728	4	거대한 버섯을 지나는 사람들의 무리.	거대한 버섯을 지나는 네 명의 사람들로 이루어진 그룹
+main-captions	images	2014	0733	3	길가와 호수 옆에 있는 양.......	양은 호수와 산이 배경으로 있는 도로 가장자리에 있습니다.
+main-captions	images	2014	0745	3	한 무리의 사람들이 이탈리아 식당의 테이블에 앉아 있다.	샐러드가 차려진 테이블에 앉아 있는 여섯 명의 사람들로 구성된 그룹.
+main-captions	images	2014	0746	0.75	황갈색 소들이 카메라를 자세히 본다.	화장실 싱크대에서 카메라를 보고 있는 흰색과 회색 고양이
+main-captions	images	2014	0748	3.4	갓 태어난 아기를 안고 있는 나이 든 여성	아기를 안고 소파에 앉아 있는 한 여성
+main-captions	images	2015	0022	2.80	두 마리의 개가 잔디밭에서 놀고 있다.	눈 속에서 노는 개 두 마리
+main-captions	images	2015	0029	4.80	세 사람이 유니온 잭처럼 칠해진 건물 밖에 있는 피크닉 테이블에 앉아 있다.	세 사람이 유니온 잭처럼 칠해진 건물 앞에 있는 야외 테이블에 앉아 있다.
+main-captions	images	2015	0038	1.40	개 한 마리가 물속을 헤엄친다.	망토를 입은 개가 눈 속을 달리고 있다.
+main-captions	images	2015	0043	2.40	웃고 있는 어린 소녀와 소년이 큰 드럼을 치고 놀고 있다.	어린 소녀와 어린 소년이 기타와 드럼 옆에 서 있습니다.
+main-captions	images	2015	0047	1.80	갈색 개는 입에 하얀 공을 물고 눈 위를 달린다.	네 마리의 개가 눈 속에서 놀고, 그들 뒤에 도시 스카이라인이 있다.
+main-captions	images	2015	0071	4.80	새가 물 위를 가로질러 날고 있다.	새가 물 위로 날아간다.
+main-captions	images	2015	0073	1.40	개가 연못을 뛰어다니고 있다	창백한 개가 흙길을 따라 달리고 있다.
+main-captions	images	2015	0083	0.40	한 남자와 한 여자가 두 마리의 개를 보고 있다.	적갈색 수영복을 입은 남자가 호수 위의 밧줄에 매달려 흔들린다.
+main-captions	images	2015	0084	1.33	한 남자가 부두 옆에 앉아 물을 바라본다.	한 남자가 바위에서 물속으로 뛰어내린다
+main-captions	images	2015	0097	2.40	갈색과 흰색의 개가 눈 속을 달리고 있다.	갈색과 흰색의 개가 잔디 위를 달리고 있다.
+main-captions	images	2015	0104	0.40	한 남자와 여자가 건물 앞에 서 있다	두 소녀가 다리 앞 모래 위의 ATV에 앉아 있다.
+main-captions	images	2015	0150	0.60	세 마리의 돌고래가 사람들 앞에서 수영장에서 뛰어나오고 있습니다.	한 남자가 많은 사람들 앞에서 프레젠테이션을 하고 있다.
+main-captions	images	2015	0154	4.80	개가 들판을 달려가고 있다.	개가 들판을 달려간다.
+main-captions	images	2015	0155	2.80	흑백 개가 물속으로 뛰어들고 있다.	흰 개가 물 위를 가로질러 달린다.
+main-captions	images	2015	0174	2.00	황갈색과 흰색의 개가 자갈길에서 공을 되찾았다.	큰 개가 숲속의 자갈길을 따라 걷는다.
+main-captions	images	2015	0197	2.60	갈색과 흰색의 개가 눈 덮인 계단을 걸어 올라오고 있다.	흑백 개 한 마리가 눈 속에서 장난을 치다.
+main-captions	images	2015	0242	0.00	검정과 오렌지색 재킷을 입은 한 여성이 갈색과 검은색 개가 가져오기 위해 막대기를 던진다.	파란 재킷을 입은 남자가 군중 속에 서 있다.
+main-captions	images	2015	0257	2.40	눈덩이를 입에 문 채 눈 위를 달리는 개	황갈색 개가 입에 노란 장난감을 물고 잔디밭을 달리고 있다.
+main-captions	images	2015	0277	4.00	작은 소년이 나무 블록으로 건물을 짓고 있다.	파란색 셔츠를 입은 한 작은 소년이 나무 블록을 쌓아 놓았다.
+main-captions	images	2015	0301	4.00	한 남자와 한 여자가 흰 개 한 마리를 목줄에 매고 걷는다.	한 남자, 여자, 개는 포장된 길을 걸어간다.
+main-captions	images	2015	0335	4.00	빨간 겨울 코트를 입은 한 어린 소년이 사탕 바를 먹고 들고 있습니다.	빨간 코트를 입은 어린 소년이 초콜릿 바를 먹는다.
+main-captions	images	2015	0353	0.00	두 마리의 경주견이 진흙 속에서 달린다.	남자가 물속으로 들어가고 있다.
+main-captions	images	2015	0356	3.20	"다이빙 금지"라고 적힌 수영장에 뛰어든 한 어린 소년.	한 소년이 구조 대원들이 지켜보는 동안 수영장에 뛰어든다.
+main-captions	images	2015	0363	1.40	세 마리의 개가 흙 속에서 뛰어다니고 있다.	노란 개가 흙길을 달리고 있다.
+main-captions	images	2015	0373	3.60	네 명의 아이들이 식당에서 의자에 앉아 있다.	네 명의 어린이들이 노란색과 회색 바의 높은 바 의자에 앉습니다.
+main-captions	images	2015	0374	4.40	풀밭에서 뛰는 소년과 흰 개	소년과 개가 잔디밭에서 뛰어다니는 것
+main-captions	images	2015	0380	5.00	두 소년이 깃발 축구 경기를 하고 있다.	두 소년이 깃발 축구를 하고 있다.
+main-captions	images	2015	0387	1.80	흑백 개는 입을 크게 벌리고 있다.	흑백 개가 눈 속에서 뛰어내린다.
+main-captions	images	2015	0398	4.80	한 백인 소년과 한 흑인 소년이 서로 팔을 두르고 서 있습니다.	두 명의 어린 소년, 한 명의 백인과 한 명의 흑인이 서로 팔을 두르고 서 있습니다.
+main-captions	images	2015	0415	0.60	맨발로 웅덩이에서 노는 소녀.	한 아이가 두 마리의 흰 거위와 검은 거위와 놀고 있다.
+main-captions	images	2015	0422	1.40	물속에서 첨벙 거리고 있는 두 아이.	두 마리의 돌고래가 물속으로 뛰어든다.
+main-captions	images	2015	0440	0.20	양복을 입은 남자가 청중 앞에서 어린 소녀와 춤을 춘다.	한 여성이 나무에 연결된 푸른 천에서 매달려 있다.
+main-captions	images	2015	0442	4.20	세 명의 아이들이 장난감을 가지고 바닥에서 놀고 있다.	세 명의 아이들이 바닥에 앉아 여러 개의 장난감을 가지고 놀고 있다.
+main-captions	images	2015	0459	4.60	두 마리의 개가 마당에서 놀고 있다.	두 마리의 개가 잔디 위에서 놀고 있다.
+main-captions	images	2015	0503	4.00	#2 그레이하운드 개는 트랙을 돌고 있다.	입마개를 한 그레이하운드 개가 트랙을 달리고 있다
+main-captions	images	2015	0510	4.60	네 명의 아이들이 트램폴린에서 놀고 있다.	네 명의 아이들이 트램폴린을 타고 뛰어오르고 있다.
+main-captions	images	2015	0527	1.80	나무 근처 들판에 서 있는 검정과 황갈색의 개	흰 개가 강가에 서서 몸을 털어 말리고 있다.
+main-captions	images	2015	0542	4.60	검은 개가 물속으로 뛰어들고 있다.	검은 개가 물속을 달리고 있다.
+main-captions	images	2015	0574	0.20	레코드 가게를 지나는 남자와 여자	한 남자와 여자가 군중 앞에서 키스를 하고 있다.
+main-captions	images	2015	0589	2.60	두 마리의 개가 잔디밭에서 놀고 있다.	두 마리의 황갈색 개가 눈 속에서 놀고 있다.
+main-captions	images	2015	0592	3.80	세 명의 아이들이 꽃 카펫 위에서 씨름을 한다.	세 명의 아이들이 바닥에서 놀고 있다.
+main-captions	images	2015	0593	0.00	빨간 옷을 입은 소년이 모래 상자에 뛰어들었다.	연못에서 헤엄치는 개
+main-captions	images	2015	0598	5.00	개가 물속으로 뛰어든다.	개가 물속으로 뛰어들고 있다.
+main-captions	images	2015	0629	3.60	젖은 금발의 개는 해안에 막대기를 가지고 다닌다.	젖은 갈색 개는 입에 막대기를 물고 물 옆의 모래 속에서 달리고 있습니다.
+main-captions	images	2015	0634	4.60	해변에 있는 바위 위에 남자와 개 한 마리.	바위투성이 해안에 있는 한 남자와 개
+main-captions	images	2015	0639	2.00	건물 밖에 서 있는 많은 사람들의 무리	한 무리의 사람들이 대도시에서 아이스 스케이팅을 하고 있다.
+main-captions	images	2015	0691	5.00	두 마리의 개가 들판에서 뛰고 있다.	들판에서 달리는 두 마리의 개
+main-captions	images	2015	0693	0.00	두 사람이 침대에 있다.	권투선수 두 명이 링 안에 있다.
+main-captions	images	2015	0720	3.40	밝은 갈색 개는 행복하게 길을 달려 내려간다.	창백한 개가 길을 따라 달려간다.
+main-captions	images	2015	0730	0.00	검은 옷을 입은 빨간 머리의 여성이 나무 위에 누워 있는 동안 남자를 위해 포즈를 취하고 있다.	검은 셔츠를 입은 남자가 선글라스를 쓴 아이를 잡고 있다.
+main-captions	images	2015	0739	2.00	두 마리의 검은 개가 눈 속에서 노란 테니스 공을 가지고 뛰어오르고 놀고 있습니다.	노란 축구공을 가지고 노는 갈색 개와 검은 개.
+main-captions	images	2015	0743	2.00	흑백 개가 장애물을 뛰어넘고 있다.	다리 위를 달리는 흰 개
+main-captions	images	2015	0757	4.60	갈색 개 두 마리가 물속을 달린다.	물속을 달리는 갈색 개 두 마리
+main-captions	images	2015	0770	3.00	검은 개가 물에서 뛰어나오고 있다.	검은 개가 물을 털고 있다.
+main-captions	images	2015	0790	4.60	암벽을 오르는 남자	한 남자가 암벽을 오르고 있다.
+main-captions	images	2015	0792	2.00	테니스를 치고 공을 치는 여자	한 여성이 배구를 하고 있다.
+main-captions	images	2015	0795	2.60	머리를 세운 한 어린 소년이 파란 미끄럼틀을 미끄러져 내려간다	오렌지 셔츠를 입은 아이가 청록색 미끄럼틀을 미끄러져 내려간다.
+main-captions	images	2015	0797	0.40	물속에 서 있는 개	한 소녀가 낙하산을 타고 놀고 있다.
+main-captions	images	2015	0801	2.60	서퍼 한 명이 부서지는 파도를 타고 있다.	파도를 잡는 서퍼 무리
+main-captions	images	2015	0816	4.20	두 마리의 개가 집과 나무 근처의 잔디밭을 뛰어다니고 있다.	두 마리의 개가 녹색 마당을 달리고 있다
+main-captions	images	2015	0830	0.00	갈색과 흰색의 개가 갈색 들판을 가로질러 달리고 있다.	바위 절벽에 매달려 있는 사람
+main-captions	images	2015	0838	2.20	배구 근처의 풀밭에 서 있는 검은 개	풀밭의 축구공 근처에 푸른 목걸이가 달린 갈색과 검은색의 색.
+main-captions	images	2015	0861	4.00	밝은 갈색 표시를 가진 흰 개는 입에 막대기를, 눈 속에는 발을 가지고 있다.	흰 개는 눈 속을 달리는 동안 입에 막대기를 물고 있습니다.
+main-captions	images	2015	0868	0.00	젖은 양복을 입은 남자가 젖은 양복을 입은 아기를 공중으로 던지고 있다.	하얀 프린트 셔츠를 입은 남자와 검은 드레스를 입은 여자가 춤을 춘다.
+main-captions	images	2015	0875	2.00	흑백 개가 잔디밭을 뛰어다니고 있다.	황갈색 개가 눈을 헤치고 걷고 있다.
+main-captions	images	2015	0885	3.00	다른 개가 뒤를 따라오자 마구가 달린 개가 통나무 위로 뛰어오른다.	갈색과 흰색의 개가 들판의 통나무 위로 뛰어오르고 있고 다른 개가 그 뒤에 따라오고 있습니다.
+main-captions	images	2015	0923	2.60	풀밭을 뛰어다니는 개	두 마리의 개들이 잔디밭에서 뛰고 있다.
+main-captions	images	2015	0932	0.00	많은 축구 선수들이 땅에 앉아 있다.	개가 땅에서 굴러다닌다.
+main-captions	images	2015	0934	0.00	밖에서 함께 놀고 있는 어린 소년과 어린 소녀.	하얀 셔츠를 입은 한 여성이 길에 서 있다.
+main-captions	images	2015	0939	4.80	서퍼가 파도에서 뒤집기를 한다.	서퍼는 파도 위에서 뒤집기를 한다.
+main-captions	images	2015	0944	3.00	여성 DJ는 마이클 잭슨의 앨범을 든다.	마이클 잭슨이 웃는 사진을 들고 있는 소녀
+main-captions	images	2015	0955	2.20	두 마리의 흰 표준 푸들이 눈 속에서 장난감을 가지고 놀고 있다	눈 속에서 싸우는 개 두 마리
+main-captions	images	2015	0957	4.40	소년은 풀밭에 배를 대고 누워있다.	작은 소년은 풀밭에 배를 대고 엎드린 채 누워 있었다.
+main-captions	images	2015	0970	0.80	하얀 개 한 마리가 바위가 많은 해안선을 따라 달려간다.	개가 장애물을 뛰어넘는다.
+main-captions	images	2015	0983	3.40	원반을 잡기 위해 공중에서 뛰어오르는 흑백 개	흑백 개가 마당에서 뛰고 있다.
+main-captions	images	2015	0984	0.00	여자는 갈색과 흰색의 개가 착용하고 있는 마구를 들고 있다.	한 남자와 여자가 이젤에 붙어 울타리 벽에 고정되어 있는 예술작품을 보고 있다.
+main-captions	images	2015	0993	0.60	한 소녀가 뛰어오르고 있다.	한 소년이 암벽 등반을 하고 있다.
+main-captions	images	2015	1003	0.00	한 젊은 투수가 야구공을 던지고 있다.	갈색 개가 울타리 옆 잔디 위를 걷고 있다.
+main-captions	images	2015	1014	2.40	세 명의 아이들이 눈 속에서 놀고 있다.	건초에서 노는 세 명의 아이들
+main-captions	images	2015	1017	3.40	두 사람은 자전거를 타고 비포장도로를 내려간다.	두 사람이 언덕에서 자전거를 탄다.
+main-captions	images	2015	1025	4.00	갈색 개가 들판을 달려가고 있다.	혀를 흔들며 들판을 달리는 갈색 개
+main-captions	images	2015	1044	2.00	개가 모래 속에 서 있다.	황갈색 개가 몇몇 식물들 앞에 서 있다.
+main-captions	images	2015	1045	4.00	수영복을 입은 네 명의 소녀들이 해변에서 배구를 하고 있다.	수영복을 입은 네 명의 여성들이 해변에서 모래 배구를 합니다.
+main-captions	images	2015	1050	4.80	금발 머리의 아기가 타이어 그네를 타고 흔들고 있다.	금발의 아이가 타이어 그네를 타고 흔들고 있다.
+main-captions	images	2015	1073	0.60	파란색과 흰색 반바지를 입은 한 어린이가 파도에 뛰어오르고 있습니다.	녹색 옷을 입은 소녀가 손에 쥔 뭔가를 뒤틀고 있다.
+main-captions	images	2015	1081	2.40	두 마리의 개가 해안에서 달리고 있다.	해변에서 달리는 흰 개
+main-captions	images	2015	1102	4.40	노란 차는 눈 덮인 들판을 따라 속도를 내고 있다.	노란 자동차가 눈 속에서 빠르게 운전한다.
+main-captions	images	2015	1112	2.40	눈 속에서 노는 두 마리의 개	두 마리의 개가 풀밭에서 놀고 있다.
+main-captions	images	2015	1113	4.80	한 소년이 그네에 탄 다른 소년을 밀어 주고 있다.	한 소년이 그네에 탄 다른 소년을 밀어 주고 있다.
+main-captions	images	2015	1114	3.40	마운드에 있는 투수가 야구공을 던진다.	야구 경기 중 한복판에 있는 소년.
+main-captions	images	2015	1143	2.80	어린 소녀가 봄에 장난감 세발자전거를 타고 있다.	어린 소녀가 야외에서 장난감을 가지고 놀고 있다.
+main-captions	images	2015	1151	0.80	한 여성이 물속에 앉아 있다.	여자가 공원에서 스케이트를 타고 있다.
+main-captions	images	2015	1153	2.20	꽃무늬 비키니를 입은 황갈색 소녀가 짙은 푸른 바다에서 수영을 하고 있습니다.	꽃무늬 수영복을 입은 어린 소녀가 해변의 모래밭을 달려가고 있습니다
+main-captions	images	2015	1180	3.80	입에 막대기를 물고 강을 헤엄치는 회색 개	물고 다니는 막대기를 입에 물고 헤엄치는 개
+main-captions	images	2015	1183	0.40	푸른 수영복을 입은 한 여성이 부두에서 호수로 뛰어내리고 있다.	파란색 셔츠와 청바지를 입은 소년이 운동장을 가로질러 달려간다
+main-captions	images	2015	1198	4.60	두 마리의 검은 개가 잔디 위에서 놀고 있다.	두 마리의 검은 개가 풀이 무성한 평원에서 놀고 있다.
+main-captions	images	2015	1244	3.00	두 마리의 강아지가 비닐봉지를 가지고 놀고 있다.	두 마리의 개가 마당에서 놀고 있다.
+main-captions	images	2015	1252	4.60	검은 옷을 입은 남자가 파도를 타고 서핑을 하고 있다.	검은 잠수용 옷을 입은 서퍼가 바다에서 하얀 파도를 타고 있다.
+main-captions	images	2015	1262	0.80	세 명의 어린 소녀가 잔디 위에 앉아 있다.	두 마리의 푸들이 눈 속을 달리고 있다.
+main-captions	images	2015	1265	4.00	갈색 개는 배경에 산이 있는 흙길에서 카메라를 향해 달려간다.	갈색 개는 배경에 산이 있는 덤불을 통해 바위투성이의 오솔길을 따라 카메라를 향해 달려간다.
+main-captions	images	2015	1268	1.20	개가 경사로를 뛰어내리고 있다.	한 소녀가 모래밭에서 뛰고 있다.
+main-captions	images	2015	1270	3.20	그 개는 공원에서 놀고 있다.	그 개는 공원의 울타리를 뛰어넘는다.
+main-captions	images	2015	1280	3.60	네 마리의 개가 눈 속에 서 있다.	눈 속에서 노는 개 네 마리
+main-captions	images	2015	1283	3.40	갈색과 검은 개들이 눈에 위에 있고 이를 드러내며 서로 짖는다.	검은 개가 눈 속에서 갈색 개와 싸우고 있다.
+main-captions	images	2015	1288	5.00	트랙에서 달리는 한 남자	트랙을 달리는 한 남자
+main-captions	images	2015	1321	4.00	밝은 색의 개가 잔디밭을 뛰어다닌다.	개 한 마리가 풀밭을 뛰어다닌다.
+main-captions	images	2015	1347	4.00	불이 난 물체를 들고 있는 아이.	분홍색 옷을 입은 아이는 불에 타 있는 것처럼 보이는 물체를 들고 있다.
+main-captions	images	2015	1408	2.80	작은 흰 개가 통나무 위로 올라간다.	작은 개가 통나무 위로 밟고 올라간다.
+main-captions	images	2015	1415	3.80	개들은 뒷다리로 서서 눈 속에서 놀고 있다.	두 마리의 개가 눈 속에서 놀고 있다.
+main-captions	images	2015	1429	2.60	낙서된 계단 난간을 따라 남자아이가 스케이트보드를 타고 내려간다	스케이트 보더가 그의 발로 난간을 타고 미끄러져 내려온다
+main-captions	images	2015	1433	2.00	흑백 개가 물속을 달려간다.	검은 개와 갈색 개가 들판을 달려간다.
+main-captions	images	2015	1458	0.80	한 소녀가 사막 길을 달리고 있다.	한 어린 소녀가 휴대폰으로 통화하고 있다.
+main-captions	images	2015	1467	5.00	한 남자가 밝은 색의 집들을 지나 푸른 배를 몰고 지나간다.	파란 배를 운전하는 한 남자가 화려한 집들을 지나간다.
+main-captions	images	2015	1494	1.00	커다란 선글라스를 쓴 한 여성이 양손에 신문을 들고 있다.	연한 파란색 상의를 입은 뚱뚱한 여성이 비누 거품을 불고 있다.
+main-captions	images	2015	1497	5.00	사슴이 울타리를 뛰어넘다.	사슴이 울타리를 뛰어넘고 있다.
+main-captions	track5.en-en	2017	0000	2.400000	한 사람이 야구팀에 있다.	한 사람이 한 팀에서 농구를 하고 있다.
+main-captions	track5.en-en	2017	0003	2.000000	자전거는 두어 명의 여자 옆에 있다.	자전거 옆에 있는 한 아이
+main-captions	track5.en-en	2017	0004	2.200000	그 그룹은 숨이 막힐 정도의 경치를 보면서 먹고 있다.	한 무리의 사람들이 특이한 나무를 봅니다.
+main-captions	track5.en-en	2017	0005	3.400000	소년이 그의 손을 들고 있다.	남자가 그의 손을 들고 있다.
+main-captions	track5.en-en	2017	0006	0.800000	회색 수염을 기른 남자가 강의실 앞에서 면도를 받고 있다	수염을 기른 남자가 잔디밭에 앉아 있다.
+main-captions	track5.en-en	2017	0012	4.600000	깊은 생각에 잠긴 젊은이.	깊은 생각에 잠긴 젊은이.......
+main-captions	track5.en-en	2017	0014	2.800000	한 남자가 노동을 하고 있다.	한 남자가 오늘 공연을 하고 있다.
+main-captions	track5.en-en	2017	0015	2.000000	전통 옷을 입은 두 남자가 밖에 서 있다.	검은 조끼와 회색 셔츠를 입은 세 명의 여성이 건물 밖에서 이야기를 하고 있다.
+main-captions	track5.en-en	2017	0018	2.600000	어선 밖에서 낚시하는 회색 모자를 쓴 남자	밀짚모자와 낚시 조끼를 입은 남자가 개울에 있었다.
+main-captions	track5.en-en	2017	0019	0.200000	오렌지색 줄무늬 옷을 입은 어린 소녀가 침대에서 뛰어오르는 동안 공중에 떠 있다.	빨간 셔츠를 입은 개가 다람쥐를 쫓아 유리를 통과하고 있다.
+main-captions	track5.en-en	2017	0020	1.400000	한 사람이 사람들이 언덕 아래로 스키를 타는 내려가는 것을 보고 있다.	사람들이 보는 동안 여자는 멀리 점프하고 있다.
+main-captions	track5.en-en	2017	0021	1.600000	마당에는 개가 있다.	개가 다른 개를 쫓아 달리고 있다.
+main-captions	track5.en-en	2017	0023	3.200000	세 명의 여자가 요리를 한다.	요리를 하는 두 여자.
+main-captions	track5.en-en	2017	0024	0.200000	여자가 고양이 옆에 무릎을 꿇고 있다.	한 소녀가 한 남자 옆에 서 있다.
+main-captions	track5.en-en	2017	0026	2.400000	농구 프로 게임을 하는 세 남자들	두 남자가 야구 경기를 하고 있다.
+main-captions	track5.en-en	2017	0028	0.200000	소년들은 가라데에서 다음 벨트를 받고 있다.	다섯 명의 소녀와 한 명의 소년이 수영장으로 뛰어드는 도중에 수영복을 입고 있다.
+main-captions	track5.en-en	2017	0029	1.400000	한 여성이 모래 안을 파고 있다.	한 남자가 모래 속에 묻혔다.
+main-captions	track5.en-en	2017	0030	1.800000	한 여성이 골프 카트를 몬다.	수레를 타는 한 남자
+main-captions	track5.en-en	2017	0033	1.600000	야외에서 촬영하는 한 사람	두 어개의 야외가 있다.
+main-captions	track5.en-en	2017	0034	3.800000	스케이트보드를 타는 한 인간	한 아이가 스케이트보드를 타고 있다.
+main-captions	track5.en-en	2017	0035	1.000000	격자무늬 옷을 입은 한 여성이 생산물 한 봉지를 뒤지고 있다.	이것은 꽃무늬 드레스를 입은 한 여성이 양동이에 뭔가를 넣고 있는 사진이다.
+main-captions	track5.en-en	2017	0037	1.200000	테니스 선수는 공을 우주 밖으로 쳐서 죽음의 별을 깼다.	여자 테니스 선수가 공을 치기 위해 공중으로 뛰어오르고 있다.
+main-captions	track5.en-en	2017	0038	4.000000	한 소년이 숲의 언덕을 오른다.	한 소년이 언덕을 오르고 있다.
+main-captions	track5.en-en	2017	0040	2.000000	금발 소년이 갑판으로 뛰어올랐다.	젖은 팽창식 미끄럼틀을 뛰어내려가는 소년.
+main-captions	track5.en-en	2017	0041	2.600000	한 남자가 남성 얼음조각을 조각하기 위해 쇠톱을 사용한다.	한 남자가 나뭇조각을 조각하기 위해 쇠톱을 사용하고 있다.
+main-captions	track5.en-en	2017	0042	3.800000	흐린 날에 한 무리의 남성 건설 노동자들이 철도 선로를 수리한다	철도 선로에서 일하는 일꾼 무리들
+main-captions	track5.en-en	2017	0046	2.600000	그 소녀는 머리에 뭔가가 있다.	그 여자는 그녀와 뭔가가 있다.
+main-captions	track5.en-en	2017	0048	0.200000	사람들이 카드로 구조를 만들고 있다.	두 사람이 함께 있고 한 사람은 의도했던 것과 다른 방식으로 옷 한 벌을 사용하고 있다.
+main-captions	track5.en-en	2017	0050	3.000000	밖에는 네 사람이 있다.	다섯 명이 밖에 있다.
+main-captions	track5.en-en	2017	0052	1.800000	소녀들이 파란 옷을 입고 손을 잡고 있다	젊은이들은 빨간색과 녹색 셔츠가 달린 청바지를 입고 있다.
+main-captions	track5.en-en	2017	0054	0.600000	한 남자가 점토로 일하는 방법을 시연하고 있는 반면, 적어도 두 사람이 관찰하고 있다.	적어도 세 여성 중 한 명이 다른 여성과 이야기를 나누고 있다.
+main-captions	track5.en-en	2017	0055	0.600000	개는 스웨터를 입고 있다.	양복 재킷을 입은 남자가 고양이와 함께 빨간 소파에 앉아 있다.
+main-captions	track5.en-en	2017	0059	0.200000	머리 없는 사람의 커다란 조각상에 콘크리트를 바르는 조각가.	어떤 사람이 합판을 높이 들고 건물 앞에 서 있다
+main-captions	track5.en-en	2017	0060	0.600000	검은 머리를 한 소년이 물속에 있고 위를 올려다보고 있다.	그 남자는 머리가 짧다.
+main-captions	track5.en-en	2017	0061	0.200000	막대기는 아이와 피카부 놀이를 하는 사람 뒤에 있다.	공을 든 한 아이가 있다
+main-captions	track5.en-en	2017	0062	1.000000	한 여성이 페인트칠을 하려고 한다.	한 소년이 사진을 찍으려 하고 있다.
+main-captions	track5.en-en	2017	0064	3.400000	제철소에서 일하는 한 사람	주물 공장에서 일하는 한 남자
+main-captions	track5.en-en	2017	0065	1.400000	그 젊은 여자는 그 어린 소년에게 시시덕거리고 있다.	그 소녀는 젊고 쾌활하다.
+main-captions	track5.en-en	2017	0067	2.000000	남자들은 수구 대회에서 득점을 하려고 한다	두 남자는 시합에서 경쟁하려고 한다.
+main-captions	track5.en-en	2017	0069	2.800000	한 남자가 어느 날 밤늦게 만화를 보면서 팝콘을 먹는다.	한 남자와 여자아이가 집에서 만화를 보고 있다
+main-captions	track5.en-en	2017	0070	3.200000	세 남자가 벤치에 앉아 있다.	두 남자가 벤치에 앉아 있다.
+main-captions	track5.en-en	2017	0071	0.800000	길은 길다.	길가에는 아무것도 없다.
+main-captions	track5.en-en	2017	0074	1.800000	하얀 티셔츠에 녹색과 검은색 반바지를 입은 한 젊은이가 그루터기에 서 있다.	하얀 셔츠에 빨간색과 검은색 반바지를 입은 남자가 보도에서 달리고 있다.
+main-captions	track5.en-en	2017	0076	2.200000	계단 아래의 개	개가 계단에서 쉬고 있다.
+main-captions	track5.en-en	2017	0078	4.200000	두 여성이 르네상스 박람회에서 시연을 보여준다.	두 사람이 르네상스 박람회에서 시위를 보여주고 있다.
+main-captions	track5.en-en	2017	0080	5.000000	소파에 앉아 텔레비전을 보고 있는 어떤 남자.	한 남자가 소파에 앉아 TV를 보고 있다
+main-captions	track5.en-en	2017	0081	1.200000	한 여성이 크리스마스카드를 위해 포즈를 취하고 있다.	한 소녀가 사진을 찍고 있다.
+main-captions	track5.en-en	2017	0088	2.800000	한 남자가 그의 농장에서 일하고 있다.	한 노인이 그의 농장에서 일하고 있고 소가 그를 차버린다.
+main-captions	track5.en-en	2017	0092	4.400000	한 소녀가 휴대폰으로 아빠와 이야기를 나누고 있다.	한 소녀가 전화기로 통화하고 있다.
+main-captions	track5.en-en	2017	0093	4.400000	한 사람이 우산을 휘두른다.	한 사람이 우산을 들고 있다.
+main-captions	track5.en-en	2017	0095	3.600000	뛰어오르고 즐거운 시간을 보내고 있는 한 무리의 십 대들.	즐거운 시간을 보내는 아이들의 무리
+main-captions	track5.en-en	2017	0097	1.200000	한 남자가 조의 카페에서 기타를 치고 있다.	남자가 엄마를 위해 드럼을 치고 있다.
+main-captions	track5.en-en	2017	0100	1.400000	누군가 담요 위에 있다.	그 사람은 담요를 만들고 있다.
+main-captions	track5.en-en	2017	0103	3.400000	그 남자는 오렌지색 셔츠를 가지고 있다.	그 여자는 오렌지색 셔츠를 가지고 있다.
+main-captions	track5.en-en	2017	0104	0.800000	두 아이들은 지하철 가게 안에서 판매되는 상품들을 본다.	아이들이 가게에서 훔치고 있다.
+main-captions	track5.en-en	2017	0105	2.800000	그 아기 소년은 그의 어머니를 원한다.	한 아기 소년은 그의 어머니를 봐서 기뻐한다.
+main-captions	track5.en-en	2017	0109	3.200000	한 소년이 한 소녀와 매우 가깝다.	한 소녀는 얼굴이 보이지 않는 소년과 가까이 있다.
+main-captions	track5.en-en	2017	0111	1.600000	여섯 명의 아이들이 방을 청소하고 있다.	두 명의 남자아이들이 주차장에서 잎을 치우고 있다.
+main-captions	track5.en-en	2017	0114	5.000000	음식을 준비하고 있는 요리사가 있다.	요리사가 음식을 만들고 있다.
+main-captions	track5.en-en	2017	0115	3.600000	두 남자가 소년을 돕고 있다.	두 남자가 어린아이와 함께 있다.
+main-captions	track5.en-en	2017	0120	3.600000	두 명의 스키 선수들이 크로스컨트리 스키를 하고 있다.	크로스컨트리 스키를 타는 사람들
+main-captions	track5.en-en	2017	0121	0.400000	길에서 똥을 싸는 개	길모퉁이에 있는 두 아이를 위해 풍선 동물을 만드는 한 남자
+main-captions	track5.en-en	2017	0123	1.800000	한 아이가 수업 중에 이야기를 하고 있다.	한 소녀가 수업에 가고 있다.
+main-captions	track5.en-en	2017	0124	1.200000	여자들은 개인에게 무언가를 팔려고 하고 있다.	남자들은 돈을 벌려고 노력하고 있다.
+main-captions	track5.en-en	2017	0125	1.200000	사람들은 불꽃놀이가 시작되기를 기다리고 있다.	세 사람이 비가 그치길 기다리고 있다.
+main-captions	track5.en-en	2017	0126	2.200000	개는 뿔 달린 양 세 마리를 모을 준비를 한다.	개와 양이 함께 달린다.
+main-captions	track5.en-en	2017	0132	5.000000	사람들이 방에 모였다.	사람들이 한 방에 함께 모여들었다.
+main-captions	track5.en-en	2017	0133	2.600000	작업복 차림의 여자는 그녀의 벽에 그림을 그린다.	한 여성이 자신의 벽을 하얗게 칠하고 있다.
+main-captions	track5.en-en	2017	0134	0.000000	물에 아스피린을 첨가하면 식물을 죽일 수도 있다.	남자들은 물줄기에서 기름을 제거하려고 노력하고 있다.
+main-captions	track5.en-en	2017	0139	2.800000	여자가 노란색 옷을 입고 있다.	여자가 빨간 옷을 입고 있다.
+main-captions	track5.en-en	2017	0141	3.200000	한 남자가 그의 자전거에서 묘기를 하고 있다.	한 남자가 그의 오토바이를 타고 앞 바퀴를 들고 있다.
+main-captions	track5.en-en	2017	0142	1.600000	10명의 사람들이 ATV를 탄다.	4명의 사람들이 자전거를 타고 있다
+main-captions	track5.en-en	2017	0144	0.200000	노란 조끼를 입은 자가 도로 공사를 하고 있다.	한 사람이 스케이트보드에서 아주 잘하고 있다.
+main-captions	track5.en-en	2017	0148	3.800000	두 명의 근로자가 파이프 옆에 앉아 점심을 먹고 있다	건설 노동자들이 점심을 먹기 위해 앉아 있다.
+main-captions	track5.en-en	2017	0150	4.000000	사막에 사는 사람들 무리	사막 한가운데에 있는 사람들 무리.
+main-captions	track5.en-en	2017	0151	2.800000	두 아이가 수영을 하고 있다.	여섯 명의 아이들이 수영을 하러 가고 있다.
+main-captions	track5.en-en	2017	0154	5.000000	더러운 옷을 깨끗이 하는 사람들	사람들이 옷을 깨끗이 하고 있다.
+main-captions	track5.en-en	2017	0157	3.400000	아이들이 악기를 들고 있다.	한 무리의 어린이들이 노래하고 악기를 연주하고 있습니다
+main-captions	track5.en-en	2017	0160	2.800000	한 무리의 사람들이 체포를 하며 경찰복을 입고 있다.	한 무리의 경찰관들이 보호복을 입고 있다.
+main-captions	track5.en-en	2017	0166	1.400000	남자가 결혼식을 하려고 준비하고 있다	그 여자는 결혼식에 간다.
+main-captions	track5.en-en	2017	0168	1.200000	그 아이의 자전거는 젖었다.	그녀는 자전거를 치우고 있다.
+main-captions	track5.en-en	2017	0169	3.200000	군인이 개를 산책시킨다.	한 남자가 개를 산책시킨다.
+main-captions	track5.en-en	2017	0170	3.000000	셔츠를 벗은 여자가 잔디 깎는 기계를 작동하고 있다.	한 소녀가 잔디 깎는 기계로 잔디를 깎고 있다.
+main-captions	track5.en-en	2017	0172	2.200000	두 경관들이 운전을 하고 있다	두 명의 경관들이 말을 타고 있다.
+main-captions	track5.en-en	2017	0174	2.000000	그 여자는 아무도 그녀의 물건을 사지 않기 때문에 슬퍼 보인다.	그 여자는 물건들을 팔고 있다.
+main-captions	track5.en-en	2017	0180	3.800000	모래사장 위를 새 떼가 맴돌았다.	새들이 해변에서 날고 있다.
+main-captions	track5.en-en	2017	0181	1.600000	집으로 걸어가는 사람들.	기다리고 있는 사람들.
+main-captions	track5.en-en	2017	0185	4.800000	한 남자가 여자와 웃고 있다	웃고 있는 한 남자와 여자.
+main-captions	track5.en-en	2017	0186	1.200000	그는 보트에 뛰어들려고 한다	물 위에 내다 놓으려고 남자가 보트를 깨끗이 씻는다.
+main-captions	track5.en-en	2017	0187	2.400000	소 두 마리가 들판에 있다.	양 두 마리가 들판에 있다.
+main-captions	track5.en-en	2017	0188	1.800000	젖은 아이는 여름을 즐긴다.	한 여성이 여름 날씨를 즐기고 있다.
+main-captions	track5.en-en	2017	0191	2.600000	그 소녀는 운전면허증을 가지고 있다	한 남자는 운전면허증을 가지고 있다.
+main-captions	track5.en-en	2017	0192	3.800000	경주장 주변을 달리는 경주 장비를 착용하고 오토바이를 탄 사람들	오토바이를 탄 사람들은 경주장을 돌아다닌다
+main-captions	track5.en-en	2017	0193	1.200000	한 남자가 붓을 들고 땅 위에 서 있다	목발을 짚은 남자가 땅에 누워 있다.
+main-captions	track5.en-en	2017	0194	0.200000	아이들은 극장에서 영화를 보고 있다.	소년들에게는 사진을 찍는 날이다
+main-captions	track5.en-en	2017	0195	3.800000	두 명의 여성이 보도를 따라 가게로 걸어간다.	오후에 두 명의 여성이 보도를 걸어 내려간다.
+main-captions	track5.en-en	2017	0196	2.400000	한 남자가 아들을 등에 업고 있다	한 남자가 아들과 시간을 보냈다.
+main-captions	track5.en-en	2017	0197	0.400000	검은 피부의 한 무리가 뾰족한 철조망을 지나 걸어가고 있다.	두 여자가 담장 옆에서 수다를 떨고 있다.
+main-captions	track5.en-en	2017	0198	3.400000	좀비들은 뇌를 먹으며 돌아다니고 있다.	좀비들이 함께 살을 먹고 있다.
+main-captions	track5.en-en	2017	0199	4.200000	한 무리의 사람들이 해변에 수건 위에 앉아 푸른 천사들을 보고 있습니다.	한 무리의 사람들이 해변에 앉아 푸른 천사들을 보고 있습니다.
+main-captions	track5.en-en	2017	0201	2.400000	세 사람이 커피를 마시러 만날 것이다.	두 사람이 커피를 만든다.
+main-captions	track5.en-en	2017	0202	0.800000	얼굴에 흙이 묻은 어린 소녀와 빨간 아이의 자전거가 배경에 있습니다.	반바지에 하얀 티셔츠를 입은 노파가 아이들이 노는 것을 지켜보는 길 위에 서 있다.
+main-captions	track5.en-en	2017	0204	4.400000	스쿠터 한 줄이 거리 한가운데에 주차하고 있다.	한 줄의 오토바이들이 거리 한가운데에 주차되어 있다.
+main-captions	track5.en-en	2017	0205	3.000000	고양이를 안고 있는 한 남자.	개를 안고 있는 한 남자.
+main-captions	track5.en-en	2017	0212	2.000000	고양이들이 풀밭을 뛰어다니고 있다.	몇몇 개들이 공원을 뛰어다니고 있다.
+main-captions	track5.en-en	2017	0213	3.000000	두 소년은 서로에게 킥볼을 앞뒤로 하고 있다.	선수들은 공을 차려고 시도하면서 서로를 차고 있다.
+main-captions	track5.en-en	2017	0214	2.200000	두 소녀가 달리고 있다.	세 소년이 뛰고 있다.
+main-captions	track5.en-en	2017	0216	1.800000	하얀 블라우스와 푸른 바지를 입은 어린 소녀가 잔디밭에서 즐겁게 놀고 있다.	녹색 셔츠를 입고 흰색 바지를 입은 여자가 그린에서 골프를 친다.
+main-captions	track5.en-en	2017	0224	2.800000	하얀 셔츠에 모자를 쓴 남자가 기타를 연주하고 있다.	녹색 셔츠에 검은 모자를 쓴 남자가 무대에서 기타를 연주하고 있다.
+main-captions	track5.en-en	2017	0225	2.800000	검은 후드 차림의 남자가 책자를 보기 위해 큰 돋보기를 사용하고 있다.	하얀 후드 차림의 한 여성이 책자를 보기 위해 돋보기를 사용하고 있다.
+main-captions	track5.en-en	2017	0226	5.000000	사람들이 마라톤을 하고 있다	사람들이 마라톤을 하고 있다
+main-captions	track5.en-en	2017	0228	2.200000	한 무리의 사람들이 물 건너는 것에 대해 긴장하고 있다.	한 무리의 사람들이 물 위에 있다.
+main-captions	track5.en-en	2017	0229	1.200000	한 무리의 아이들이 점프 대회를 하고 있다.	한 무리의 아이들이 밤샘 파티를 하고 있다.
+main-captions	track5.en-en	2017	0231	1.600000	그 사람은 페도라를 쓰고 있다.	한 남자가 유니폼을 입고 있다.
+main-captions	track5.en-en	2017	0232	2.800000	한 여성과 한 남자가 공포 영화를 보면서 포옹한다.	한 남자와 여자가 함께 영화를 본다.
+main-captions	track5.en-en	2017	0233	1.800000	파란색 드레스 셔츠를 입은 한 남자.	하얀 셔츠에 파란 바지를 입은 한 남자가 분홍색 셔츠를 입은 한 여성과 이야기를 나누고 있습니다.
+main-captions	track5.en-en	2017	0234	2.600000	한 커플이 인생의 게임을 하고 있다.	그 가족은 함께 게임을 하고 있다.
+main-captions	track5.en-en	2017	0235	0.200000	검은 안경을 쓴 아이의 머리가 초점이 맞춰져 있다.	머리칼이 풍성한 여자가 있다.
+main-captions	track5.en-en	2017	0239	2.400000	한 정비사가 테니스 코트에서 그물을 수리하고 있다.	테니스 그물을 제거하는 남자
+main-captions	track5.en-en	2017	0240	4.200000	한 아이가 밖에 있는 축구공에 앉아 있다.	공원에서 축구공에 앉아 있는 한 아이
+main-captions	track5.en-en	2017	0242	2.200000	갈색 코트를 입은 한 남자가 그의 코를 문지른다.	붉은 수염을 기른 대머리 남자가 입 근처에 손을 두고 있다.
+main-captions	track5.en-en	2017	0243	1.600000	개가 거위를 쫓고 있다.	한 개가 다른 개를 쫓고 있다.
+main-captions	track5.en-en	2017	0244	0.800000	글자 P로 놀고 있는 작은 아이	2 명의 어린 소녀가 책장 앞에 앉아 있고 1명은 책을 읽고 있습니다.
+main-captions	track5.en-en	2017	0245	5.000000	갈색 개가 뛰어오르고 있다.	갈색 개가 뛰어오르고 있다
+main-captions	track5.en-en	2017	0248	1.200000	빨간 셔츠를 입은 한 무리의 십 대들이 웃고 있다.	한 무리의 사람들이 오렌지색 셔츠를 입고 있다.
+main-forums	answer-answer	2016	0008	3	나는 두 시간마다 남자들을 끌고 가는 나의 일상 의식에 지쳐서 반얀나무 아래에 남아 있었다.	나는 두 시간마다 고양이를 모으는 나의 매일의 의식에 지쳐서 반얀나무 아래에 남아 있었다.
+main-forums	answer-answer	2016	0015	3	미국에서는, 그것은 학교에 달려있을 것이다.	그것은 정말 학교와 프로그램에 달려 있다.
+main-forums	answer-answer	2016	0028	0	또한 끈이 만들어진 그것도 있다.	이 영화의 유튜브 버전 또한 있다.
+main-forums	answer-answer	2016	0034	0	당신은 또한 당신이 고객과 함께 배치될 수 없는 경우에도 지불 받지 않을 수도 있음을 의미합니다.	넌 할 수는 있지만 너는 교수가 아닐 수도 있다.
+main-forums	answer-answer	2016	0040	2	나도 한 번은 이렇게 했다.	나도 이런 습관이 있다.
+main-forums	answer-answer	2016	0041	0	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	당신은 그것을 원할지 모르지만, 당신에게 주어진 과정이 당신이 안에서 일해야 하는 것입니다.
+main-forums	answer-answer	2016	0047	5	너는 걱정할 필요 없어.	너는 걱정할 필요 없어.
+main-forums	answer-answer	2016	0048	3	네가 해야 해.	당신은 그것이 말하는 것을 해야 한다.
+main-forums	answer-answer	2016	0061	2	상사에게 당신이 무엇을 하길 원하는지 물어보는 게 좋을 거예요.	당신은 상사에게 무엇을 해야 하는지 알려주는 대가로 돈을 받지 않기 때문에, 상사의 말을 들어야 한다.
+main-forums	answer-answer	2016	0065	0	당신이 좋아하는 것과 그렇지 않은 것을 알기 위해서는 많은 것을 읽어야 합니다.	당신은 당신이 얼마나 원하고, 그리고 당신이 어떤 충족되지 않은 욕구와 함께 살 수 있는지 결정해야 한다.
+main-forums	answer-answer	2016	0080	2	그것은 당신이 탱크에 무엇을 가지고 싶은가에 달려있다.	내 생각에는 그것이 네가 원하는 것에 달려있다.
+main-forums	answer-answer	2016	0087	5	너도 할 수 있어.	그래, 넌 할 수 있어.
+main-forums	answer-answer	2016	0092	1	네가 해야 해.	너도 할 수 있어.
+main-forums	answer-answer	2016	0102	4	당신이 여기서 무엇을 얻고 싶은지 결정해야 한다.	당신이 무엇을 하고 싶은지 알아야 한다.
+main-forums	answer-answer	2016	0107	4	당신에게 제안할 게 몇 가지 있습니다	당신에게 두 가지 제안을 드리겠습니다
+main-forums	answer-answer	2016	0110	1	가장 솔직한 시작을 가지고 있는 것을 확실히 하기 위해 당신은 가장 큰 방에서 시작하고 싶습니다.	당신은 진료소에서 시작해야 할 것이다. 그리고 어쩌면 보험회사로 옮겨가야 할 것이다.
+main-forums	answer-answer	2016	0116	1	만일 당신이 회의를 탈선시키고 싶지 않다면, 핵심은 크게 말하는 것입니다.	이 회의에서 당신이 해야 할 중요한 일은 듣는 것이다.
+main-forums	answer-answer	2016	0120	1	불행히도 당신의 질문에 대한 답은 우리가 단지 모른다는 것입니다.	당신의 질문에 대한 나의 대답은 "아마도 아닐 것이다"입니다.
+main-forums	answer-answer	2016	0121	4	가능한 한 빨리.	가능한 그것들을 빨리 시작하세요.
+main-forums	answer-answer	2016	0132	1	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.
+main-forums	answer-answer	2016	0136	5	두 질문에 대한 답은 "그렇다"이다.	당신의 두 질문에 대한 답은 "예"입니다.
+main-forums	answer-answer	2016	0139	4	이것에 답을 해주기 위해	이 질문에 제가 답하겠습니다
+main-forums	answer-answer	2016	0141	4	불행히도 당신의 질문에 대한 답은 우리가 단지 모른다는 것입니다.	미안, 나는 너의 질문에 대한 답을 모른다.
+main-forums	answer-answer	2016	0142	4	규칙은 - 의심이 있을 땐 그것을 버리는 것이다!	나는 항상 규칙에 따라간다 "의심할 때, 그것을 버리라!
+main-forums	answer-answer	2016	0155	4	이것은 좋은 생각이 아니다.	이것은 매우 나쁜 생각처럼 들린다.
+main-forums	answer-answer	2016	0159	3	네, 당신의 여권을 갱신하는 것이 아마도 좋은 생각일 거예요.	그건 좋은 생각이야.
+main-forums	answer-answer	2016	0175	4	그것은 아마도 고기의 절단에 달려있을 것이다.	그것은 고기가 어떻게 잘렸느냐에 달려있다.
+main-forums	answer-answer	2016	0184	0	그것은 좋은 생각이 아니야.	그것은 좋은 질문이다.
+main-forums	answer-answer	2016	0189	0	그것은 너에게 꽤나 달려있다.	그것은 물어보는 게 훨씬 낫지.
+main-forums	answer-answer	2016	0193	1	네, 그러는 데는 이유가 있습니다.	그래, 그게 정확히 그런 뜻이야.
+main-forums	answer-answer	2016	0202	4	당신의 직원들에게 물어보려고 해 보셨나요?	물어보려고 해봤어요?
+main-forums	answer-answer	2016	0209	5	너희들은 이 모든 것을 너무 복잡하게 만들고 있어.	당신은 이것을 너무 복잡하게 만들고 있다.
+main-forums	answer-answer	2016	0212	2	당신은 알 필요 없어.	당신은 아무것도 할 필요가 없다.
+main-forums	answer-answer	2016	0215	4	고려해야 할 두 가지가 있다.	이것에 대한 두 가지 가능한 원인들이 있다.
+main-forums	answer-answer	2016	0227	0	천천히 그것을 연구해라.	그것이 효과가 있는 것 같다.
+main-forums	answer-answer	2016	0232	2	당신은 아마존에서 그것을 5달러에 살 수 있다.	당신은 이베이에서 25달러나 이상으로 그것을 살 수 있다.
+main-forums	answer-answer	2016	0236	1	커피는 산성이기 때문에 커피는 단순히 냄비에서 알루미늄을 집어 들게 됩니다.	한 가지 아이디어는 커피포트에서 커피 잔여물을 청소하는 것이다.
+main-forums	answer-answer	2016	0239	0	시작하는 두 가지 방법이 있다: 내리는 것과 뚝뚝 떨어트리는 것.	나무를 구부리는 두 가지 전통적인 방법이 있다.
+main-forums	answer-answer	2016	0242	2	그와 함께 맞는 것을 찾기 전에 다양한 시도를 해야 할지도 모른다.	내 충고는 당신이 살 수 있는 다양한 커피들을 마셔보고 좋아하는 커피를 찾는 것입니다.
+main-forums	answer-answer	2016	0249	5	그것은 좋은 생각이 아니야.	그것은 좋은 생각이 아니다.
+main-forums	answer-answer	2016	0254	1	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	그들은 할 수 있지만, 그것을 하는 방법은 당신이 무엇을 이용할 수 있느냐에 달려 있다.
+main-forums	answer-answer	2016	0258	3	네, 당신은 당신의 경험을 언급해야 합니다.	그래, 너는 그것을 언급해야 해.
+main-forums	answer-answer	2016	0271	2	내가 이해한 바로는, 네가 할 수 있는 일이 바로 이것이다.	할 수 있겠어?
+main-forums	answer-answer	2016	0272	5	이것들 좀 보세요	이것 좀 보세요
+main-forums	answer-answer	2016	0286	2	나는 주로 두 가지에 달려 있다고 말하고 싶다.	나는 그것이 당신이 원하는 궁극적인 결과에 달려 있다고 말하고 싶다
+main-forums	answer-answer	2016	0291	1	당신이 할 수 있는 일들 몇 가지	일부를 제외하고 네가 할 수 있는 많지 않은 일들:
+main-forums	answer-answer	2016	0292	5	이것은 좋은 생각이 아니다.	하지만 그것은 좋은 생각이 아니다.
+main-forums	answer-answer	2016	0298	0	지금까지의 답은 이미 좋은 것이지만, 하지만 저는 스위스 지도를 추가하고 싶습니다	이미 많은 답을 가지고 있지만, 나는 카레를 다른 해결책으로 추가하고 싶다.
+main-forums	answer-answer	2016	0305	5	나는 비슷한 상황에 처해 있었다.	나는 비슷한 상황을 겪었다.
+main-forums	answer-answer	2016	0313	5	나도 이런 같은 문제를 겪었어.	나도 이런 같은 문제를 겪었어.
+main-forums	answer-answer	2016	0314	0	최댓값은 없습니다.	격리 기간이 없습니다.
+main-forums	answer-answer	2016	0315	2	나는 이것이 그 질문에 적합한 장소인지 확신하지 못하겠습니다.	나는 이 질문이 로마인들 자신에게는 큰 의미가 있었을지 확신할 수 없다.
+main-forums	answer-answer	2016	0318	4	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	다시 말하면, 그것은 당신이 어디로 가는지, 언제 어떻게 거기서 하는지에 달려 있다.
+main-forums	answer-answer	2016	0322	0	당신이 좋아하는 것과 그렇지 않은 것을 알기 위해서는 많은 것을 읽어야 합니다.	네, 당신이 할 수 있는 일과 당신이 한 일을 보여주기 위해 포트폴리오 사이트를 만들어야 합니다.
+main-forums	answer-answer	2016	0325	2	당신은 키 정보를 공개하지 않습니다.	아니, 너는 그렇지 않아.
+main-forums	answer-answer	2016	0334	3	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	내 생각엔 네가 무엇을 하느냐에 따라 달라질 것 같아.
+main-forums	answer-answer	2016	0337	0	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	당신이 당신의 일을 하기 위해 필요한 것을 가지고 있다는 것을 보는 것이 그의 일이다.
+main-forums	answer-answer	2016	0352	3	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	그것은 당신이 무엇을 성취하고 싶은가에 달려있다.
+main-forums	answer-answer	2016	0356	1	이것은 교수가 다루어야 할 문제이다.	이것은 큰 문제이다.
+main-forums	answer-answer	2016	0359	3	이것은 매우 특이한 요청이다.	이것은 약간 이상하게 들린다.
+main-forums	answer-answer	2016	0367	2	그것은 문제의 보조금에 크게 의존한다.	나는 그것이 그 지역에 매우 많이 의존한다고 생각한다.
+main-forums	answer-answer	2016	0370	4	나도 같은 걸 갖고 있어.	나도 같은 문제를 겪었다.
+main-forums	answer-answer	2016	0372	0	아니요, 그것은 당신의 등급에 영향을 미치지 않습니다.	아니, 그렇지 않아.
+main-forums	answer-answer	2016	0376	4	당신의 질문에 대한 나의 대답은 "아마도 아닐 것이다"입니다.	나는 당신의 질문에 대한 짧은 대답은 "아니오"라고 생각한다.
+main-forums	answer-answer	2016	0385	4	나는 그것이 어떤 엄청난 차이를 만든다고 생각하지 않는다.	나는 그것이 큰 차이를 만든다고 생각하지 않는다.
+main-forums	answer-answer	2016	0389	2	그것은 그들이 무엇인지에 달려있다.	그것은 그들이 무엇을 평가하고, 어떻게 평가하느냐에 달려 있다.
+main-forums	answer-answer	2016	0391	2	그것에 대해 당신이 할 수 있는 것은 많지 않다.	사워도우 발효종으로 당신이 할 수 있는 일이 많지 않다.
+main-forums	answer-answer	2016	0396	5	당신은 당신 자신의 질문에 대답했어요.	당신은 당신 자신의 질문에 대답했습니다.
+main-forums	answer-answer	2016	0400	2	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	너에 대한 답은 문제는 네가 어떤 상황에 처하게 될지 사실 모른다는 거야.
+main-forums	answer-answer	2016	0410	2	이것은 좋은 생각이 아니다.	이것은 아마도 좋은 생각이 아닐 것이다. 하지만 나는 어쨌든 그것을 제안할 것이다.
+main-forums	answer-answer	2016	0411	0	당신이 할 수 있는 최선의 일은 당신의 것들을 아는 것이다.	내 권고는 아무 말도 하지 말고, 할 수 있는 한 최선을 다하는 것이다.
+main-forums	answer-answer	2016	0415	2	나는 주로 두 가지에 달려 있다고 말하고 싶다.	당신이 어떤 조건을 가지고 있느냐에 따라 달라진다고 말하고 싶다.
+main-forums	answer-answer	2016	0428	0	당신은 알 필요 없어.	당신은 그것을 양념하기 위해 아무것도 할 필요가 없다.
+main-forums	answer-answer	2016	0429	2	나도 같은 걸 갖고 있어.	나는 같은 상황을 가지고 있고 광범위하게 여행했다.
+main-forums	answer-answer	2016	0432	4	그것은 좋은 생각이 아니야.	나는 그것이 좋은 생각이라고 생각하지 않는다.
+main-forums	answer-answer	2016	0433	4	당신은 올바른 길에 있다.	당신은 바로 그 표식에 있다.
+main-forums	answer-answer	2016	0436	1	이건 네 질문에 대답하지 않아, 하지만	이것은 당신의 질문에 대한 부분적인 대답이다
+main-forums	answer-answer	2016	0445	4	제가 어떻게 이것에 대해 진행해야 하나요?	그래서 제가 어떻게 해야 할까요?
+main-forums	answer-answer	2016	0447	4	이 페이지가 당신의 질문에 답하나요?	이게 당신의 질문에 답해주나요?
+main-forums	answer-answer	2016	0450	2	너도 그것을 사용할 수 있어.	너는 연습을 위해 여전히 사용할 수 있습니다.
+main-forums	answer-answer	2016	0470	2	그것은 진짜 고용주가 그것을 어떻게 문서화하느냐에 달려 있다.	그건 네가 어떻게 말하는지에 달려있다.
+main-forums	answer-answer	2016	0471	2	나도 이런 같은 문제를 겪었어.	저는 술집에서 일하면서 이런 문제가 있었어요.
+main-forums	answer-answer	2016	0476	0	당신이 좋아하는 것과 그렇지 않은 것을 알기 위해서는 많은 것을 읽어야 합니다.	당신은 좋은 이야기를 해야 하고, 때때로 그렇게 하기 위해서는 현실/역사를 수정해야 한다.
+main-forums	answer-answer	2016	0490	3	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	그것은 당신이 무엇을 할 수 있기를 원하는가에 달려있다.
+main-forums	answer-answer	2016	0494	1	네, 당신은 캐나다에 세금 신고서를 제출해야 합니다.	과세소득이 없는 경우 캐나다에 당신은 세금 신고서를 제출할 필요가 없습니다.
+main-forums	answer-answer	2016	0496	5	나는 왜 이 이것에 문제가 있어야 하는지 모르겠다.	나는 왜 그것이 문제가 되어야 하는지 모르겠다.
+main-forums	answer-answer	2016	0502	1	이게 당신이 찾고 있는 것이길 바라요.	당신이 찾고 있는 것이 훨씬 더 높다면, 그들은 그림을 얻는다.
+main-forums	answer-answer	2016	0516	0	당신이 할 수 있는 최선의 일은 당신의 것들을 아는 것이다.	가장 좋은 방법은 그 난잡함을 극복하는 것이다.
+main-forums	answer-answer	2016	0521	2	그것은 요리와 당신이 실수를 하는 단계에서 그것이 얼마나 편리한가에 달려있다.	그것은 소스와 당신이 원하는 결과에 달려 있다.
+main-forums	answer-answer	2016	0535	2	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	당신은 당신에게 옳은 일을 해야 한다.
+main-forums	answer-answer	2016	0537	0	아마 당신은 지금 당장은 기회가 없을 거야.	"고마워요, 지금 당장 질문은 없습니다" 말하는 것
+main-forums	answer-answer	2016	0548	3	그것은 정말 중요하지 않다.	그것이 정말로 멀리 떨어져 있지 않는 한 그것은 중요하지 않다.
+main-forums	answer-answer	2016	0549	3	네가 모든 걸 알 필요는 없어.	당신은 알 필요 없어.
+main-forums	answer-answer	2016	0567	3	나는 당신이 마이키(1992)를 찾고 있다고 생각한다.	내 생각에 넌 영화를 찾고 있는 것 같아
+main-forums	answer-answer	2016	0571	5	그것은 전혀 차이를 만들지 않는다.	아니, 그것은 아무런 차이도 만들지 않는다.
+main-forums	answer-answer	2016	0581	5	나는 이 질문을 하는 것이 괜찮다고 생각한다.	나는 그 질문을 해도 괜찮다고 생각한다.
+main-forums	answer-answer	2016	0582	4	나는 여기서 매우 직접적으로 할 것이다.	나는 직설적으로 말할 거야, 여기. 넌 아니야.
+main-forums	answer-answer	2016	0583	1	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	그래, 넌 네가 정확히 하고 싶은 대로 할 수 있어.
+main-forums	answer-answer	2016	0599	0	네가 해야 해.	넌 먼저 최고가 되어야 해.
+main-forums	answer-answer	2016	0603	5	그것에 대해 당신이 할 수 있는 것은 많지 않다.	유감스럽게도 당신이 할 수 있는 일이 별로 없습니다.
+main-forums	answer-answer	2016	0607	0	어떤 종류의 단열재죠?	어떤 층들이 위에 있나요?
+main-forums	answer-answer	2016	0615	4	그것은 전적으로 당신의 회사와 당신의 계약에 달려있다.	내 생각에 그것은 당신의 계약의 본질에 달려있다.
+main-forums	answer-answer	2016	0616	5	당신은 당신 자신의 질문에 대답했어요.	이미 당신은 당신의 질문에 대답했잖아요.
+main-forums	answer-answer	2016	0628	3	나는 거기에 어떤 것도 있다고 생각하지 않는다.	나는 거기에 보편적인 용어가 전혀 없다고 생각한다.
+main-forums	answer-answer	2016	0629	3	네가 할 수 있는 몇 가지가 있다.	개인적인 차원에서 할 수 있는 몇 가지 최소한적으로 효과가 있는 일들이 있다.
+main-forums	answer-answer	2016	0639	3	이것이 내가 가장 유용하다 생각한 팁이다:	이와 같은 것은 유용합니다.
+main-forums	answer-answer	2016	0641	2	그게 내가 믿는 거야.	그래, 나는 그것이 좋은 생각이라고 믿는다.
+main-forums	answer-answer	2016	0643	1	당신이 어떻게 해야 할지 모르겠다면, 전혀 하지 마세요.	만약 그렇지 않다면, 그렇게 하지 말고 당신이 하고 싶은 일과 함께 그 시간을 보내세요.
+main-forums	answer-answer	2016	0648	0	그것은 모두 그녀의 머릿속에 있다.	그것은 모두 접착에 관한 것이다.
+main-forums	answer-answer	2016	0650	2	당신이 어떻게 해야 할지 모르겠다면, 전혀 하지 마세요.	만약 여러분이 그것을 할 매우 강력한 과학적 이유가 없다면, 하지 마세요.
+main-forums	answer-answer	2016	0659	0	당신이 좋아하는 것과 그렇지 않은 것을 알기 위해서는 많은 것을 읽어야 합니다.	당신이 무엇을 하고 싶은지 알아야 한다.
+main-forums	answer-answer	2016	0660	2	나는 당신이 그것을 할 수 있다고 말하고 싶지만, 그것은 추천이 되지는 않을 것이다.	개인적으로, 나는 그것이 당신에게 적합하지 않는 한이라고 말할 것이다.
+main-forums	answer-answer	2016	0662	5	할 수 있겠어?	네가 할 수 있겠어?
+main-forums	answer-answer	2016	0664	3	물론, 나는 이 여행을 해봤다.	나는 이것을 수십 번도 더 해 왔다.
+main-forums	answer-answer	2016	0666	3	너도 그것을 사용할 수 있어.	너도 할 수 있어.
+main-forums	answer-answer	2016	0675	5	너는 그걸 어떻게 하는데?	어떻게 하면 되죠?
+main-forums	answer-answer	2016	0678	3	나는 도움이 될 만한 기사를 찾았다 : htt : / / www.dsattorney.com / qa-pseudonyms-in-contracts /	나는 당신에게 도움이 될 만한 링크를 찾았어요
+main-forums	answer-answer	2016	0682	2	나는 당신이 그것을 할 수 있다고 말하고 싶지만, 그것은 추천이 되지는 않을 것이다.	나는 그것을 아는 것이 불가능하다고 말할 것이다. 그러니 위험을 감수하지 마라.
+main-forums	answer-answer	2016	0683	1	불행히도 당신의 질문에 대한 답은 우리가 단지 모른다는 것입니다.	당신의 질문에 대한 답은 '사실 아니다'입니다.
+main-forums	answer-answer	2016	0684	1	당신이 어떻게 해야 할지 모르겠다면, 전혀 하지 마세요.	당신은 그러지 않아, 그것은 안 통할 거야.
+main-forums	answer-answer	2016	0694	5	그것은 또한 맛의 문제이다.	그것은 확실히 단지 선호의 문제이다.
+main-forums	answer-answer	2016	0695	1	그것은 좋은 생각이 아니야.	그것은 둘 다에게 좋은 생각이다.
+main-forums	answer-answer	2016	0704	2	이 답은 미국에서 학부 수학을 가르치는 나의 경험에 근거한다.	이 답은 내가 참고문헌을 위해 연구하지 않은 경험에 근거한다.
+main-forums	answer-answer	2016	0705	4	네가 해야 한다고 생각되는 몇 가지가 있다.	당신이 해야 할 일이 꽤 있다
+main-forums	answer-answer	2016	0713	0	먼저 당신은 그 지역을 청소하고 싶을 것이다.	여러분은 또한 씨앗을 제거하기를 원할 것입니다.
+main-forums	answer-answer	2016	0718	2	그것은 당신이 탱크에 무엇을 가지고 싶은가에 달려있다.	그것은 당신이 무엇을 성취하고 싶은가에 달려있다.
+main-forums	answer-answer	2016	0721	1	당신이 고려할 수 있는 몇 가지 옵션들이 있습니다.	당신에게 좋지 않게 흘러갈 수 있는 많은 방법들이 있다.
+main-forums	answer-answer	2016	0723	3	너는 걱정할 필요 없어.	당신은 티켓이 하나 있기 때문에 걱정할 필요가 없다.
+main-forums	answer-answer	2016	0736	1	베트남 시민들은 미국을 방문하기 위해 비자가 필요하다.	네팔 시민들은 영국을 방문하기 위해 비자를 필요로 한다.
+main-forums	answer-answer	2016	0737	1	그것은 어떻게 사용되느냐에 달려있다.	그것은 얼마나 그것이 오래 나가 있었느냐에 달려있다.
+main-forums	answer-answer	2016	0742	5	나는 왜 이 이것에 문제가 있어야 하는지 모르겠다.	나는 왜 이것이 문제가 될 수 있는지 모르겠다.
+main-forums	answer-answer	2016	0743	5	그것에 대해 당신이 할 수 있는 것은 많지 않다.	나는 정말로 네가 그것에 대해 할 수 있는 것이 많이 있다고 생각하지 않는다.
+main-forums	answer-answer	2016	0745	5	제대로 짚었구나.	그래, 너는 받았어.
+main-forums	answer-answer	2016	0749	0	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	기억하라, 우리가 말하고 있는 것은 당신의 학위라는 것이다, 당신이 무엇을 하고 싶은지 당신에게 달려있다.
+main-forums	answer-answer	2016	0750	4	너는 그걸 어떻게 하는데?	네가 어떻게 그걸 할 건데?
+main-forums	answer-answer	2016	0761	4	나는 비슷한 상황에 처해 있었다.	나는 비슷한 상황에 처해있다.
+main-forums	answer-answer	2016	0768	0	당신의 뚜껑은 무엇으로 만들어졌나요?	당신의 논문은 무엇에 쓰입니까?
+main-forums	answer-answer	2016	0770	0	당신은 어떤 비자도 필요 없어요.	당신은 소스가 전혀 필요하지 않아.
+main-forums	answer-answer	2016	0778	2	그것은 당신의 문제지 당신의 상사의 문제가 아니다.	문제를 해결하기 위해 상사와 팀과 협력하십시오.
+main-forums	answer-answer	2016	0779	4	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	다음에 하고 싶은 일은 당신에게 달려 있다.
+main-forums	answer-answer	2016	0784	5	고려해야 할 두 가지가 있다.	고려해야 할 몇 가지 사항들:
+main-forums	answer-answer	2016	0787	3	그것은 전적으로 당신의 회사와 당신의 계약에 달려있다.	그것은 당신의 회사에 달려있다.
+main-forums	answer-answer	2016	0806	3	나무는 아마도 썩지 않았을 것이다. 그것은 그냥 지쳐있다.	그것은 단지 지쳐있고 안전하지 않다.
+main-forums	answer-answer	2016	0829	4	음, 나는 그것을 내 CV에 붙이지 않을 것이다.	나는 이 일을 이력서에 올리지 않을 것이다.
+main-forums	answer-answer	2016	0831	1	이건 정말 멋진 거야.	이것은 어려운 것이다.
+main-forums	answer-answer	2016	0854	0	두 질문에 대한 답은 "그렇다"이다.	당신의 제목에 있는 두 가지 질문에 직접 답하기 위해서.
+main-forums	answer-answer	2016	0855	2	네, 당신이 제안하는 것을 하지 않는 데는 이유가 있습니다.	당신이 느끼는 것처럼 느낄 타당한 이유이지만 사임할 이유는 아닙니다.
+main-forums	answer-answer	2016	0861	2	나는 그것이 프로그램에 달려있다고 생각한다.	그것은 어떻게 그 용어가 사용되느냐에 달려있다 나는 생각한다.
+main-forums	answer-answer	2016	0862	5	할 수 있겠어?	그래서, 너 이거 할 수 있겠어?
+main-forums	answer-answer	2016	0868	4	나는 일반적인 대답이 없다고 생각한다.	나는 이것에 대한 해답이 있다고 생각하지 않는다.
+main-forums	answer-answer	2016	0869	5	네가 할 수 있는 몇 가지가 있다.	네가 시도할 수 있는 몇 가지가 있다.
+main-forums	answer-answer	2016	0871	1	핵심은 당신이 당신과 당신의 목표에 도움이 되는 무언가를 찾아야 한다는 것이다.	당신은 그것을 원할지 모르지만, 당신에게 주어진 과정이 당신이 안에서 일해야 하는 것입니다.
+main-forums	answer-answer	2016	0875	0	당신은 알 필요 없어.	당신은 B에서 연구할 장비 / 시설이 없습니다.
+main-forums	answer-answer	2016	0877	2	나는 네가 너의 리뷰를 꽤 많이 했다고 생각한다.	당신은 당신 자신의 질문에 꽤나 많이 대답을 했습니다.
+main-forums	answer-answer	2016	0879	0	네가 해야 한다고 생각되는 몇 가지가 있다.	내가 이해할 수 없는 몇 가지가 있다.
+main-forums	answer-answer	2016	0882	2	탄수화물과 지방보다 단백질을 소화시키는데 당신은 칼로리를 더 많이 태운다.	땀을 많이 흘릴수록 칼로리와 지방을 더 빨리 태울 수 있다.
+main-forums	answer-answer	2016	0887	1	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	그것은 당신이 말하고/함축하고 싶은 것에 달려 있다.
+main-forums	answer-answer	2016	0889	5	제대로 짚었구나.	제대로 짚었구나.
+main-forums	answer-answer	2016	0892	5	당신은 당신 자신의 질문에 대답했어요.	당신은 당신 자신의 질문에 꽤나 많이 대답을 했습니다.
+main-forums	answer-answer	2016	0901	3	나도 같은 걸 갖고 있어.	나는 너와 같은 문제를 가지고 있었다.
+main-forums	answer-answer	2016	0908	0	네, 그것엔 화학적 차이가 있습니다.	네, 그러는 데는 이유가 있습니다.
+main-forums	answer-answer	2016	0909	0	그들은 약간 수준 밖일 수 있지만, 평평한 것은 중요하다.	네, 비록 그들이 약간 신맛이 날 수는 있지만요.
+main-forums	answer-answer	2016	0916	2	나는 이것을 볼 것이다: 미국.	나는 이렇게 볼 것이다:
+main-forums	answer-answer	2016	0921	5	당신은 올바른 길에 있다.	넌 올바른 길에 있어.
+main-forums	answer-answer	2016	0925	1	만약 당신이 안 그랬다면, 당신은 그래야 한다.	넌 그래야 하지만, 넌 그럴 필요 없어.
+main-forums	answer-answer	2016	0937	3	그래, 그게 흔한 일이야!	간단한 대답은 "예"입니다!
+main-forums	answer-answer	2016	0945	3	나는 거기에 어떤 것도 있다고 생각하지 않는다.	나는 그것에 어떤 혜택도 없다고 생각한다.
+main-forums	answer-answer	2016	0947	2	나 한태는 당신이 원하는 것에 대해 설정되어 있는 것으로 보입니다.	당신이 그것을 하고 싶은지는 당신에게 달려 있다.
+main-forums	answer-answer	2016	0950	1	문제는, 그 시스템이 돈이나 직함에 대해 덜 신경 쓸 수 있는 사람들을 위하지 않는다는 것이다.	그 조커는 돈에 대해 신경 쓰지 않는다.
+main-forums	answer-answer	2016	0955	1	첫 번째 경우는, 나는 당신이 그것을 필요로 하지 않는다고 생각한다.	그래서 나는 네가 그것을 표지에 올릴 필요가 있다고 생각하지 않아.
+main-forums	answer-answer	2016	0961	2	양식 점검 없이는 이 질문에 대답할 수 없다.	이 질문에 대한 완전한 답을 제공하는 것은 불가능하지는 않더라도 어렵다.
+main-forums	answer-answer	2016	0965	2	당신은 이력서에 이것을 추가해야 합니다. 왜냐하면 그것은 당신이 가져본 유일한 직책이기 때문입니다.	이것은 당신이 정말로 XXX에 대한 전문 지식을 가지고 있다고 주장할 수 있는 기회를 제공합니다.
+main-forums	answer-answer	2016	0966	4	천천히 그것을 연구해라.	당신은 그것에 대해 천천히 작업하는군요.
+main-forums	answer-answer	2016	0975	0	아니, 너는 빵 기계가 필요하지 않아.	너는 걱정할 필요 없어.
+main-forums	answer-answer	2016	0976	1	예, 모델 분석에 관한 논문을 발표하는 것은 가능합니다.	네, 동료 검토 저널에 게시하는 것은 어렵습니다.
+main-forums	answer-answer	2016	0987	1	그저 당신이 알고 있는 것에 당신의 대답을 근거해야 한다. 그것이 당신이 원하는 것이다.	그래서 만약 그것이 당신이 필요로 하는 것이라면, 당신은 그것에 대해 분명히 해야 한다.
+main-forums	answer-answer	2016	0990	2	네, 당신은 당신의 경험을 언급해야 합니다.	그래, 너는 이력서를 만들어야 해.
+main-forums	answer-answer	2016	0998	2	나는 네가 시험을 치른 것이 좋다고 생각한다.	나는 그것이 훌륭한 계획이라고 생각한다.
+main-forums	answer-answer	2016	1012	0	당신은 알 필요 없어.	그 외에는 당신은 세금 문제가 없다.
+main-forums	answer-answer	2016	1013	1	네, 이것에 반하는 규칙이 있습니다.	그것에 반대하는 규칙은 없다.
+main-forums	answer-answer	2016	1014	5	당신의 목표들은 무엇인가요?	당신의 목표들은 무엇인가요?
+main-forums	answer-answer	2016	1046	2	난 여기서 불리한 입장에 처했어.	나는 여기서 매우 직접적으로 할 것이다.
+main-forums	answer-answer	2016	1052	2	스위스에 대한 장기 체류 비자가 유효하다면, 통과 비자가 필요하지 않을 것이다.	당신은 통과 비자가 필요하지 않지만 취리히에 들어가려면 비자가 필요할 것이다.
+main-forums	answer-answer	2016	1062	5	몇 가지 더 생각해 볼 점은	몇 가지 생각해볼 것들은
+main-forums	answer-answer	2016	1063	2	이제 너는 모든 대답에 완벽할 필요는 없다.	당신은 알 필요 없어.
+main-forums	answer-answer	2016	1065	5	유감스럽게도 우리는 이번 건에서는 운이 다한 것 같다.	나는 이것이 당신이 그저 운이 없는 그런 것들 중 하나라고 생각한다.
+main-forums	answer-answer	2016	1066	0	그것은 당신이 무엇을 해야 하고 다른 사람들이 무엇을 하도록 해야 하는지를 결정하는 것이 더 낫다.	요점은 당신이 원하는 것을 알고 그것을 요구하는 것을 두려워하지 말라는 것이다.
+main-forums	answer-answer	2016	1072	4	그것은 상황에 따라 다르다.	이것은 기관에 따라 다르다.
+main-forums	answer-answer	2016	1077	4	나도 같은 걸 갖고 있어.	나도 같은 문제가 있다.
+main-forums	answer-answer	2016	1080	4	나도 같은 걸 갖고 있어.	나는 정확히 같은 문제를 가지고 있다.
+main-forums	answer-answer	2016	1088	0	당신은 올바른 길에 있다.	당신이 표본 정의에 대해 맞습니다.
+main-forums	answer-answer	2016	1099	2	프라이머/페인트는 효과가 없을 것이다.	아니, 그것은 효과가 없을 것이다.
+main-forums	answer-answer	2016	1106	2	당신이 할 수 있는 최선의 일은 당신의 것들을 아는 것이다.	당신이 할 수 있는 최선의 일은 보류된 상태에서 다른 흥미로운 일을 찾는 것이다.
+main-forums	answer-answer	2016	1107	5	그것은 또한 맛의 문제이다.	그것은 대부분 맛의 문제이다.
+main-forums	answer-answer	2016	1111	2	나는 비슷한 상황에 처해 있었다.	개인적으로 내가 비슷한 상황에 있을 때 나는 그 몇 개의 카드와 선물을 보냈다.
+main-forums	answer-answer	2016	1127	3	너도 그것을 사용할 수 있어.	그래, 넌 할 수 있어.
+main-forums	answer-answer	2016	1135	4	당신이 여기서 무엇을 얻고 싶은지 결정해야 한다.	당신은 당신에게 어떤 게 효과가 있는지 알아내야 한다.
+main-forums	answer-answer	2016	1150	1	그것은 그들이 무엇인지에 달려있다.	그것은 어떻게 사용되느냐에 달려있다.
+main-forums	answer-answer	2016	1153	5	나는 너와 같은 문제를 가지고 있었다.	나는 방금 같은 문제를 겪었다.
+main-forums	answer-answer	2016	1156	2	만약 당신이 정말로 그것을 원한다면, 당신은 당신을 위해 그 장소를 얻기 위해 기관에 돈을 지불해야 할지도 모른다.	아마도 당신은 여행사에 가서 할 수 있을 것 같지만 비용이 들 것이다.
+main-forums	answer-answer	2016	1162	1	네가 모든 걸 알 필요는 없어.	그들은 단지 당신이 그것을 알기를 원하지 않는다.
+main-forums	answer-answer	2016	1169	2	또한 여러분의 이야기에서 일관성을 유지하는 것이 유용합니다.	그 이야기를 당신의 한계 범위에 두는 것이 중요하다.
+main-forums	answer-answer	2016	1178	1	나는 그것이 단지 습관이라고 생각한다.	나는 그것이 나쁜 생각이라고 생각한다.
+main-forums	answer-answer	2016	1179	4	그것은 좋은 생각이 아니야.	아니, 그건 좋은 일이 아니야.
+main-forums	answer-answer	2016	1196	5	나는 그것이 나쁜 생각이라고 생각하고 있다.	나는 그것이 나쁜 생각이라고 생각한다.
+main-forums	answer-answer	2016	1197	1	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	발을 어디서 어떻게 두고 싶은지 선택하고 해야 한다.
+main-forums	answer-answer	2016	1199	4	당신에게 문제가 생겼군요.	이것은 큰 문제이다.
+main-forums	answer-answer	2016	1205	2	불행히도 당신의 질문에 대한 답은 우리가 단지 모른다는 것입니다.	대화가 일에 관한 것이 아니라면, 여러분은 자신의 질문에 대한 답이 무엇인지 알고 있습니다.
+main-forums	answer-answer	2016	1209	4	불행히도, 이 질문은 그것의 전체적 일반론에서 답할 수 없다.	이것은 일반적으로 대답될 수 없다.
+main-forums	answer-answer	2016	1216	2	나는 개인적으로 그 멍청이를 조심할 것이다.	나는 그 바보 같은 멍청이를 보는 것을 추천할 것이다.
+main-forums	answer-answer	2016	1218	4	나는 일반적인 대답이 없다고 생각한다.	나는 그것에 하나의 정의가 있다고 생각하지 않는다.
+main-forums	answer-answer	2016	1223	5	그것은 좋은 생각이 아니야.	좋은 생각이 아니야.
+main-forums	answer-answer	2016	1225	0	당신은 어떤 비자도 필요 없어요.	너는 걱정할 필요 없어.
+main-forums	answer-answer	2016	1228	0	당신이 여기서 무엇을 얻고 싶은지 결정해야 한다.	당신이 원하는 모든 정보를 얻기 위해서는 당신은 다양한 블로그를 읽어야 할 것이다.
+main-forums	answer-answer	2016	1244	5	나는 너와 같은 문제를 가지고 있었다.	나는 정확히 같은 문제를 가지고 있다.
+main-forums	answer-answer	2016	1250	4	당신의 질문에 대한 나의 대답은 "아마도 아닐 것이다"입니다.	당신의 질문에 대한 답은 '사실 아니다'입니다.
+main-forums	answer-answer	2016	1265	1	네가 해야 해.	너는 절대 그렇게 하면 안 돼.
+main-forums	answer-answer	2016	1267	4	나는 너와 같은 문제를 가지고 있었다.	나도 같은 문제를 가지고 있었다.
+main-forums	answer-answer	2016	1305	4	이게 당신이 찾고 있는 것이길 바라요.	이게 당신이 찾는 종류의 것인가요?
+main-forums	answer-answer	2016	1306	5	고려해야 할 두 가지가 있다.	나는 고려해야 할 두 가지 중요한 것이 있다고 생각한다:
+main-forums	answer-answer	2016	1326	5	그것은 너에게 꽤나 달려있다.	그건 너에게 달렸다.
+main-forums	answer-answer	2016	1327	4	네가 할 수 있는 몇 가지가 있다.	당신이 고려해야 할 몇 가지가 있습니다
+main-forums	answer-answer	2016	1335	1	이것과 이와 유사한 모든 질문에 대한 답은 두 단계로 나뉩니다 :	두 질문에 대한 답은 "그렇다"이다.
+main-forums	answer-answer	2016	1356	0	양식 점검 없이는 이 질문에 대답할 수 없다.	이것은 당신의 질문에 대한 부분적인 대답이다
+main-forums	answer-answer	2016	1360	3	네가 할 수 있는 몇 가지가 있다.	네가 해야 한다고 생각되는 몇 가지가 있다.
+main-forums	answer-answer	2016	1365	4	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	그것은 당신이 무엇을 하고 어디로 갈 것인가에 달려 있다.
+main-forums	answer-answer	2016	1383	3	몇 가지 가능한 이유들이 있다.	페인트가 주름이 지는 몇 가지 이유가 있다.
+main-forums	answer-answer	2016	1389	5	세 가지 선택권이 있다.	세 가지 옵션만 있습니다.
+main-forums	answer-answer	2016	1390	5	그러니 이런 식으로 생각해.	이런 식으로 생각해 봐.
+main-forums	answer-answer	2016	1392	5	어쩌면 이게 당신에게도 통할 수 있을 것이다.	어쩌면 이것은 당신에게 효과가 있을 수 있다.
+main-forums	answer-answer	2016	1397	1	그것은 다음에 당신이 무엇을 하고 싶은지, 그리고 당신이 그것을 하고 싶은 곳에 달려 있다.	그들은 할 수 있지만, 그것을 하는 방법은 당신이 무엇을 이용할 수 있느냐에 달려 있다.
+main-forums	answer-answer	2016	1404	0	전자레인지가 당신에게 가장 좋은 선택일 것이다.	당신의 최선의 선택은 연구이다.
+main-forums	answer-answer	2016	1407	4	미국에서는, 그것은 학교에 달려있을 것이다.	이것은 대학에 달려있을 것이다.
+main-forums	answer-answer	2016	1416	1	그것은 좋은 생각이 아니야.	그것은 단지 좋은 생각이 아니라, 훌륭한 생각이다.
+main-forums	answer-answer	2016	1437	4	네가 해야 한다고 생각되는 몇 가지가 있다.	개인적인 차원에서 할 수 있는 몇 가지 최소한적으로 효과가 있는 일들이 있다.
+main-forums	answer-answer	2016	1440	3	나도 이런 같은 문제를 겪었어.	나도 같은 상황이었어.
+main-forums	answer-answer	2016	1445	5	이것은 좋은 생각이 아니다.	좋은 생각이 아니야.
+main-forums	answer-answer	2016	1449	5	나는 이미 받아들여진 답이 있다는 것을 깨달았지만, 나는 내 2센트를 더할 것이라고 생각한다.	나는 이것이 오래된 질문이라는 것을 알지만, 나는 내 2센트를 더해야 한다고 느낀다.
+main-forums	answer-answer	2016	1452	0	네, 당신이 제안하는 것을 하지 않는 데는 이유가 있습니다.	네, 그것엔 화학적 차이가 있습니다.
+main-forums	answer-answer	2016	1453	1	네, 적어도 한 가지는 알고 있습니다.	내가 알기로는, 시간이 조건이 없는 것으로 알고 있습니다.
+main-forums	answer-answer	2016	1465	0	너는 걱정할 필요 없어.	당신은 그것을 양념하기 위해 아무것도 할 필요가 없다.
+main-forums	answer-answer	2016	1467	0	그것이 봉인되었는지 아닌지를 당신에게 알려줄 수 있는 테스트는 없다.	당신이 이것을 할 수 없다는 것을 말해주는 코드는 없다.
+main-forums	answer-answer	2016	1477	0	그래, 너는 이력서를 만들어야 해.	그래, 너는 너의 교수와 이야기해야 해.
+main-forums	answer-answer	2016	1481	0	당신은 전혀 의무감을 느껴서는 안됩니다.	당신은 소스가 전혀 필요하지 않아.
+main-forums	answer-answer	2016	1482	4	나도 이런 같은 문제를 겪었어.	나는 전에 이 문제를 겪었다.
+main-forums	answer-answer	2016	1490	5	당신은 실험하고 당신이 좋아하는 것을 찾아야 할지도 모른다.	당신은 당신에게 어떤 게 효과가 있는지 알아내야 한다.
+main-forums	answer-answer	2016	1511	1	당신의 질문에 대한 나의 대답은 "아마도 아닐 것이다"입니다.	이것은 당신의 질문에 대한 부분적인 대답이다
+main-forums	answer-answer	2016	1512	1	여기서 깨달아야 할 중요한 것은 사람들이 그들의 일을 하도록 만드는 것이 당신의 일이 아니라는 것이다.	그들이 그 일을 할 자격을 갖춘 사람을 어떻게 찾을지는 당신의 문제가 아니다.
+main-forums	answer-answer	2016	1537	4	그 질문에 대한 직접적인 대답이 아니지만 고려해야 할 것이 있다.	당신의 질문에 대한 진짜 대답은 아니지만, 어쩌면 도움이 될지도 모른다.
+main-forums	answer-answer	2016	1542	1	이것에 대한 두 가지 가능한 원인들이 있다.	당신에게는 두 가지 선택권이 있습니다
+main-forums	answer-answer	2016	1555	5	나는 다른 의견들에 동의한다.	나는 이전의 의견들에 동의한다.
+main-forums	answer-answer	2016	1557	3	두 질문에 대한 답은 "그렇다"이다.	이 질문들 중 어느 것에 대한 답이 "예"라면, 박사 학위는 여러분에게 가치 있는 것일 수 있습니다.
+main-forums	answer-answer	2016	1558	5	그것은 오히려 당신이 어느 나라에 있는지에 달려 있다.	그것은 당신이 어느 나라에 있는지에 달려 있다.
+main-forums	answer-answer	2016	1568	5	이것은 끔찍한 생각이다.	이것은 나쁜 생각이다.
+main-news	MSRpar	2012test	0004	1.400	비벤디 주식은 월요일에 3.6퍼센트 하락한 후 파리에서 15.80유로로 1.9% 하락해 마감했다.	뉴욕에서는, 비벤디 주식은 18.29달러로 1.4% 하락했다.
+main-news	MSRpar	2012test	0007	3.600	브레머는 한 가지 계획이 동네를 청소하고 지역 사회 프로젝트를 구축하기 위해 앞으로 2주 동안 미국에 7천만 달러 규모의 전국 프로그램을 시작하는 것이라고 말했다.	브레머는 이라크 전역의 이웃들을 청소하고 지역 사회 프로젝트를 건설하기 위해 앞으로 2주 동안 7천만 달러 규모의 프로그램을 시작할 것이라고 말했지만 자세한 내용은 밝히지 않았다.
+main-news	MSRpar	2012test	0018	3.500	그레이 데이비스 주지사는 어제 화재가 거의 20억 달러의 비용이 들 수 있다고 추정했다.	주 관리들은 그 비용을 거의 20억 달러로 추정했다.
+main-news	MSRpar	2012test	0019	3.200	American Express 회사는 필요한 500만 달러의 금액 보다 최소 300만 달러를 약속했다.	시는 연방 기금을 요청했지만, American Express가 최소 300만 달러를 약속했을 때 그 요청을 철회했다.
+main-news	MSRpar	2012test	0025	4.000	대서양 폭풍 시즌의 첫 번째 허리케인인 클로데트는 7월 15일 85mph의 바람으로 텍사스 중부 해안을 강타했다.	대서양 폭풍 시즌의 첫 번째 허리케인인 클로데트는 7월 15일 텍사스 중부 해안을 강타했으며 최대 지속 풍속이 85mph인 카테고리 1 허리케인으로 분류되었습니다.
+main-news	MSRpar	2012test	0028	2.000	미국 2위 청량음료 제조사 펩시코 주식회사의 결과(nyse: pep- news-people)들은 주목을 받고 있는 것으로 보인다.	월스트리트도 알루미늄 제조사인 알코아 주식회사가( nyse : pep - news - people ) 마감 이후에 수익들을 보고하길 기다리고 있었다.
+main-news	MSRpar	2012test	0030	3.600	테일러의 보좌관들은 갑작스러운 출발이 더 많은 혼란을 유발할 수 있다고 경고했다. 이는 라이베리아의 많은 사람들과, 개인과 중재자들에 의해서도 마찬가지로 공유하는 견해이다.	그의 보좌관들은 갑작스러운 출발이 많은 유혈사태를 촉발시킬 수 있다고 경고했는데, 이는 많은 사람들이 라이베리아아에서 공유하는 견해이다.
+main-news	MSRpar	2012test	0031	4.200	그러나 오데뜨가 카리브해에서 처음으로 12월에 형성되었다고 센터는 말했다.	12월에 카리브해에서 처음으로 개발된 이름있는 폭풍이다.
+main-news	MSRpar	2012test	0034	4.000	AFL-CIO는 10월까지 후보자를 지지할지 결정하기 위해 기다리고 있다.	AFL-CIO는 수요일에 경선 전에 후보를 지지할 것인지 여부를 10월에 결정할 것이라고 발표했다.
+main-news	MSRpar	2012test	0043	3.250	그것은 학계, 산업계, 정부, 그리고 대중의 300명 이상의 지도자들로부터 협의를 받아 개발되었다.	NIH 로드맵이라고 불리는 이 계획은 산업계와 학계에서 300명 이상의 컨설턴트의 도움을 받아 14개월 동안 개발되었다.
+main-news	MSRpar	2012test	0048	3.400	지방 경찰 당국은 해당 폭발을 형사상의 문제로 취급하고 있으며, 어떠한 것도 배제되지 않았다.	뉴헤븐 현직 경찰청장인 프란시스코 오티즈는 경찰이 폭발을 형사상의 문제로 취급하고 있다고 말했다.
+main-news	MSRpar	2012test	0054	3.667	키론은 이미 파우더제트의 주주들로부터 거의 20%의 수용을 받고 있다.	키론은 거의 20%의 파우더제트의 주주들로부터의 수용을 받고 있다.
+main-news	MSRpar	2012test	0070	3.750	"우리는 2004년 대통령 예비 선거를 위한 [터치 스크린] 기계를 완전히 출시할 준비가 되어 있다고 믿는다."라고 Gilles W. Burger, 주 선거 위원장이 말했다.	"우리는 개정된 다이볼드 기계를 출시할 준비가 충분히 되어 있다고 믿는다."라고 메릴랜드 주 선거위원회 의장인 길스 버거가 말했다.
+main-news	MSRpar	2012test	0083	1.200	톰슨의 첫 번째 대화에 따르면 분석가들은 177억 달러의 수익에 대해 주당 27센트의 수익을 기대하고 있다고 한다.	휴렛 패커드는 6억 5천9백만 달러의 2분기 수익을 올려 주당 29센트로 180억 달러의 수익에 대해 준비하고 있다.
+main-news	MSRpar	2012test	0085	3.800	또 다른 한 명은 스프링데일의 북서쪽 의료 센터에서 심각한 상태에 있었다.	스프링데일의 워싱턴 카운티의 북서쪽 의료 센터에서 한 어린이가 심각한 상태에 있습니다.
+main-news	MSRpar	2012test	0087	3.400	캘리포니아 공무원 퇴직 제도의 회장인 션 해리건 은 또한 NYSE의 27인 이사회를 축소하고, 그 구성을 바꾸고, 더 책임감 있게 만들 것을 제안했다.	캘리포니아 공무원 퇴직제도의 회장인 션 해리건 은 또한 NYSE의 27인 이사회를 축소하고 증권업계 밖의 투자자들에게 더 많은 자리를 할당할 것을 제안했다.
+main-news	MSRpar	2012test	0091	3.200	스웨덴 중앙은행도 수요일에 회의를 가졌고 목요일에 삭감안을 발표할 것으로 널리 예상되었다.	수요일에 만났던 스웨덴 중앙은행은 목요일에 반%포인트의 감축을 발표할 것으로 널리 예상되고 있다.
+main-news	MSRpar	2012test	0094	3.600	그의 1996년형 쉐보레 타호는 버지니아 해변 주차장에서 6월 25일 버려진 채 발견되었다.	그의 스포츠 유틸리티 차량은 버지니아 해변에 자동차 번호판 없이 버려진 6월 25일에 발견되었다.
+main-news	MSRpar	2012test	0096	3.000	Heatley는 지난 시즌에 골에서는 41점으로 6위를 차지하고 89점으로 리그 9위에 올랐다.	Heatley는 지난 시즌 팀 기록 41골 48 어시스트로 아틀란타의 득점을 이끌었다.
+main-news	MSRpar	2012test	0099	1.600	"토니는 기분이 좋지 않다."라고 그레그 포포비치 감독이 말했다.	우리는 3-2로 올라가서 신이 난다' 그레그 포포비치 감독은 수요일 말했다.
+main-news	MSRpar	2012test	0100	3.200	전자 데이터 시스템 회사는 목요일 증권 거래 위원회가 미국 해군과의 대규모 계약과 관련된 서류를 회사에 요청했다고 말했다.	규제 서류에서, EDS는 이번에 SEC가 미국 해군과의 아웃소싱 계약에 어려움을 겪은 것과 관련된 정보를 요청했다고 말했다.
+main-news	MSRpar	2012test	0105	3.800	돌고래 계획 또한, 혼란은 외국 회사들이 적절한 감시나 수출 통제 없이 벌목과 어업에 피해를 입히는 것을 허용했다.	내부 혼란은 외국 기업들이 적절한 모니터링이나 수출 통제 없이 상업적 벌목 및 어업 운영을 손상시킬 수 있도록 허용했다.
+main-news	MSRpar	2012test	0108	4.200	다음 법정 회기는 3명의 재판관이 2월 중순에 평결을 발표할 때이다.	법원의 3인 재판소는 다음 2월에 판결이 내려질 것으로 예상되었다.
+main-news	MSRpar	2012test	0110	3.000	월스트리트 분석가들 사이의 합의는 주당 28센트의 손실을 위한 것이었다.	첫 번째 통화로 조사된 분석가들은 7억 2천3백만 달러의 매출과 주당 28센트의 손실을 예상하고 있었다.
+main-news	MSRpar	2012test	0127	4.000	지난달 민간 실업률은 미미하게 개선되었다, 기업들이 급여 대상자를 93,000명 줄였음에도 6.1%로 떨어졌다.	민간 실업률은 지난달에 거의 미미하게 개선되었다. 기업들이 국가의 경제 건강에 대한 엇갈린 신호 속에서 93,000명의 급여 대상자를 삭감함에 따라 _ 6.1%로 떨어졌다.
+main-news	MSRpar	2012test	0128	4.750	모핏은 유전자의 장단기 존재 여부를 개인에게 검사하기 전에 다른 연구에서 그 결과가 복제될 필요가 있다고 말했다.	모핏 교수는 유전자의 장단기 버전의 존재에 대한 개인들의 검사를 추구하기 전에 그 결과가 복제되어야 한다고 말했다.
+main-news	MSRpar	2012test	0131	3.533	보상위원회는 증권업계 이사들이 그 위에 앉는 것을 금지할 것이다.	이 거래소는 또한 5인 보상 위원회가 증권업계 외부의 이사들로만 구성될 것이라고 말했다.
+main-news	MSRpar	2012test	0134	1.250	Q : 처방약을 위한 보험을 바로 살 수 있을까요?	의회는 처방약에 대한 보험 적용 범위를 구입하는 선택권인 새로운 혜택을 추가했다.
+main-news	MSRpar	2012test	0137	4.000	만달레이 주식은 수익이 발표되기 전에 8센트 하락한 29.42달러로 마감했다.	만달레이 주식은 목요일 29.42달러로 8센트 하락한 채 마감했다.
+main-news	MSRpar	2012test	0150	3.000	1999년, 뉴욕과 뉴저지의 항구 당국인 건물 소유주는 내화성을 1 { 인치 두께로 업그레이드하기 위한 지침을 발표했습니다.	NIST는 1999년에 항만 당국이 방화벽을 1 1/2 인치 두께로 업그레이드하기 위한 지침을 발표했다는 것을 발견했다.
+main-news	MSRpar	2012test	0165	2.600	달러화는 유로화 대비 1.1149달러로 4월 30일 이후 가장 강력한 수준에 근접했다.	달러화는 4월 30일 이후 가장 강력한 수준으로 상승하기 위해 화요일의 1% 반등을 연장하면서, 초기 거래에서 유로화에 1.1115달러까지 상승했다.
+main-news	MSRpar	2012test	0173	3.500	단일 통화는 1999년 1월 유로화 출시 직후 최고 기록을 기록한 것과 일치하면서, 135.13엔까지 상승했다.	단일 통화는 135.26엔까지 상승했는데, 이는 1999년 1월 단일 통화 도입 이후 최고 수준이다.
+main-news	MSRpar	2012test	0174	1.500	뉴캐슬 카운티 여성은 올해 웨스트 나일 바이러스에 전염된 최초의 딜라웨어 환자가 되었다고 주 보건부는 보도했다.	카운티 보건부에 따르면 62세의 서바빌론 남성이 웨스트 나일 바이러스에 감염되었는데, 이것은 서포크 카운티에서 올해 처음으로 발생한 인간 사례라고 한다.
+main-news	MSRpar	2012test	0176	2.000	그는 또한 북한 핵 위기를 평화적으로 해결하고자 하는 자신의 소망을 재확인했다.	그러나 북한 핵 위기는 그의 임기를 지배했다.
+main-news	MSRpar	2012test	0181	3.500	붙잡힌 한 반군은 2,000명 이상의 반란군이 그 공격에 연루되었다고 말했다.	포로로 잡힌 반군은 2,100명의 전투원들이 그 공격에 연루되었다고 말했다.
+main-news	MSRpar	2012test	0187	3.000	유엔 특사인 기 씨는 일본이 수기 씨를 석방하지 않으면 무거운 경제 원조를 중단할 것이라고 말함으로써 국제적인 압력이 커지고 있다고 말한다.	일본은 어제 버마에 대한 국제사회의 압력에 추가하여, 군부가 친 민주주의 지도자 아웅산 수 지를 석방하지 않는 한, 막대한 경제 원조를 중단하겠다고 위협하고 있다.
+main-news	MSRpar	2012test	0191	4.750	월마트, 콜스, 패밀리 달러 스토어 주식회사, 그리고 빅 롯 주식회사는 월스트리트의 예상 아래로 떨어진 5월 매출 공지 상인들 중에 있었다.	월마트, 콜스, 패밀리 달러 스토어 주식회사, 그리고 빅 롯 주식회사는 월스트리트의 예상 아래로 떨어진 5월 매출을 공지했다.
+main-news	MSRpar	2012test	0194	3.400	에딩턴 씨는 어제 항공사의 미래가 "협상가들의 손에 달려있다"라고 경고했다.	"바의 미래는 협상가들의 손에 달려있다."에딩턴은 일요일 영국 방송사의 텔레비전을 통해 말했다.
+main-news	MSRpar	2012test	0196	3.400	"이 두 아이 모두 지금 훌륭한 신체 상태에 있습니다."그는 병원에서 기자 회견을 하는 동안 말했다.	"이 두 아이들은 지금 훌륭한 신체 상태에 있습니다."라고 몬테피오레의 어린이 병원에서 소아 신경 외과의 책임자인 Goodrich는 말했습니다.
+main-news	MSRpar	2012test	0206	4.250	세포의 표면에서, 외부 성분은 다른 세포들에 의해 인식되고, 그 다음 그것이 감염되었다는 것을 알고 죽입니다.	외부의 조각들은 다른 세포들에 의해 인식되고 그것이 감염되었다는 것을 깨닫고 그것을 죽인다.
+main-news	MSRpar	2012test	0214	3.800	로랄에서의 거래는 어제 중단되었다; 주식은 월요일 3.01달러로 마감되었다.	뉴욕 증권거래소는 어제 금요일 3.01달러로 마감된 로랄에서의 거래를 중단했다.
+main-news	MSRpar	2012test	0220	3.000	녹스 카운티 보건부는 감염을 억제하기 위해 질병 통제 및 예방 프로토콜을 위한 국가 센터를 따르고 있습니다.	보건부 대변인은 그 부서가 질병관리 프로토콜을 위한 센터를 따르고 있다고 덧붙였다.
+main-news	MSRpar	2012test	0226	3.000	조엘 클라인 학교 총장은 "더 높은 기준과 책임에 대한 추진은 결과를 보여주고 있다"라고 말했다.	학교 총장인 조엘 클라인은 그 결과에 만족한다고 말했다.
+main-news	MSRpar	2012test	0228	4.600	한 목격자는 아나톨리아인에게 비행기가 공중에 있는 동안 불이 난 것을 보았다고 말했다.	한 목격자는 아나톨리아 뉴스 기관에 그가 공중에서 비행기가 불에 타는 것을 보았다고 말했다.
+main-news	MSRpar	2012test	0242	3.000	그는 필리버스터를 극복하기 위해 점점 더 적은 표를 얻을 수 있는 시스템을 제안했다.	프리스트는 사법 인준에 대한 최종 투표를 막는 필리버스터를 극복하기 위해 점차적으로 적은 표를 얻는 과정을 제안했다.
+main-news	MSRpar	2012test	0249	4.250	에스트로겐과 프로게스틴을 결합한 호르몬 대체 요법은 100만 명 이상의 여성을 대상으로 한 영국 연구에서 여성의 유방암 위험을 두 배로 증가시킨다는 것을 발견했다.	영국의 주요 연구는 호르몬 대체 요법이 유방암의 위험을 증가시킨다는 증거에 덧붙여졌다. 특히 여성들이 에스트로겐과 프로게스틴의 조합을 받을 때 더욱 그렇다.
+main-news	MSRpar	2012test	0260	1.800	바르비니의 발언은 장관회의 둘째 날이자 농업과학기술에 대한 박람회에서 화요일에 나왔다.	앤 베네만 미국 농무장관이 월요일 3일간의 장관회의와 농업과학기술 박람회를 시작한다.
+main-news	MSRpar	2012test	0261	2.800	어제 주가는 29센트 즉 0.54% 오른 54.32달러로 마감했다.	아마존의 주가는 어제 나스닥 주식시장에서 29센트 오른 54.32달러로 마감했다.
+main-news	MSRpar	2012test	0267	1.250	로티는 플로리다 교도소 제도에서 최초의 신뢰 기반 프로그램이 아니다.	하지만 로티는 그 길을 택한 최초의 감옥 전체입니다.
+main-news	MSRpar	2012test	0276	3.750	이 거래는 handspring 주식의 주주들에게 palm 주식의 0.09를--palm source의 주식이 아닌-- handspring의 각 보통주마다 배당할 것이다.	거래의 제안된 조건에 따라, 그리고 팜 소스의 분사에 따라, 팜은 핸드스프링의 각 주식에 대해 0.09주를 교환할 것이다.
+main-news	MSRpar	2012test	0285	3.750	이 거대한 암석은 8월 24일 링컨 근지구 소행성 연구 프로그램에 의해 처음 관찰되었는데, 이 프로그램은 뉴멕시코주 소코로에 기반을 두고 있다.	이 암석은 선형으로도 알려진 지구 소행성 연구 프로그램 근처의 링컨에 의해 처음 관찰되었습니다.
+main-news	MSRpar	2012test	0289	3.750	"우리는 오래된 습관을 바꾸고 비즈니스를 평소와 같이 진지하게 재고해야 한다."	그는 직원들에게 "자만심을 피하고"오래된 습관을 바꾸고 비즈니스를 평소와 같이 진지하게 재고할 것을 촉구했다. "
+main-news	MSRpar	2012test	0292	3.500	"이 비열한 행동은 유일한 신앙이 증오인 살인자들에 의해 저질러졌다."부시는 말하고, 미국이 살인자를 찾을 것이라고 덧붙였다.	이러한 비열한 행위들은 오직 믿음만이 증오인 살인자들에 의해 저질러졌으며 미국은 살인자들을 찾을 것이고 그들은 미국의 정의의 의미를 배울 것이다.
+main-news	MSRpar	2012test	0303	4.600	이 보고서는 총 659명의 여성이 이 학원에 등록되어 있다고 말했다.	조사 당시 아카데미에 등록한 여성은 659명이었다.
+main-news	MSRpar	2012test	0304	3.250	"이는 거의 모든 미국인들에게 영향을 미칠 국가적인 우려이다,"라고 아브라함 씨가 말했다.	천연가스 부족의 영향이 사실상 모든 미국인들에게 영향을 미칠 것이라고 스펜서 아브라함 에너지부 장관은 어제 경고했다.
+main-news	MSRpar	2012test	0306	1.333	미국에서는 전체 여성의 20.7%가 담배를 피운다.	네바다는 가장 많은 여성들이 담배를 피우는 곳이다, 28%.
+main-news	MSRpar	2012test	0312	2.500	그것은 플러스 또는 마이너스 4% 포인트의 오차 범위를 가지고 있다.	그 여론조사는 712명의 유권자와 플러스 또는 마이너스 3.7% 포인트의 표본오차를 가지고 있었다.
+main-news	MSRpar	2012test	0316	3.250	모니의 주식은 장래에 거래되는 시간 후에 인스티넷에서 2.57 달러, 즉 9%의 증가를 얻어 31.90 달러로 증가했습니다.	뉴욕에서의 시간 외 거래에서 모니 주식은 8.76% 오른 31.90달러를 기록했다.
+main-news	MSRpar	2012test	0320	3.000	다이애나는 폴 버렐에게 그녀를 죽일 음모가 있다고 편지를 썼을 때 가장 낮은 시기에 있었다.	버렐은 다이애나가 1996년 10월에 그녀를 박살 내서 죽일 음모가 있다고 주장하는 편지를 써서 보험으로 보관하도록 주었다고 말했다.
+main-news	MSRpar	2012test	0325	3.600	길레스피는 레슬리 문브스 CBS 사장에게 역사적인 검토나 면책특권을 요구하는 편지를 보냈다.	공화당 전국위원회 의장인 에드 길스피는 금요일에 레슬리 문브스 CBS 텔레비전 사장에게 서한을 보냈다.
+main-news	MSRpar	2012test	0342	2.200	"우리가 그들을 풀어주지 않을 것이라는 것을 보여 주자."라고 포스 우비에르 노조의 지도자인 마크 브론델이 말했다.	"연금 방어 운동은 탄력을 얻고 있으며 우리는 포기하지 않을 것입니다."라고 포스 우브리에르 노조의 지도자인 마크 브론델이 말했다.
+main-news	MSRpar	2012test	0343	4.800	피플소프트 경영진이 당신이 믿게끔 하려는 것과는 달리, 오라클은 앞으로 수년 동안 피플소프트의 고객과 제품을 온전히 지원할 계획입니다. "	엘리슨은 "피플 소프트 관리의 논쟁과는 달리 오라클은 앞으로 수년 동안 "피플 소프트 고객과 제품을 완전히 지원할 계획"이라고 말했다.
+main-news	MSRpar	2012test	0351	4.000	멕시코 법에 따르면, 현상금 사냥은 납치의 한 형태로 여겨진다.	현상금 사냥은 멕시코에서 불법이며, 현상금 사냥꾼은 납치 혐의로 기소되었다.
+main-news	MSRpar	2012test	0355	3.400	이 발표는 암스테르담에서 열린 국제 방송 컨벤션(IBC)에서 이루어졌다.	제출은 월요일이었지만, 발표는 금요일 암스테르담에서 열린 국제 방송 대회에서 이루어졌다.
+main-news	MSRpar	2012test	0376	3.200	그것의 키워드는 중국어 웹 포털에 의해 지원된다.	중국어 웹 포털은 3721개의 키워드를 지원한다고 웹사이트는 말했다.
+main-news	MSRpar	2012test	0388	2.500	톰슨이 처음 실시한 분석가들의 합의된 추정치는 처음에 주당 1.70달러의 이익을 요구했다.	Reuters 그룹 PLC의 한 단위인 Reuters Research에 의해 조사된 분석은 주당 평균 1.69 달러의 이익을 예상한다.
+main-news	MSRpar	2012test	0389	3.250	초기 부검 보고서는 그들이 탈수, 고열, 질식사로 사망했다는 것을 보여준다.	두 명이 더 죽었고, 초기 부검 보고서는 그들이 탈수, 저체온증, 질식사에 굴복했다는 것을 보여준다.
+main-news	MSRpar	2012test	0402	3.800	당국은 금요일에 공공에게 앞으로 나와서 지역 편의점 밖에서 세 명의 목숨을 앗아간 저격수 스타일의 총격 사건을 해결하는 핵심이 될 수 있는 것을 제공해 줄 것을 호소했다.	당국은 어제 찰스턴 지역 편의점 밖에서 발생한 세 명을 죽인 치명적인 저격수 스타일의 총격 사건을 해결하는 데 도움을 청하기 위해 대중을 바라보았다.
+main-news	MSRpar	2012test	0408	4.400	두 번째는 HP(27%, 29억 달러, 0.4% 증가)이다.	HP는 서버 판매가 29억 달러로 0.4% 증가하면서 2위로 떨어졌다.
+main-news	MSRpar	2012test	0413	3.500	미군은 최근 시리아 국경 근처에서 40여 명의 외국 무장단체 용의자를 체포해 현재 그들을 심문하고 있다.	제3 기갑 기병 연대는 최근 시리아 국경 근처에서 약 40명의 전투요원을 체포했다고 관계자들은 말했다.
+main-news	MSRpar	2012test	0415	1.500	작년 같은 기간 동안 13억 9천만 달러의 매출로 100만 달러, 혹은 손익분기점과 비교된다.	2분기 총매출은 14억 8천만 달러로 작년 같은 기간의 13억 9천만 달러보다 7% 증가했다.
+main-news	MSRpar	2012test	0419	2.800	볼리비아의 군대는 대통령에 대한 대중의 봉기가 확산되면서 수요일에 식량이 부족한 수도로 시위대가 흘러드는 것을 막기 위해 싸웠다.	볼리비아의 군대는 수요일에 다이너마이트를 휘두르는 광부들이 포위된 수도로 흘러들어가는 것을 막기 위해 싸웠고, 대통령에 대한 대중 봉기로 두 명이 사망했다.
+main-news	MSRpar	2012test	0423	3.600	A920은 89달러에 프린터, 스캐너, 복사기가 함께 옵니다.	Dell의 개인 올인원 A920은 프린터, 스캐너 및 복사기 기능을 89 달러에 결합한 입문자 레벨 장치입니다.
+main-news	MSRpar	2012test	0434	4.200	그러나 영이 링에 들어간 후 처음 30초 동안, 그 가족은 그것이 고르지 못한 경기라는 것을 알았다고 마이어스는 말했다.	그러나 경기 시작 30초 동안 가족들은 그것이 불균일한 경기라는 것을 알고 있었다, 스테이시 영의 여동생 조디 마이어스가 말했다.
+main-news	MSRpar	2012test	0449	3.000	싱가포르는 수요일에 사스 사건으로 의심되는 사례가 없다고 보고했지만, 관계자들은 대만 환자와 접촉한 70명을 격리시켰다.	여전히 싱가포르는 과학자와 가까운 접촉을 해온 70명을 격리시켰다.
+main-news	MSRpar	2012test	0453	3.000	버논 산 하류에서 스카깃 강은 오늘 밤 홍수 단계보다 8피트 높은 36피트에 이를 것으로 예상되었다고 버크가 말했다.	밤중에 스카깃호는 마운트 버논에서 홍수 단계보다 10피트 높은 38피트에 이를 것으로 예상되었다고 국립 기상청이 말했다.
+main-news	MSRpar	2012test	0463	1.600	월요일, 다우지수는 지난주 2.3% 하락한 8,983.80으로 5.25, 즉 0.1% 하락했다.	초기 거래에서 다우존스 산업평균지수는 월요일 3.61포인트 하락한 8,945.50으로 39.94, 즉 0.4% 하락했다.
+main-news	MSRpar	2012test	0465	4.000	부상자들은 제퍼슨 시와 콜롬비아의 병원으로 옮겨졌고, 북쪽으로 약 30마일 떨어진 대학가였다.	부상자들은 북쪽으로 약 48km 떨어진 제퍼슨 시와 콜롬비아의 병원으로 옮겨졌다; 그들의 상태는 즉시 이용 가능하지 않았다.
+main-news	MSRpar	2012test	0467	1.333	달러화는 일본 통화 대비 117.85엔으로 0.1퍼센트 올랐다.	스위스 프랑에 대해 달러화는 1.3289 프랑으로 당일 0.5 퍼센트 상승했다.
+main-news	MSRpar	2012test	0481	3.600	오'코너' 외에도, 렌퀴스트의 다수 의견은 대법관 데이비드 소터, 루스 바더 진스버그, 스티븐 브레이어와 함께 했다.	다수 의견에 그를 합류시키는 것은 판사 산드라 데이 오 '코너, 데이비드 H. 소터, 루스 바더 진스버그, 스티븐 G. 브레이어 였다.
+main-news	MSRpar	2012test	0515	3.000	마틴 58세는 16세의 프레드 바라스 과실치사로 5년 형의 3분의 2를 선고받은 후 오늘 석방될 것이다.	마틴은 바라스 살인과 두려움을 주게 한 혐의로 5년 형의 3분의 2를 선고받았다.
+main-news	MSRpar	2012test	0519	3.000	IDEC 주주들은 합병회사 주식의 50.5퍼센트를 소유하고 바이오겐 주주는 나머지 49.5퍼센트를 소유하게 될 것이다.	이 회사들은 IDEC 보유자들이 합병된 회사의 주식의 약 50.5퍼센트를 소유할 것이라고 말했다.
+main-news	MSRpar	2012test	0520	3.500	그럼에도 불구하고 오픈 소스 전문가는 "이 공격은 잘못되었으며 우리의 목표에 위험했습니다."라고 주장했다.	"이 공격은 잘못되었으며, 우리의 목표에 위험했습니다." 레이몬드는 말했다.
+main-news	MSRpar	2012test	0527	4.000	전 신용 소송의 첫 번째 보스턴 기술 투자 은행 전문가인 프랭크 콰트론 은 화요일에 사법 방해와 증인 조작 혐의에 대해 무죄를 주장했다고 한다.	뉴욕 - (다우 존스) - 전 스타 투자 은행가 프랭크 콰트론은 화요일에 사법 방해와 증인 조작에 대한 형사 고발에 대해 무죄를 주장했다.
+main-news	MSRpar	2012test	0532	2.200	블루칩 다우존스 산업평균지수 dji는 앞서 1% 이상을 포기한 후 86.56포인트, 즉 0.94% 하락한 9,109.99를 기록했다.	다우존스 산업평균지수는 금요일에 79.43포인트 즉 0.86% 하락한 9,117.12를 기록했다.
+main-news	MSRpar	2012test	0534	3.400	다우존스 산업평균지수는 수요일 111.04로 상승한 후 9,837.94로 10.89 하락한 채 마감했다.	다우존스 산업평균지수는 10.89포인트, 즉 0.11% 하락한 9,837.94를 기록했다.
+main-news	MSRpar	2012test	0548	3.500	페리는 그 후를 통해 선거구 재조정 계획을 강제로 시행하기 위해 두 개의 특별 입법 회의를 소집했다.	그 이후로 텍사스 주지사 릭 페리는 기준을 통과시키기 위해 두 개의 특별 회의를 소집했다.
+main-news	MSRpar	2012test	0552	4.250	이 기관은 8월 22일까지 제출될 경우 8월 15일 예정인 세금 신고서나 납부액을 적시에 고려할 것이다.	이 기관은 8월 22일까지 완료되면 금요일부터 8월 22일까지 납세 신고서나 납부서를 적시에 고려할 것이라고 말했다.
+main-news	MSRpar	2012test	0557	2.600	민주당은 현재 주 의회 대표단에서 17-15의 우위를 점하고 있다.	텍사스 의회 대표단은 현재 17-15 민주당이다.
+main-news	MSRpar	2012test	0561	3.000	차우드리는 56일 후에 석방되었고 피지군은 2001년 9월에 민주적인 선거에서 승리한 카라세가 이끄는 모든 토착 정부를 설치했다.	피지 군은 2001년 9월 민주 선거에서 승리한 카라세 대통령이 이끄는 토착 정부를 설치했다.
+main-news	MSRpar	2012test	0578	2.400	PC 사용자를 염두에 두고 새로운 합법적인 다운로드 서비스가 시작됩니다.	바이뮤직은 PC 사용자들을 위한 최초의 무료 구독 유료 다운로드 음악 서비스이다.
+main-news	MSRpar	2012test	0580	3.800	30년 만기 채권인 US30yt = RR은 22/32로 4.31%의 수익률을 보였으며 수요일이 끝나갈 무렵에는 4.35%의 수익률을 보였습니다.	30년 만기 채권인 US30yt = RR은 수요일 늦게 4.35퍼센트에서 낮춰진 4.30퍼센트의 수익률로 1-3/32 성장했다.
+main-news	MSRpar	2012test	0582	3.000	지난주에, 그의 변호사들이 주지사 마크 R.워너에게 물었으나, 주지사는 개입하는 것을 거부했다.	지난주, 그의 변호사들은 워너에게 새로운 양형 심리로 이어질 수 있는 특정 조건 하에서 관용을 베풀어 줄 것을 요청했다.
+main-news	MSRpar	2012test	0586	3.500	린다 링글 주지사와 그녀의 직원들은 해군 기지에 있었고 발사를 지켜보았습니다.	린다 링글 주지사와 다른 고위 인사들은 발사를 보기 위해 기지에 있을 예정이다.
+main-news	MSRpar	2012test	0597	3.500	수사관들이 할 수 있는 최선의 일은 고립된 사업 결정의 과정과 본질에 대해 따져 보는 것이다. 그리고 관리자로서의 그의 능력에 의문을 제기하는 것이다 "	Ebbers의 변호사인 Reid Weingarten은 철저한 조사에도 불구하고 "조사자가 할 수 있는 최선의 일은 고립된 사업 결정의 과정과 본질에 대해 꼬집는 것입니다."
+main-news	MSRpar	2012test	0600	3.750	법무부는 목요일 미시시피 주에 대해 연방정부 관리들이 "청소년 학대와 양립할 수 없는" 두 개의 국영 시설에서 "불편한" 조건을 종식시키지 못한 것에 대해 소송을 제기했다.	법무부는 목요일 미시시피 주에 대해 두 개의 국영 시설에서 청소년 범죄자의 학대를 주장하며 민권 소송을 제기했다.
+main-news	MSRpar	2012test	0601	2.250	첼시의 수비수 마르셀 데살리는 가장 최근에 발언을 했다.	프랑스 주장이자 첼시 수비수인 마르셀 데살리는 후자가 사실이라고 믿는다.
+main-news	MSRpar	2012test	0605	3.250	그녀는 그녀의 부대에서 유일한 여성이었고 트럭 운전사 연합 지역 995의 일원이었습니다.	그녀는 창고 노동자와 중장비 운영자로 고용된 유일한 여성이었고 그녀의 트럭 운전사 연합 지역 중 유일한 여성이었다.
+main-news	MSRpar	2012test	0608	4.800	특수 경찰은 토요일 아침 시베리아의 노보시비르스크 시에서 호도코프스키를 억류했는데, 그의 비행기의 연료 보급을 위해 정지한 곳이다.	경찰은 토요일 아침 시베리아의 노보시비르스크 시에서 그의 제트기가 급유 위해 정지했을 때 호도코프스키를 구금했다.
+main-news	MSRpar	2012test	0609	3.800	소니 에릭슨은 또한 수익성을 높이기 위해 독일 뮌헨에 있는 GSM/UMTS R & D 센터를 폐쇄할 것이라고 말했다.	소니 에릭슨은 또한 GSM과 UMTS 단말기를 위해 독일 뮌헨에 있는 R & D 사이트를 폐쇄할 계획이라고 말했다.
+main-news	MSRpar	2012test	0610	3.400	그러나 이 나라는 13억 명의 사람들이 살고 있는 광대한 시골로 확산되는 것을 막기 위해 분주히 움직이고 있다.	중국은 13억 명 대부분의 사람들이 살고 있는 시골로 질병이 퍼지는 것을 막기 위해 허둥대고 있다.
+main-news	MSRpar	2012test	0611	2.000	캔자스 보건 환경부 기록에 따르면 작년에 14세 이하의 소녀들에 대해 88건의 낙태가 행해졌다.	캔자스 보건 환경부의 통계에 따르면 작년에 주에서 11,844건의 낙태가 행해졌다고 한다.
+main-news	MSRpar	2012test	0614	4.600	"지도 버그가 대다수의 크론 환자에게 존재한다는 발견은 그것이 거의 확실히 장 염증을 일으키고 있음을 의미합니다."라고 성명서에서 말했다.	연구원들은 대부분의 크론스 환자들에게 지도 버그가 존재한다는 사실은 그것이 거의 확실히 장 염증을 일으키고 있다는 것을 의미한다고 말한다.
+main-news	MSRpar	2012test	0617	3.500	2001년에 태어난 소년들의 기대 수명은 74.4세로 1990년 이후 2년이 늘어났다.	보고서에 따르면, 평균 기대 수명은 1990년 이후 거의 2년이 증가했다고 한다.
+main-news	MSRpar	2012test	0620	3.333	전체 12개월 동안 고속 케이블 모뎀 연결이 49% 증가했습니다.	2003년 6월 30일로 끝나는 1년 만기 간, 고속 회선은 45% 증가했다.
+main-news	MSRpar	2012test	0623	2.667	우리는 그 보고서가 법원이 판결한 것과 완전히 일치한다고 믿는다... 그 부서의 행동은 법에 완전히 포함되어 있다.	컴스톡은 몇몇 연방 법원들이 구금이 법에 완전히 포함되어 있다고 판결했다고 말했다.
+main-news	MSRpar	2012test	0630	3.200	사실, 자칭 일 중독자인 Weill 씨는 그가 회사에 계속 관여할 계획이라고 말했다.	여전히, 웨일 씨는 그 회사에 큰 힘을 남길 것이다.
+main-news	MSRpar	2012test	0633	3.800	전직 투자 은행가였던 그레고리 파르세기안은 최고 경영자로 임명되었다.	그레그 파르세기안은 새 최고 경영자로 임명되었다.
+main-news	MSRpar	2012test	0635	3.400	이 보고서는 발리 폭탄 테러의 작전 사령관인 무클라스의 파리다와의 결혼을 "고도로 국제적이고 교육 수준이 높은 젊은 여성"이라고 인용했다.	이 보고서는 지가 어떻게 결혼을 성장하기 위해 사용하는지에 대한 예로서 발리 폭탄 테러의 작전 사령관인 무클라스의 결혼을 인용했다.
+main-news	MSRpar	2012test	0636	3.400	자유 의회의 요람은 국가 단체의 입장을 거스르는 첫 번째가 아니다.	필라델피아 의회는 국가 정책에 반기를 든 최초의 의회가 아니다.
+main-news	MSRpar	2012test	0639	3.600	"그것은 '어이없다,' funny Cide의 트레이너 Barclay tagg는 말했다.	한편, funny cide의 트레이너인 바클레이 태그는 그 주장을 "우스꽝스럽다"라고 불렀다.
+main-news	MSRpar	2012test	0643	3.800	작년에 쿠바 관리들은 약 20명의 후보로 지명된 쿠바 음악가들 중 누구도 로스 엔젤레스의 그래미에 참석하기 위해 미국 비자를 제때 받지 못했다고 말했다.	쿠바 관리들은 작년에 약 20명의 지명된 쿠바 음악가들 중 라틴 그래미에 참석하기 위해 미국 비자를 제때 받은 사람은 아무도 없다고 말했다.
+main-news	MSRpar	2012test	0672	1.800	미국 보수주의자들은 분명히 감독 교회 내의 소수파에 속해 있다.	그 편지는 교황청이 주교 교회 내에서 보수주의자들을 지지하는 데 관심을 갖고 있음을 나타낸다.
+main-news	MSRpar	2012test	0674	3.200	뉴욕 상원 의원의 새 책 "살아있는 역사,"는 분명한 베스트셀러로 보인다.	뉴욕 상원 의원이자 전 영부인인 힐러리 클린턴 은 월요일에 "살아있는 역사"라는 제목의 책을 출간했다.
+main-news	MSRpar	2012test	0699	3.000	"캐나다는 작은 나라이며, 이 같은 회사와 이런 거래가 필요합니다."	열정적인 민족주의자인 알레산드로는 "캐나다는 작은 나라이며 우리는 이와 같은 회사가 더 많이 필요합니다."
+main-news	MSRpar	2012test	0706	1.800	경찰청 관계자 s.k.Tonapi는 로이터에 최소 40명이 사망하였으며 100명 이상이 부상당했다고 말했다.	주 내무부 대변인 바산트 피케는 적어도 42명이 사망하고 112명이 부상했다고 로이터에 말했다.
+main-news	MSRpar	2012test	0711	2.750	"제레미는 좋은 남자입니다."이발사는 다음과 같이 덧붙였습니다. "제레미는 뉴욕 운동선수의 꿈의 삶을 살고 있습니다.	그는 또한 쇼키가 "뉴욕 운동선수의 꿈속에서 살고 있다"라고 말했다.
+main-news	MSRpar	2012test	0715	1.600	그러나 미쓰비시 도쿄 금융(JP : 8306 : 뉴스, 차트, 프로필)은 3,000엔, 즉 0.65% 하락한 456,000엔을 기록했다.	sumitomo Mitsui 금융 (JP : 8316 : 뉴스, 차트, 프로필)은 198,000 엔으로 2.5% 하락했다.
+main-news	MSRpar	2012test	0732	2.750	6번 염색체에 있는 약 1,557개의 유전자가 기능 중인 것으로 생각된다.	나머지 1,557개의 유전자는 모두 기능 중이라고 믿어진다.
+main-news	MSRpar	2012test	0734	3.250	2분기에, 아나다르코는 현재 4천 6백만 보의 양을 예상하고 있는데, 이는 4천 8백만 보의 양보다 줄어든 것이다.	2분기 생산은 4800만 배럴에서 4600만 배럴로 줄어들었습니다.
+main-news	MSRpar	2012test	0735	2.250	미군은 티크리트, 사담 후세인의 고향, 바트 당 지지자들의 중심지 근처에서 5시간 동안의 소탕 기간 동안 저항을 접하지 못했다.	티크리트는 사담 후세인의 고향이며 그 주변 지역은 바트당 지지자들과 이라크 군 고위 관리들의 온상으로 알려져 있다.
+main-news	MSRpar	2012test	0737	3.000	몬테네그로의 자유 동맹인 미오드라그 지브코비치는 31%의 득표율을 기록했고 독립당의 드래건 하즈두코비치는 4%의 득표율을 기록했다.	친독립 야당인 자유 동맹의 지도자인 미오드라그 지브코비치는 31%의 득표율로 2위를 차지했다.
+main-news	MSRpar	2012test	0740	3.182	1년 전, 피어슨은 2천 6백만 달러의 세전 이익을 기록했다.	1년 전 그 회사는 2천 6백만 파운드의 이익을 올렸다.
+main-news	MSRpar	2012test	0742	3.750	목요일까지 오라클은 피플소프트의 3475만 주가 입찰되었다고 말했다.	오라클은 성명에서 일부 3470만 주가 입찰되었다고 말했다.
+main-news	MSRpar	2012test	0745	2.600	1998년 25억 달러에 체인을 세이프웨이에 팔기 전에 유카이파는 도미닉을 소유했다.	유카이파는 1995년에 도미닉을 6억 9천 3 백만 달러에 사서 1998년에 18억 달러에 Safeway에 팔았습니다.
+main-news	MSRpar	2012test	0748	1.250	오스틴의 빌라프랑카, 라레도의 래트클리프, 알부커키에서 보고된 무덤들	피트 슬로버는 라레도에서, 그리고 그로머 제퍼스는 알부커키에서 보고했다.
+main-news	MSRpar	2012test	0749	2.500	25%의 증가는 대학 등록금을 잡다한 캠퍼스 기반 수수료를 포함하여 연간 약 5,247 달러로 인상할 것입니다.	25%의 인상은 연간 UC 학부 등록금을 4,794달러로, 대학원 수료는 5,019달러로 인상한다.
+main-news	MSRpar	2012train	0008	4.200	당국은 이 과학자가 12월 10일 사스 증상을 보인 후 집에서 제대로 격리되었다고 말했다.	이 과학자는 또한 사스 증상이 생기자마자 스스로 집에서 격리했다고 관계자들은 말했다.
+main-news	MSRpar	2012train	0009	2.600	지원 계약이 있는 현재 고객을 위해 웹vPN이라는 무료 소프트웨어 업그레이드로 지원이 제공됩니다.	업그레이드는 2004년 1월에 스마넷 지원을 받는 현재 고객들에게 무료 다운로드로 제공될 것입니다.
+main-news	MSRpar	2012train	0024	1.400	힐센라스와 클라만은 각각 세 건의 증권 사기 혐의로 기소되었다.	클라만은 16건의 유선 사기 혐의로 기소되었다.
+main-news	MSRpar	2012train	0029	3.600	세포 분석과 항원 위험 및 수율 통보'를 위한 카나리라고 불리는 새로운 센서는 두 가지 중요한 변화로 이 자연 과정을 포착합니다.	그 팀은 세포 분석과 항원 위험과 수율에 대한 통지 센서를 카나리라 이름을 붙였다.
+main-news	MSRpar	2012train	0031	3.000	1, 포트 카슨 기지 SGT. 어네스트 버클류, 33, 은 펜실베니아에 그의 어머니의 장례식을 위해 집으로 가는 길이었습니다.	33세의 어니스트 버클루 경사는 그의 어머니를 펜실베니아에 묻기 위해 이라크에서 집으로 돌아오고 있었다.
+main-news	MSRpar	2012train	0036	3.500	웩살은 증권 사기에 대해 유죄를 인정했고 다음 주에 형을 선고받을 예정이다.	웩살은 작년에 내부자 거래 혐의에 대해 유죄를 인정했고, 6월 10일 형을 선고받을 예정이다.
+main-news	MSRpar	2012train	0066	5.000	이 장치는 인터넷 라디오 스트림을 재생하며, 30일간의 리얼네트워크의 랩소디 음악 서비스 체험을 시행한다.	이 제품은 또한 인터넷 라디오를 스트리밍과, 리얼네트워크의 랩소디 디지털 음악 구독 서비스를 위한 30일간의 무료 체험을 준다.
+main-news	MSRpar	2012train	0067	3.000	달러화는 금요일 1.1486달러에서 유로당 1.1624달러로 낮아졌고 런던에서 오전 10시 15분에 1.1594달러로 거래되었다.	달러화는 금요일 오전 7시 30분에 유로당 1.1564달러로 떨어졌고, 금요일에는 1.1486달러로 떨어졌다.
+main-news	MSRpar	2012train	0074	3.800	청문회에서 모랄레스는 "진실한 후회와 회한"을 그의 행동에 대해 표현했다.	7월에 유죄를 인정한 모랄레스는 자신의 범죄에 대해 "진실한 후회와 회한"을 표했다.
+main-news	MSRpar	2012train	0077	3.800	갤빈은 사이트 파인더가 소개된 이후 6천 5백만 번 방문했다고 말했다.	9월 21일 일요일까지, 사이트 파인더는 인터넷 사용자들에 의해 6천 5백만 번 이상 방문되었다.
+main-news	MSRpar	2012train	0095	4.222	Sunncomm의 Peter Jacobs에 따르면, "Medimax는 그것을 구입한 회사에 '광고'와 정확히 같게 수행합니다.	"mediamax는 그것을 구입한 회사에 "광고"와 정확히 일치하게 수행합니다. "Jacobs는 성명서에서 말했습니다.
+main-news	MSRpar	2012train	0113	2.500	그는 화요일 밤에 체포된 아틀란타로 추적되었다.	그는 월요일 밤, 경찰이 제보를 받아 행동함으로써 조지아주 아틀란타에서 체포되었다.
+main-news	MSRpar	2012train	0133	5.000	부시 행정부는 이라크에 입성한 후세인 충신들과 외국 무슬림 무장단체들이 폭격과 게릴라 공격의 공세에 대해 미군과 싸우고 있다고 비난하고 있다.	부시 행정부는 이라크에 입성한 사담 후세인 충신들과 외국 무슬림 무장세력에 대한 폭탄 테러와 게릴라 공격의 공세를 비난하고 있다.
+main-news	MSRpar	2012train	0134	4.000	그는 나중에 오른쪽 허벅지와 오른쪽 손목과 팔꿈치의 뼈를 부러뜨렸다고 나타났다.	투어 의사들은 나중에 그가 엉덩이 근처에서 오른쪽 다리를 부러뜨렸고 손목과 팔꿈치 골절도 입었음을 확인했다.
+main-news	MSRpar	2012train	0149	3.600	상원은 화요일에 저생산 핵무기의 연구개발에 대한 10년 된 금지를 해제하기로 합의했다.	하원과 상원 법안은 모두 저수익 핵무기의 연구 개발 금지를 종식시킬 것이다.
+main-news	MSRpar	2012train	0157	4.200	약 9천 5백만 명의 미국인들 - 전체 가구의 절반 - 뮤추얼 펀드에 투자합니다.	미국 전체 가구의 약 절반이 뮤추얼 펀드에 돈을 가지고 있다.
+main-news	MSRpar	2012train	0162	3.400	의회는 지난 두 번의 회기에서 처방약 법안을 통과시켰지만, 상원은 그렇게 하는 것을 실패했다.	의회는 지난 두 번의 의회에서 법안을 통과시켰지만, 상원은 그렇지 않았다.
+main-news	MSRpar	2012train	0164	2.600	노인들과 면역체계가 약해진 사람들은 또한 모기에 물리는 것을 막아야 한다고 또한 촉구한다.	그러나 노인들과 면역체계가 약한 사람들에게는 치명적일 수 있다.
+main-news	MSRpar	2012train	0167	3.600	래퍼티씨의 변호사 토마스 에젤은 켄터키 신문에 "이것에 대한 나의 이해는 냉동된 상태에서 수정을 성공한 비율이 낮다는 것이다.	"이것에 대한 나의 이해는 냉동된 상태에서 수정의 성공률이 낮다는 것입니다."라고 Ezzell은 말했다.
+main-news	MSRpar	2012train	0171	4.000	클라만은 뉴욕 동부에 위치한 독점적인 여름 휴양지인 햄튼에서 FBI 요원들에 의해 체포되었다.	클라만은 월요일 아침 뉴욕에 있는 그의 집에서 FBI 요원들에 의해 체포되었다.
+main-news	MSRpar	2012train	0172	3.500	주교는 경찰에게 그가 그의 차에 돌을 던진 개나 고양이나 누군가를 쳤다고 생각했다고 말했다.	67세의 주교인 O Brien은 경찰에게 그가 개나 고양이를 쳤다고 생각했다고 말했다.
+main-news	MSRpar	2012train	0181	1.500	카운트다운 다이얼이 완료된 프로모션 포스터는 독자들에게 "해리 포터와 불사조 기사단"의 출시를 상기시킵니다. "	상자들은 "해리 포터와 불사조 기사단"의 하드커버 사본으로 가득합니다.
+main-news	MSRpar	2012train	0186	3.500	"더 많은 테스트가 아직 진행 중이지만, 초기 탐지를 감안할 때 이 단계에서는 그러한 사례의 전망이 긍정적일 것입니다."전문가는 어제 말했다.	"그러나 이 단계에서는 초기 발견을 감안할 때 그러한 사례의 전망은 긍정적일 것"이라고 그는 말했다.
+main-news	MSRpar	2012train	0189	1.750	오전 거래에서 다우존스 산업평균지수는 월요일 51포인트 하락한 8,571.69로 40.12, 즉 0.5퍼센트 상승했다.	뉴욕의 다우존스 산업평균지수는 30개의 블루칩 주식의 1.04% 오른 3.29포인트 오른 8,585.97을 기록했다.
+main-news	MSRpar	2012train	0191	3.750	리치 미디어는 2002년 q2의 3 %에서 2003년 q2의 6 %로 점유율을 두 배로 늘렸다.	리치 미디어 인터랙티브 광고 형식은 2002년 2분기에 3 %에서 2003년 2분기에 6 %로 점유율을 두 배로 늘렸다.
+main-news	MSRpar	2012train	0196	4.800	도널드 H. 럼즈펠드 국방장관은 화요일 사담 후세인의 이라크에서 폐위된 정권의 완고한 잔당들을 축출하는 데 시간이 걸릴 것이라고 말했다.	도널드 럼즈펠드 국방장관은 화요일 이라크에서 사담 후세인의 폐위된 정권의 완고한 잔당들을 찾는 데 시간이 걸릴 것이라고 말했다.
+main-news	MSRpar	2012train	0200	3.400	사일리야는 이라크 전쟁의 지휘 기지였지만, 중앙 사령부는 전쟁을 진행한 수백 명의 사람들을 플로리다 주 탬파의 집으로 보냈습니다.	Sayliyah는 이라크 전쟁의 지휘 기지였지만, 전쟁을 진행한 수백 명의 사람들은 미국으로 돌아왔다.
+main-news	MSRpar	2012train	0202	2.600	SCO는 면허에 대한 가격 책정 조건은 몇 주 동안 발표되지 않을 것이라고 말한다.	가격 책정에 대한 세부사항은 몇 주 안에 발표될 것이라고 맥브라이드는 말했다.
+main-news	MSRpar	2012train	0206	4.400	레이싱 업계의 소식통들은 폰타나가 다음 시즌부터 노동절 주말에 두 번째 나스카 경주를 할 것이라고 일간 공지에 말했다.	레이싱 업계의 소식통은 폰타나가 다음 시즌부터 노동절 주말에 두 번째 나스카 경주를 할 것이라고 말했다.
+main-news	MSRpar	2012train	0214	3.600	다우존스 산업평균지수는 1월 17일 이후 최고치인 8,588.36으로 56.79포인트 즉 0.67% 상승해 마감했다.	다우존스 산업평균지수(DJ : 뉴스, 차트, 프로필)는 56포인트, 즉 0.7퍼센트 오른 8,588을 기록했다.
+main-news	MSRpar	2012train	0221	3.600	뉴멕시코 로보스 대학에서 짜증으로 쫓겨나 작년에 베일러로 전학 온 데네히는 매일 성경을 읽기 시작했다.	짜증으로 뉴멕시코 로보스 대학에서 퇴학당한 후 작년에 베일러로 전학 온 데네히는 2002년 6월에 다시 태어난 기독교인이 되었다.
+main-news	MSRpar	2012train	0223	4.000	바시르는 사실에 대한 의견이 아닌 의견에 의해 재판을 받고 있다고 느꼈다고 마헨드라다타는 Reuters에게 말했다.	바시르는 또한 그가 법의 사실보다는 의견에 의해 재판을 받고 있다고 느꼈다고 그는 덧붙였다.
+main-news	MSRpar	2012train	0224	4.500	스코필드는 토퍼에게 그녀가 오도넬의 제안과 프로젝트의 많은 부분을 무시했다는 것을 반대심문에서 인정하게 했다.	그러나 도넬의 변호사인 로나 쇼필드의 반대심문에서 토퍼는 그녀가 오도넬의 제안과 프로젝트를 무시했다고 인정했다.
+main-news	MSRpar	2012train	0237	5.000	이 사건에서, 법원은 신시나티가 미학을 위해 광고 팜플렛만을 금지하여 헌법 수정 제1조를 위반했다고 판결했다.	이 경우, 법원은 신시나티 시가 미학을 위해 광고 팜플렛만을 금지하여 헌법 수정 제1조를 위반했다고 판결했다.
+main-news	MSRpar	2012train	0248	3.400	2001년 9월 11일에 상자 절단기가 납치범들에게 무기로 사용된 후 휴대 용품에서 금지되어왔다.	상자 절단기는 2001년 9월 11일 공격 당시 19명의 납치범이 사용한 무기였습니다.
+main-news	MSRpar	2012train	0253	3.750	7월 22일 무어는 이 사건을 미국 대법원에 직접 항소할 것이라고 발표했다.	알라바마의 무어는 자신의 사건을 국가의 최고 법원에 항소할 것이라고 말한다.
+main-news	MSRpar	2012train	0262	3.176	남서부는 분기의 교통량이 4.6퍼센트 증가했으며, 22억 달러의 현금으로 분기를 끝냈다고 말했다.	남서부는 4.2퍼센트의 용량 증가로 분기의 교통량이 4.6퍼센트 증가했다고 말했다.
+main-news	MSRpar	2012train	0279	3.600	윈도우 운영 체제의 네 가지 버전이 대상입니다 : 윈도우 NT, 윈도우 2000, 윈도우 XP 및 윈도우 서버 2003.	새로운 웜은 2000, XP, NT 4.0 및 서버 2003과 같은 윈도우 시스템에 영향을 미칩니다.
+main-news	MSRpar	2012train	0281	3.200	맥도날드사와 웬디의 국제 주식회사의 주식은 월요일 뉴욕 증권거래소에서 소폭 상승세를 이어갔다.	맥도날드와 웬디의 주식은 월요일 뉴욕 증권 거래소의 오후 거래에서 1% 이상 상승하며 최근의 회복세를 이어갔다.
+main-news	MSRpar	2012train	0292	3.500	그는 노련하게 상원의 "작은 세금 감면 계획"을 따랐다.	우리는 조금의 세금 감면 계획이 필요하지 않다.
+main-news	MSRpar	2012train	0293	1.900	최신 해리 포터를 사려고 하는 건가?	해리 포터의 최신 마법사 트릭?
+main-news	MSRpar	2012train	0294	3.000	Mediaq의 고객으로는 주요 휴대용 제조업체인 mitsubishi, Siemens, Palm, Sharp, Philips, Dell 및 Sony를 포함합니다.	Nvidia는 Siemens ag, sharp, philips, dell, mitsubishi, 소니 코퍼레이션과 같은 플레이어를 포함하는 mediaq의 고객을 이용할 것입니다.
+main-news	MSRpar	2012train	0295	3.600	프랑스 스트라스부르에 본부를 둔 아벤티스는 여전히 독감 백신을 만드는 소수의 회사 중 하나이다.	프랑스 스트라스부르에 본부를 둔 아벤티스는 백신의 주요 생산자 중 한 명이며, 여전히 그것을 만드는 소수의 회사 중 한 명이다.
+main-news	MSRpar	2012train	0307	3.750	마이클 블룸버그 뉴욕 시장 : "나는 여러 다른 그룹들과 함께 행진을 시도할 것이다.	"나는 여러 다른 그룹과 함께 행진하려고 노력할 것이다."블룸버그가 말했다.
+main-news	MSRpar	2012train	0308	3.600	이번 공격은 5월 12일 리야드의 외부 화합물 근처에서 행해진 다른 공격들과 비슷해 보였다.	이번 공격은 5월 12일 리야드의 외부 화합물 근처에서 행해진 공격과 비슷해 보였는데, 관계자들 또한 알카에다를 비난했다.
+main-news	MSRpar	2012train	0311	3.750	"우리는 우리의 패치 프로세스를 개선하기 위해 많은 노력과 에너지를 쏟아붓습니다. 아마도 우리가 했어야 했던 것보다 늦게 그리고 이제 우리는 믿을 수 없는 속도를 얻고 있습니다.	"우리는 패치 진행을 개선하기 위해 많은 노력과 에너지를 쏟아부었습니다. 아마도 우리가 해야 했던 것보다 늦게.
+main-news	MSRpar	2012train	0315	3.333	그 소년은 소화기에서 나온 내연제로 가득 찬 방도 뿌려서 보기가 어려웠다고 소장은 말했다.	소년은 한 번 벽에 총을 쏘고 방 안에 소화기를 뿌려서 보기가 힘들다고 소장은 말했다.
+main-news	MSRpar	2012train	0318	2.600	"그러나 hrt는 심장병이나 다른 만성 질환을 예방하는 데 사용되어서는 안됩니다."	"명백한 메시지는 이것이 심혈관 질환을 예방하는 데 사용되어서는 안된다는 것입니다."맨슨은 말했다.
+main-news	MSRpar	2012train	0321	1.800	고기, 가금류, 버터, 치즈, 견과류는 1년 전 시카고의 후줄근한 냉장창고에서 압수되었다.	고기, 가금류, 버터, 치즈, 견과류는 시카고의 100개 이상의 도매상들에 의해 저장되고 있었다.
+main-news	MSRpar	2012train	0322	3.600	블루 코어3- 멀티미디어는 듀얼 ADC와 스테레오 오디오용 DAC가 있는 16비트 스테레오 오디오 코덱을 포함한다.	블루 코어3- 멀티미디어는 오픈 플랫폼 DSP 코프로세서를 포함하고 있으며, 스테레오 오디오를 위한 듀얼 ADC와 DAC를 가진 16비트 스테레오 오디오 코덱도 포함되어 있다.
+main-news	MSRpar	2012train	0330	4.400	이제, 콜럼비아 재난의 여파로 기관의 마지막 세 척의 셔틀들이 좌초된 상황에서, 그 기다림은 더 길어질 수 있다.	남은 세 개의 셔틀이 콜롬비아 사고로 인해 좌초된 상태에서, 신인 선수들은 더 오래 기다려야 할 것이다.
+main-news	MSRpar	2012train	0331	3.000	61세의 브레머는 전직 국무장관 윌리엄 P. 로저스와 헨리 키신저의 한때 비서로 1986년부터 1989년까지 대테러 대사로 활동했다.	61세의 브레머는 전 국무부 장관인 윌리엄 로저스와 헨리 키신저의 전 비서이다.
+main-news	MSRpar	2012train	0338	4.000	오라클의 대변인에 따르면, 그러한 대화는 화요일 밤처럼 이루어지지 않았다고 한다.	오라클 대변인에 따르면, 그러한 대화는 열리지 않았다.
+main-news	MSRpar	2012train	0341	3.250	대만은 7년 동안 유엔과 제휴한 WHO에 대한 감시자 지위를 얻으려고 시도했지만, 제네바에서 열리는 연례 회의에서 3월 19일에 다시 거절당했다.	그것은 7년 동안 관찰자 지위를 추구했지만, 제네바에서 열리는 WHO 연례 회의에서 다시 5월 19일에 거절당했다.
+main-news	MSRpar	2012train	0344	3.000	워싱턴 카운티의 한 남성이 웨스트 나일 바이러스의 첫 번째 인간 사례를 가지고 있을 수도 있다고 보건부는 금요일 말했다.	올해 웨스트 나일의 최초이자 유일한 인간 사례는 9월 보건 당국자들에 의해 확인되었다.
+main-news	MSRpar	2012train	0345	2.600	국립 유방암 센터의 크리스틴 이완 교수는 여성들에 대한 위험을 정량화하기에는 너무 이르다고 말했다.	국립 유방암 센터의 크리스틴 이완 교수는 공황상태에 빠질 필요가 없다고 말했다.
+main-news	MSRpar	2012train	0346	2.600	브렌델과 본 클라크 재무담당 최고책임자는 6월 9일 사임했다.	그 회사의 최고 경영자는 은퇴했고 최고 재무 책임자는 사임했다.
+main-news	MSRpar	2012train	0347	4.600	의료보험에 대해, NDP는 민영화와 의료 보험료가 없을 것이라고 말한다.	새 민주 당원들은 또한 의료 민영화와 보험료에 대한 그들의 약속을 갱신했다.
+main-news	MSRpar	2012train	0353	2.750	신생 기업들은 오늘 PSDAQ에서 PLMO와 PSRC라는 티커 심볼로 거래를 시작할 것이다.	또한 거래의 일환으로, Palmsource 주식은 수요일에 PSRC라는 티커 심볼로 나스닥 주식시장에서 거래되기 시작할 것이다.
+main-news	MSRpar	2012train	0354	2.200	어린이, 성인, 서점 및 우편 노동자 모두 "해리 포터와 불사조의 기사단"을 준비하고 있습니다.	상자들은 "해리 포터와 불사조 기사단"의 하드커버 사본으로 가득합니다.
+main-news	MSRpar	2012train	0363	3.333	정부는 두 번째 임무를 수행할 -중국어인 '태공'에서 만들어진 우주라는 뜻을 가진 용어- 타이코나우트들을 식별하지 못했다.	정부는 타이콩에서 만들어진 용어인 타이코나우트들을 식별하지 않았다. 이 용어는 중국어로 우주를 뜻한다.
+main-news	MSRpar	2012train	0376	2.769	나는 우리가 옳은 주장을 했고 옳은 일을 했다고 생각한다. "	블레어 총리는 계속 말했다 : "나는 우리가 이라크와 관련하여 옳은 일을 했다고 생각한다.
+main-news	MSRpar	2012train	0382	2.800	Kollar-Kotelly는 1월에 또 다른 독점 금지 조치 준수 심리를 가질 예정이다.	판사는 1월 말 또 다른 감독 심리를 예정했다.
+main-news	MSRpar	2012train	0384	4.000	"내일 미션 여관에서 나는 위대한 캘리포니아 주의 주지사 당선인을 축하할 기회가 있습니다.	"나는 위대한 캘리포니아 주의 주지사 당선자를 축하할 기회가 있으며, 나는 그것을 기대하고 있다."
+main-news	MSRpar	2012train	0388	4.733	"나는 일본이 계속 개입할 것으로 기대하지만, 그 양은 급격히 떨어질 것 같다."JP 모건 추격전에서 외환 전략가인 junya tanase가 말했다.	JP 모건 체이스에서 외환 전략가인 준야 타나세는 "나는 일본이 계속 개입할 것으로 기대하지만 그 양은 급격히 떨어질 것 같다."
+main-news	MSRpar	2012train	0389	1.600	썬샤인 그룹은 이 거래에 대해 개발자, 관련 회사, 아폴로 부동산 고문을 대표했다.	개발업자, 관련회사, 아폴로 부동산 고문들은 매출이 10억 달러에 달하기를 희망한다.
+main-news	MSRpar	2012train	0395	3.750	"그것은 내가 세계에 빚진 것의 3분의 1에 관한 것입니다."그는 기자들에게 말했다.	그것은 나에게 오지 않지만, 그것은 내가 세상에 빚진 것의 약 3분의 1에 불과하다.
+main-news	MSRpar	2012train	0401	0.500	기술주 중심의 나스닥 종합지수는 2.90포인트, 즉 0.18% 오른 1,606.87을 기록했다.	12:10 p.m. edt, 캐나다의 기준 S & P / TSX 종합지수는 6.87포인트 상승한 6,979.29로 0.1% 상승했다.
+main-news	MSRpar	2012train	0404	3.250	기준 10년 만기 재무부 채권 수익률 <US10yt = R>은 화요일에 4.20% 이하로 떨어졌다.	국고증권의 가격도 상승했고, 기준 10년 만기 채권의 수익률은 4.19 퍼센트로 떨어졌다.
+main-news	MSRpar	2012train	0406	2.400	"프랭키와 조니"의 비판적으로 찬사 받은 공동 주연인 에디 팔코도 마찬가지였다.	에디 팔코는 "프랭키와 조니" 후보에 오르지 않았다.
+main-news	MSRpar	2012train	0413	3.200	"사담은 사라졌지만, 우리는 (미국) 점령이 끝나기를 원한다"라고 타격 지역 거주자 아부 카심은 말했다.	"사담은 사라졌지만, 우리는 (미국) 점령이 끝나기를 원한다."
+main-news	MSRpar	2012train	0434	3.750	지난 7년간 부지사였던 조커넌은 오배넌이 토요일에 사망한 후 주지사로 취임했다.	오배넌의 부지사이자 친구이자 정치 파트너였던 커넌은 오 배넌이 토요일에 죽은 지 6시간 만에 취임을 했다.
+main-news	MSRpar	2012train	0437	3.250	어드벤스 마이크로 디바이시스는 후지쓰 시멘스 컴퓨터가 AMD의 옵테론 200 시리즈를 기반으로 한 고급 워크스테이션을 제공하고 있다고 말했다.	화요일에 후지쓰 시멘스 컴퓨터는 첨단 마이크로 기기의 옵테론 프로세서를 기반으로 워크스테이션을 제공하겠다는 약속을 잘 이행했다.
+main-news	MSRpar	2012train	0443	2.400	코닥은 분기에 주당 5센트에서 25센트의 수익을 기대하고 있다.	톰슨이 처음 조사한 분석가들은 코닥이 분기에 주당 68센트를 벌 것으로 예상했었다.
+main-news	MSRpar	2012train	0446	4.500	나스닥 주식시장에서 코리사 주식은 12센트 하락한 6.88달러를 기록했다.	코리사 주식은 뉴스에서 거의 주춤하지 않았고, 12센트 줄어 6달러 88센트로 마감했다.
+main-news	MSRpar	2012train	0451	4.000	그는 지난 일요일에 교환소의 임시 회장 겸 최고 경영자가 된 전 Citicorp 최고 경영자인 John S. Reed에 대해 언급하고 있었다.	다음 주, 일요일에 교환소의 임시 회장 겸 최고 경영자가 된 전 Citicorp 최고 경영자인 John S. Reed가 그의 자리를 맡을 것이다.
+main-news	MSRpar	2012train	0464	3.800	그는 항공 사복 경관이 운반된 비행의 비율이나 그들이 증가할 것인지 여부를 밝히기를 거부했다.	그는 국내선 비행의 몇 퍼센트가 보안 요원들을 탑승시켰는지 말하기를 거부했다.
+main-news	MSRpar	2012train	0475	0.800	나스닥 종합지수는 19.67, 즉 1.3% 상승한 1523.71을 기록하며 6월 18일 이후 최고치를 기록했다.	S&P500은 3월 최저치 이후 16% 상승했고 어제는 12월 2일 이후 최고치를 기록하며 마감했다.
+main-news	MSRpar	2012train	0477	3.000	그들은 이 영화가 레이건의 '균형 잡힌 묘사의 제시'를 하지 못했다고 그들이 결론지었다고 말했다.	CBS는 "이 쇼는 CBS와 청중을 위한 레이건의 균형 잡힌 묘사를 제시하지 않는다"라고 말했다.
+main-news	MSRpar	2012train	0511	3.500	주 보건 당국자들은 오늘 한 젊은 북동 캔자스 여성이 인간이나 동물 중 원두를 가지고 있는 첫 번째 사례일 가능성이 높다고 말했다.	보건 당국은 오늘 한 북동 캔자스 여성이 주에서 처음으로 발생한 원두와 미시시피강 서쪽의 첫 번째 사례를 가지고 있다고 확인했다.
+main-news	MSRpar	2012train	0514	2.000	나비스타 주식은 39.93달러로 하락한 후 뉴욕 증권거래소에서 41.19달러로 44센트 하락, 즉 1.1퍼센트 하락했다.	뉴욕 증권거래소에서 나비스타 주식은 일찍 39.93달러로 하락한 후 오후 늦게 1페니가 올라 41.64달러가 되었다.
+main-news	MSRpar	2012train	0520	2.800	인텔사만 0.3% 수익률이 낮았다.	인텔사만 배당 수익이 낮다.
+main-news	MSRpar	2012train	0523	2.000	MGM, NBC, 리버티 임원들은 즉시 논평을 할 수 없었다.	마이크로소프트 대변인은 즉각적으로 논평할 수 없었다.
+main-news	MSRpar	2012train	0524	3.000	새로운 분석에 따르면 16,608명의 참가자 중 32명이 약 5년간의 추적 관찰 기간 동안 난소암에 걸렸다고 한다.	새로운 분석에 따르면 16,608명의 참가자 중 호르몬을 복용하는 20명의 여성을 포함하여 32명이 약 5년 반의 추적 관찰 기간 동안 난소암에 걸렸다.
+main-news	MSRpar	2012train	0528	3.500	베테랑 무대 배우이자 영화배우인 흄 크로닌이 일요일 암으로 사망했다.	91세의 성격파 배우 흄 크로닌은 일요일 코네티컷에 있는 그의 집에서 죽었다.
+main-news	MSRpar	2012train	0533	5.000	디어드레 헤슬러, 정부 협곡의 관리자는 주 정부가 오랫동안 이 재산에 관심을 갖고 있으며, 그것을 얻기 위해 그 거래를 완료하기를 열망하고 있다고 말했다.	디어드레 헤슬러 , 정부 협곡의 관리자는 주 정부가 오랫동안 이 재산을 탐냈으며, 그 거래를 성사시키기를 간절히 원한다고 말했다.
+main-news	MSRpar	2012train	0539	3.250	로이터 목격자들은 많은 집들이 납작해졌고 도시 광장은 울고 있는 아이들과 집 없는 사람들로 가득 찼으며 그들은 추위로부터 그들을 보호하기 위해 담요 안에 모여 있었다고 말했다.	로이터 목격자들은 공공 광장이 우는 아이들과 집을 잃은 사람들로 가득 차 있었고 사람들은 추위로부터 그들을 보호하기 위해 담요 안에 모여 있었다고 말했다.
+main-news	MSRpar	2012train	0546	3.400	세 개의 식료품 체인점은 매장 관리자와 대체 직원들에게 그들의 매장을 계속 열어두도록 의존하고 있었다.	슈퍼마켓 체인점들은 종종 근로 단축 시간에 가게를 열어두기 위해 관리자와 대체 근로자들을 이용해왔다.
+main-news	MSRpar	2012train	0553	3.400	스트럿은 "경비원의 대체자는 현역 복무 중이었기 때문에 채워질 수 없었다"라고 말했다.	스트럿은 보안 관계자의 대체자는 현역이었고 복권 협회는 뉴저지에 대체자가 없었다고 말했다.
+main-news	MSRpar	2012train	0563	3.750	연구원들은 카라카스에서 서쪽으로 약 250마일 떨어진 베네수엘라의 반사막 지역에서 화석을 발견했습니다.	페베로미스의 해골은 베네수엘라 카라카스에서 서쪽으로 250마일 떨어진 곳에서 발굴되었다.
+main-news	MSRpar	2012train	0569	2.750	맥도넬 씨는 그랜트 손튼 국제사의 이탈리아 사업에 대한 조사를 주도하고 있다.	맥도넬 씨는 이탈리아 사업이 그랜트 손튼의 감사 절차를 따랐는지를 확인하고 싶어 한다.
+main-news	MSRpar	2012train	0576	3.200	업계 최대의 협회는 회원들에게 리스트에 있는 5천만 개 이상의 집과 휴대전화 번호에 전화를 하지 않도록 촉구하고 있다.	한편, 다이렉트 마케팅 협회는 회원들이 명단에 있는 5천 1백만 개에 가까운 번호에 전화를 해서는 안 된다고 말했다.
+main-news	MSRpar	2012train	0582	2.600	근로자들은 1997년 퇴직수당의 변화로 인해 제네럴 다이나믹스의 "역연령 차별"을 비난한다.	1997년 퇴직수당을 변경하면서 제네럴 다이나믹스가 고소되었다.
+main-news	MSRpar	2012train	0583	1.600	기술주 중심 나스닥 종합지수 .ixic은 1,590.75로 5.16포인트, 즉 0.32퍼센트 떨어져 6일 연속 수익을 깼다.	기술주 중심 나스닥 종합지수 .ixic은 1,594.13으로 0.11퍼센트, 즉 1.78포인트 하락했다.
+main-news	MSRpar	2012train	0589	2.500	우주 적외선 망원경 시설의 임무는 우주의 시작을 찾는 것이다.	NASA는 월요일 아침에 우주 적외선 망원경 시설을 발사할 예정이다.
+main-news	MSRpar	2012train	0597	3.400	존경받는 의학 저널 란셋은 영국에서의 담배에 대한 완전한 금지를 요구했다.	금요일에 영국의 주요 의학 저널이 담배에 대한 완전한 금지를 요구해 흡연자 단체로부터 분노를 불러일으켰다.
+main-news	MSRpar	2012train	0602	4.000	"트럭의 운전자가 탈출하여 현재 경찰에 의해 수색되고 있다"라고 수포요는 말했다.	그러나 경찰은 트럭의 운전자가 발견되지 않았고 심문을 위해 수배 중이라고 말한다.
+main-news	MSRpar	2012train	0604	4.250	"많은 다른 방식으로 흑인 음악가의 예술성은 우리 역사 전반에 걸쳐 흑인 미국인의 경험을 전달했다"라고 부시는 말했다.	할렘 출신의 가수들에 둘러싸여 부시는 말했다 : "흑인 음악가들의 예술성은 우리 역사 전반에 걸쳐 흑인 미국인들의 경험을 전달했다"
+main-news	MSRpar	2012train	0606	4.000	목사의 며느리인 제랄딘 앤드류스는 로빈슨이 최근에 그녀의 딸을 정신 건강 시설에서 데리고 나왔다고 말했다.	레이놀즈의 며느리이자 윌슨 가족의 친구인 제럴딘 앤드류스는 로빈슨이 최근 윌슨을 정신 건강 시설에서 데리고 나왔다고 말했다.
+main-news	MSRpar	2012train	0610	3.400	목요일의 마티니 이전에, 베이커는 논란이 새끼들을 산만하게 만들었다고 우려하며 클럽하우스 회의를 소집했다.	베이커는 코르크베트 에피소드가 팀을 산만하게 했다고 믿고 경기 전 회의를 소집했다.
+main-news	MSRpar	2012train	0611	2.800	그녀는 구급차에 실려 해머스미스의 CCH 병원으로 갔다.	그녀는 지난밤에 심하게 아픈 상태로 있었던 CCH 병원으로 이송되었다.
+main-news	MSRpar	2012train	0616	1.600	개장 직후 다우 존스 산업평균지수는 9,228.48로 11.13 상승했고, S & P 500 지수는 982.33으로 1.74 상승했다.	약한 출발 후, 다우존스 산업 평균은 26.26 올라 9,217.35로 마감했고, S & P 500 지수는 980.59로 3 상승했다.
+main-news	MSRpar	2012train	0618	3.800	게다가, 1차 진료 신탁(PCT)은 올해 처음으로 스타 등급을 받았다.	1차 진료 신탁과 정신 건강 신탁 또한 올해 처음으로 공식적으로 평가되었다.
+main-news	MSRpar	2012train	0637	2.667	시애틀의 대테러 검사인 토드 그린버그 미국 변호사는 "우리는 수사를 위해 모든 가용 자원을 쏟고 있다"라고 말했다.	"우리는 상황을 알고 있습니다."라고 시애틀의 대테러 검사인 토드 그린버그 변호사가 말했다.
+main-news	MSRpar	2012train	0643	1.200	기술주 중심 나스닥 종합지수 .ixic은 1,492로 15포인트, 즉 0.98% 떨어졌다.	S&P 500 지수 <.spx>는 921로 9포인트, 즉 0.98% 하락했다.
+main-news	MSRpar	2012train	0649	4.800	그 연구 회사는 이전에 4.9%의 증가를 예상했었다.	그 회사는 올해 초 4.9%의 증가를 예상했었다.
+main-news	MSRpar	2012train	0654	3.000	피플소프트는 8억 6천 3백만 달러의 현금을 투입하고 5천 2백 6십만 개의 새로운 주식을 발행할 것이라고 그 회사들은 말했다.	이 새로운 거래는 현금 8억 6천 3백만 달러와 피플소프트 주식 5천 2백 6십만 달러를 포함하여 17억 5천만 달러로 평가될 것이다.
+main-news	MSRpar	2012train	0657	4.000	그래서 1월 연두교서를 통해 부시 대통령은 영국 정부가 사담 후세인이 최근 아프리카에서 상당한 양의 우라늄을 찾았다는 것을 알게 되었다고 말했다.	부시 대통령은 지난 1월 28일 연두교서에서 "영국 정부는 사담 후세인이 최근 아프리카에서 상당한 양의 우라늄을 찾았다는 것을 알게 되었다"라고 말했다.
+main-news	MSRpar	2012train	0666	4.000	나머지 24명의 회원은 증권 산업의 대표자와 소위 "공공"이사회 구성원으로 나뉩니다.	교환 임원이 아닌 24명의 이사 중 절반은 증권 업계의 대표이며 절반은 지정된 공직자다.
+main-news	MSRpar	2012train	0669	2.750	플로리다 중부의 주교 교구는 토요일에 공식적으로 동성애에 관한 국가 교파의 정책을 거부한 전국 최초의 교구 중 하나가 되었다.	플로리다 중부 주교 교구는 토요일에 교단의 전당대회에서 동성애자를 주교로 확정하기 위한 결정을 거부하기로 결정했다.
+main-news	MSRpar	2012train	0679	2.250	맥길은 또한 카프리스의 트렁크에 잘린 구멍을 상세히 설명했다.	맥길은 또한 검은 장갑이 카프리스의 트렁크에 잘린 구멍에 박혀 있었다고 말했다.
+main-news	MSRpar	2012train	0693	3.200	1년 전의 이익인 1억 2백만 달러, 즉 주당 13센트와 비교해 볼 때.	그것은 1년 전 분기의 1억 2백만 달러, 주당 13센트 보다 두 배 이상이었다.
+main-news	MSRpar	2012train	0695	4.750	하지만 경제는 아직 지속 가능한 성장을 보이지 않고 있다.	하지만 경제는 지속 가능한 성장의 조짐을 보이지 않았다.
+main-news	MSRpar	2012train	0698	2.800	위원회는 캘리포니아가 2001년에 법인용 감세 수단에 9억 3천 7백만 달러를 잃었다고 추정했다.	캘리포니아의 세금 수입 손실은 대부분 국제 법인용 감세 수단 때문이었습니다.
+main-news	MSRpar	2012train	0699	1.400	다른 시장에서는 주가가 일찍 상승함에 따라 미국 재무부 채권이 월요일에 약세로 시작되었다.	다른 시장에서는 쇠퇴하는 주식이 안전 채무의 호소력을 높여주면서 미국 재무부 채권이 조금 상승했다.
+main-news	MSRpar	2012train	0711	0.750	기술주 중심의 나스닥 종합지수 .ixic은 1,628.26으로 25.36포인트, 즉 1.53% 하락했다.	S&P 500 지수 .spx는 986.60으로 11.91 포인트 즉 1.19 퍼센트를 내려갔다.
+main-news	MSRpar	2012train	0717	3.667	국방부는 전후 활동에 대한 통제권을 유지하기를 희망했기 때문에, 그 결정은 콜린 포웰 국무장관의 승리이다.	국방부는 전후 활동에 대한 통제권을 유지하기를 희망했기 때문에, 그 결정은 일부 내부자들에 의해 포웰과 국무부의 승리로 여겨졌다.
+main-news	MSRpar	2012train	0728	3.400	63세의 샐리 볼드윈 교수는 티부르티나 역에서 구조물이 붕괴되었을 때 열린 구멍으로 떨어졌다고 이탈리아 철도 관계자들은 말했다.	요크 출신의 샐리 볼드윈은 산책로가 무너졌을 때 티부르티나 역에서 기계에 떨어져 즉시 죽었다.
+main-news	MSRpar	2012train	0729	3.400	그것은 기관이 독립적인 안전 및 엔지니어링 조직을 계획할 것을 요구한다.	기관은 아직 독립적인 엔지니어링 기술 기관의 창설을 위한 전략을 완전히 공식화하지 못했습니다.
+main-news	MSRpar	2012train	0730	3.857	월드콤의 회계 문제는 작년 초에 밝혀졌고, 회사는 2002년 7월에 대규모 회계 부정을 이유로 파산 신청을 했다.	월드콤의 재정적인 문제가 작년에 밝혀졌고 그 회사는 이어서 2002년 7월에 파산 신청을 했다.
+main-news	MSRpar	2012train	0740	3.000	이 연구는 또한 소비재 광고주들이 온라인에서 가장 많은 돈을 계속해서 쓰고 있으며, 이는 모든 웹 광고의 35%를 차지한다는 것을 발견했다.	2분기에 소비자 광고주들은 계속해서 온라인을 가장 많이 사용했고, 점유율을 약간 증가시켰다.
+main-news	MSRpar	2012train	0746	3.500	키에르난은 세이퍼트가 등에 총상을 입었다고 증언했다.	그는 세이퍼트가 등에 총상을 입었다고 증언했다.
+main-news	MSRpar	2012train	0749	3.250	단일 프로세서를 사용하는 무제한 사용자의 경우 5,995 달러, 최소 5명의 사용자가 있는 사용자 당 195 달러로 가격이 책정됩니다.	최소 5명의 사용자가 있는 사용자 라이선스 플랜 사용자 당 5,995 달러 또는 195 달러로 가격이 책정됩니다.
+main-news	headlines	2013	0010	1.4	온두라스 해안을 따라 지나가는 열대성 폭풍우	남동부 해안에 대한 열대성 폭풍 경고
+main-news	headlines	2013	0019	0.75	자살 폭탄 테러범, 나이지리아 교회에서 12명 살해	자살 폭탄 테러범, 파키스탄 북서부에서 21명 살해
+main-news	headlines	2013	0028	3.4	미국은 맹인 중국 운동가를 도울 준비가 되어 있다고 말한다.	미국, 중국 운동가를 도울 준비 : 공식 발표
+main-news	headlines	2013	0034	4.8	가자인, 이스라엘에 2발의 로켓을 발사 ; 부상 없음	2발의 가자 로켓이 이스라엘 강타 ; 부상 없음
+main-news	headlines	2013	0052	0.4	베리는 거국내각 출범을 도울 준비가 되어 있다고 말한다.	스페인에 대한 인식은 이 정부와 함께 극적으로 변화했다.
+main-news	headlines	2013	0054	1.8	이라크 폭탄 공격으로 13명 사망	북 이라크 공격으로 16명이 사망
+main-news	headlines	2013	0061	2.4	허리케인 아이삭은 육지에 닿은 후 내륙으로 이동한다.	허리케인 아이작이 뉴올리언스 근교의 미국 해안을 강타한다.
+main-news	headlines	2013	0065	1.6	나이지리아, 비행기 추락으로 사망한 193명 애도	나이지리아, 치명적인 비행기 추락에 대한 엄밀한 조사 시작
+main-news	headlines	2013	0082	3.2	ICC는 콩고 군 지도자를 어린이 군인 명목으로 14년 동안 수감한다.	콩고 군 지도자는 14년의 획기적인 형을 선고받았다. - 영상
+main-news	headlines	2013	0103	0.4	동부 터키에서 PKK 공격으로 7명의 군인이 사망하고 56명이 부상당했다.	이라크에서 공격으로 3명 사망, 14명 부상
+main-news	headlines	2013	0116	4	스키폴 공항은 폭파 위협 후 부분적으로 대피했다.	스키폴 공항, 폭파 위협으로 대피
+main-news	headlines	2013	0132	0.8	MIER, 2012년 성장 전망치를 4.2%로 올린다.	CMIE, 2012-13년 성장 전망치를 6.3%로 내린다.
+main-news	headlines	2013	0166	1.4	운동가 : 시리아군이 다마스커스 교외를 급습	운동가는 시리아 시민인 카메라맨이 홈즈에서 살해되었다고 말한다.
+main-news	headlines	2013	0190	1.8	이란 : EU 제재는 이란을 핵 협상에 강제로 끌어들이지 않을 것이다.	이란 핵 회담에 대한 낮은 기대
+main-news	headlines	2013	0191	2.2	포르투갈 익사 : 이름이 밝혀진 영국 소녀와 할아버지	영국 소녀와 할아버지가 포르투갈에서 익사하다.
+main-news	headlines	2013	0216	3.2	이란, 중대한 이해관계의 핵회담을 위해 힘을 모으다.	미국과 이란, 이스탄불 핵회담 준비
+main-news	headlines	2013	0218	1.2	시리아군은 알레포 시위에서 십대들을 살해한다.	시리아군은 다마스쿠스 활동가에 속한 3명의 시위자를 살해한다.
+main-news	headlines	2013	0251	1.25	영국에서 1,100개의 일자리를 창출하는 재규어	천 개의 일자리를 창출하는 왕실 우편물
+main-news	headlines	2013	0259	4.2	이라크, 시리아로 향하는 이란 비행기 수색 : 공식 발표	이라크, 시리아행 이란 비행기 수색
+main-news	headlines	2013	0268	2.6	러시아가 서구의 재고를 촉구함에 따라 시리아 싸움이 격렬해졌다.	러시아의 압박으로 시리아 수도에서 싸움이 격렬해졌다.
+main-news	headlines	2013	0270	3.6	에르도간 당은 터키 대통령 직에 대한 계획을 제출한다.	에르도간 당은 터키 대통령 직을 목표로 하고 있다.
+main-news	headlines	2013	0285	0.4	프라이버시 사건에서 무죄 판결을 받은 출판사	PBS는 공정성에 관한 새로운 지침을 발표한다.
+main-news	headlines	2013	0291	0	삼성이 전화로 노키아를 추월한다.	경찰에 대한 개 공격에 대한 혐의
+main-news	headlines	2013	0293	5	구카일라이 살인 재판은 중국에서 끝난다.	구카일라이의 살인 재판은 중국에서 끝난다.
+main-news	headlines	2013	0305	4.4	러시아에 자료를 숨기지 않음 : 오바마	오바마는 러시아에 자료를 숨기지 않는다고 말한다.
+main-news	headlines	2013	0309	4.8	잉글랜드 주장 앤드류 스트라우스가 프로 크리켓에서 은퇴하다.	잉글랜드 주장 스트라우스가 크리켓에서 은퇴하다.
+main-news	headlines	2013	0316	3.6	중국, 유엔 결의안에 대해 스리랑카 지지	전쟁 범죄 : 중국은 유엔 결의안에 대해 랑카를 지지
+main-news	headlines	2013	0325	3.8	톤 업 : 텐덜카르, 100번째 국제 100 달성	사친 텐덜카르의 100점 달성 - 사진에서
+main-news	headlines	2013	0335	0.2	나에 대한 음모 - 랜스	공황 상태에서 하루가 시작된다.
+main-news	headlines	2013	0367	3.8	무르시는 취임선서를 하고 이집트 대통령이 된다.	모르시, 첫 이집트 민간인 대통령 선서
+main-news	headlines	2013	0373	2.2	시리아 야당은 형사 법원 소송에 대해 탄원한다.	시리아 야당 지도자는 미국을 비판한다.
+main-news	headlines	2013	0375	4	선덜랜드 2-2 볼튼 : 데이비스 더블이 트로터스에 포인트를 얻어주었지만 그들은 하위 3위에 머물러 있다.	선더랜드 2-2 볼튼 : 데이비스가 급히 들어간다.
+main-news	headlines	2013	0379	2.6	시리아군이 마을 폭격, 반군과 충돌	시리아군과 반군이 해안 지방에서 충돌
+main-news	headlines	2013	0390	0.6	바레인 시위대와 경찰, 장례식 후 충돌	구제금융 거래의 불확실한 상태로 그리스 시위대와 경찰 충돌
+main-news	headlines	2013	0405	4.4	애플, 보안 회사 오텐텍을 3억 5천 6백만 달러에 사다.	뉴스 요약 : 애플이 오텐텍을 3억 5천 6백만 달러에 사다.
+main-news	headlines	2013	0417	4	매매용 업계 신문의 다양성	팔려고 내놓은 할리우드 업계 간행물의 다양성
+main-news	headlines	2013	0423	0.8	홍수 속에서 집을 떠나는 호주인들	호주 발표자가 옆으로 비켜서다.
+main-news	headlines	2013	0443	2	독일은 1분기 성장으로 경기 침체를 피한다.	유로존은 독일 덕분에 1분기 경기 침체를 피한다.
+main-news	headlines	2013	0452	1.4	그리스 투표가 두려움을 완화시킨 후 아시아 주식 상승	그리스 선거 결과 이후 유가상승
+main-news	headlines	2013	0459	3	영국 군인이 남부 아프가니스탄에서 살해되었다.	두 명의 영국 군인이 아프가니스탄에서 살해되었다.
+main-news	headlines	2013	0463	0.6	오바마, 중국 반체제 인사에 침묵	오바마, 한국 DMZ 방문
+main-news	headlines	2013	0472	2	자살 폭탄 테러범이 아프가니스탄 수도에서 6명 살해	자살 폭탄 테러범이 아프가니스탄 모스크에서 37명 살해
+main-news	headlines	2013	0480	4.6	덴버 총격 : 경찰이 용의자 집의 장치를 폭파	경찰이 콜로라도 총기 난사 용의자 집의 장치를 폭파
+main-news	headlines	2013	0485	1.4	시리아가 기자의 시신을 넘겨주다.	시리아 TV는 정부 군대가 언론인 포로를 석방했다고 한다.
+main-news	headlines	2013	0506	4.5	검시관 : 휘트니 휴스턴은 욕조에서 사망했다.	검시관은 휘트니 휴스턴이 욕조에서 발견되었다고 확인해 준다.
+main-news	headlines	2013	0510	0.8	일본은 심한 홍수를 겪고 있다. - 사진에서	오클라호마 산불은 집들을 파괴한다 - 사진에서
+main-news	headlines	2013	0513	0	일본, 섬 상륙으로 붙잡힌 중국인 추방	독일 법원은 유로 펀드 판결 연기를 저울질하고 있다.
+main-news	headlines	2013	0516	4.4	일부 시리아 폭력은 내전에 해당한다 - 적십자	일부 시리아 폭력은 내전으로 인정된다. - 적십자
+main-news	headlines	2013	0529	1	롬니, 네바다 코커스 우승	롬니는 코커스 앞의 산토룸으로 초점을 전환한다.
+main-news	headlines	2013	0546	3.4	애플 아이패드 미니가 데뷔한다.	애플 아이패드 미니가 아시아에서 데뷔한다.
+main-news	headlines	2013	0559	0.6	하마스는 가자 지구 포로 3명을 교수형에 처한다.	미얀마, 포로 석방 발표
+main-news	headlines	2013	0562	1	동티모르, 대통령 선거 투표	베네수엘라인들은 대통령 선거에 투표할 것을 촉구했다.
+main-news	headlines	2013	0573	2.8	선데이 타임즈 기자인 마리 콜빈이 시리아에서 살해되었다.	선데이 타임즈 기자, 프랑스 사진작가 '시리아에서 살해'
+main-news	headlines	2013	0574	1.6	오후 중반에 KL 주식 상승	오전 중반에 KL 주식 하락
+main-news	headlines	2013	0575	2.4	시카고 교사들은 격렬한 계약 분쟁으로 파업한다.	시카고 교원 단체 대표단, 파업 종료 가능
+main-news	headlines	2013	0595	0.8	이스라엘, 팔레스타인 단식 투쟁자 석방	이스라엘은 미국에 이란의 공격을 도울 무기를 요구한다.
+main-news	headlines	2013	0608	4.4	좋지 않은 시작: 베를린으로 가는 도중에 번개에 맞은 홀랜드의 비행기	프랑스 대통령 프랑수아 홀랜드의 비행기가 베를린으로 가는 도중 번개에 맞다.
+main-news	headlines	2013	0628	4.8	아프가니스탄 의회, 주요 각료 축출 투표	아프가니스탄 의회, 주요 각료 축출 투표
+main-news	headlines	2013	0642	3.4	아프가니스탄 제복의 공격자가 나토군 2명을 살해하다.	아프가니스탄 군복 입은 남자가 나토 군을 살해하다.
+main-news	headlines	2013	0644	3.8	인도의 가장 가난한 사람들에게 만병통치약이 아닌 저렴한 일반약	인도의 가장 가난한 사람들을 치료하지 못하는 값싼 암 치료제
+main-news	headlines	2013	0653	4.5	몰디브 전 대통령의 구속 영장	몰디브 법원, 전 대통령 구속 영장 발부
+main-news	headlines	2013	0655	2.2	HRW : 요르단이 팔레스타인 난민들을 시리아에서 거부하다.	보도 : 요르단, 시리아에서 온 팔레스타인에 대한 편견을 갖다.
+main-news	headlines	2013	0672	4	시리아군이 반군 거점을 압도하다.	시리아군은 북부 반군 거점을 점령하다.
+main-news	headlines	2013	0675	1	중국 주식은 금요일 정오에 상승 마감	중국 주식은 금요일에 하락세로 시작
+main-news	headlines	2013	0681	2.6	샌디가 북동쪽에 부딪혀 ; 최소 18명 사망, 740만 명 전력 없음	미국 동부 폭풍은 버지니아에 2명의 사망자를 남긴다. , 200만 명의 전력이 없다.
+main-news	headlines	2013	0684	1	푸틴, 러시아 대통령 투표에서 승리 선언	러시아 선거 판에 불만
+main-news	headlines	2013	0692	1.4	대법원, 투표권 법 소송 심리	대법원, 기업 인권 소송 심리
+main-news	headlines	2013	0699	4	리비아, 7월 7일로 의회 선거 연기	리비아, 획기적인 선거를 7월 7일로 연기
+main-news	headlines	2013	0704	4.2	2012 런던 올림픽 개막식 '녹색과 쾌적한 땅을 특징으로'	런던 2012 올림픽 : 개회식은 '녹색과 쾌적한 땅'이라고 대니 보일이 말한다.
+main-news	headlines	2013	0714	3.8	파키스탄은 반 이슬람 소재에 대해 트위터를 차단한다.	파키스탄은 '신성모독'에 대해 트위터를 차단한다.
+main-news	headlines	2013	0715	3.8	아난, 터키의 시리아 난민을 화요일에 방문	아난, 이란에 앞서 터키의 시리아 난민을 방문
+main-news	headlines	2013	0748	2.4	파키스탄 수상은 육군 요원들이 갇힌 눈사태로 충격을 받았다.	파키스탄 눈사태 : 구조 대원들이 묻힌 군인들을 찾고 있다.
+main-news	headlines	2014	0001	0.4	야당 지도자들이 캄보디아 노동자들의 죽음을 기리기 위해 등장한다.	캄보디아 야당 지도자들이 법정에 소환되었다.
+main-news	headlines	2014	0044	2.2	말리, 대통령 선거 투표	말리, 대통령 결선 투표 후 개표
+main-news	headlines	2014	0051	4.4	푸시 라이엇 멤버 알요키나, 러시아 감옥에서 석방	푸시 라이엇 멤버 마리아 알요키나, 감옥에서 석방
+main-news	headlines	2014	0053	3.6	아시아나 비행기, 샌프란시스코 공항에 불시착	샌프란시스코 공항에 비행기 불시착
+main-news	headlines	2014	0067	2.2	미국 북동부에 눈보라 강타, 5명 사망, 70만 명 전력 상실	눈보라가 북동부를 강타, 도로 폐쇄
+main-news	headlines	2014	0072	5	말리에서 프랑스 언론인 2명 살해	말리에서 두 명의 프랑스 언론인 살해
+main-news	headlines	2014	0074	4.2	붕괴된 일본 터널에서 차량이 불타다.	연기가 일본 터널에서 방출됨에 따라 차량 '불타며 남겨지다'
+main-news	headlines	2014	0099	1.8	중국 주식은 금요일에 하락한 채 마감했다.	중국 주식, 수요일에 상승 마감
+main-news	headlines	2014	0104	1.4	시장은 텍사스 비료 공장 폭발로 14명이 사망했다고 말한다.	구조 대원들이 텍사스 비료 공장 폭발의 생존자를 찾는다.
+main-news	headlines	2014	0115	2.2	CBN은 폴리머 노트를 단계적으로 폐지하기 위한 계획을 반복한다.	나이지리아, 폴리머 네이라 노트 변경 계획 발표
+main-news	headlines	2014	0122	3.8	미국, NSA 누설자에 스파이 혐의 제기	미국, 스노우덴에 유출에 대한 스파이 혐의 제기
+main-news	headlines	2014	0126	4.2	중국 장군의 아들은 강간죄로 10년형을 선고받는다.	중국 장군의 아들은 윤간으로 10년형을 선고받는다.
+main-news	headlines	2014	0163	2	러스티는 어디에? 레서판다가 국립 동물원에서 실종	실종된 레서판다가 국립 동물원으로 무사히 돌아왔다.
+main-news	headlines	2014	0174	5	네덜란드의 베트릭스 여왕, 아들을 위해 퇴위	네덜란드의 베트릭스 여왕은 아들을 위해 퇴위한다.
+main-news	headlines	2014	0226	3.8	미국, 대보초에 폭탄 투하	미군, 호주의 대보초 근처에 폭탄을 버리다.
+main-news	headlines	2014	0227	1.2	아프가니스탄에서 탈리반 무장단체 38명이 살해되다.	탈리반이 아프가니스탄의 미군 기지를 공격하다.
+main-news	headlines	2014	0244	2.2	2013년의 가장 강력한 태풍이 필리핀을 강타하다.	태풍 우토르가 필리핀을 강타하면서 23명 실종
+main-news	headlines	2014	0247	1.4	이집트 시위를 더 요구하다.	이집트 시위로 인한 사망자 수가 49명으로 증가
+main-news	headlines	2014	0271	2.4	미국 정부 '셧다운 직전'	오바마, 셧다운 완화를 위한 공화당 제안을 거부
+main-news	headlines	2014	0303	3	북부 시리아에서 전투 중 123명 사망	시리아 공습으로 많은 사망자 발생
+main-news	headlines	2014	0309	3.2	비평가들은 푸틴의 보안 제한이 권리를 침해한다고 말한다.	푸틴의 소치에 대한 보안령은 비평가들의 분노를 일으킨다.
+main-news	headlines	2014	0313	3.8	이집트, 더 많은 시위에 대비, 평온을 기원	이집트, 모르시에 대한 더 많은 시위에 대비, 평온을 기원
+main-news	headlines	2014	0315	3	모르시 지지자들이 이집트에서 시위를 벌이다.	모르시 지지자들이 이집트 정부의 위협에 직면하여 반항
+main-news	headlines	2014	0321	2	거래 초기에 주식 상승	미국 주식, 변동성 장세 진정
+main-news	headlines	2014	0326	2.8	방글라데시 빌딩 붕괴 사망자 수 540명 : 군	방글라데시 빌딩 붕괴 희생자 수가 600명을 넘는다.
+main-news	headlines	2014	0329	4	반항적인 무가베가 '나쁜' 서쪽을 폭발시키는 일곱 번째 항목을 위해 선서했다.	무가베는 또 다른 임기를 위해 선서했다.
+main-news	headlines	2014	0344	4.6	넬슨 만델라가 검사를 위해 병원에 있다.	남아프리카 : 만델라가 검사를 위해 병원에 있다.
+main-news	headlines	2014	0345	4	이란, 6개 세계 강대국들이 획기적인 핵 협정에 서명하다.	이란, 세계 강대국들은 핵 협정에 동의한다.
+main-news	headlines	2014	0382	2.2	알제리는 알카에다 인질들을 구출하기 위해 군사 작전을 강화한다.	알제리, 인질을 위한 국제군을 숙고
+main-news	headlines	2014	0386	3.4	델리 윤간 피해자, 싱가포르 병원에서 사망	델리 윤간 피해자, 싱가포르 병원으로 비행 이송
+main-news	headlines	2014	0387	3.4	피임과 녹내장 위험도 증가가 관련되다.	피임약 '녹내장 위험을 두 배로 증가'
+main-news	headlines	2014	0399	3.4	말레이시아는 5월 5일을 치열한 선거의 날짜로 정한다.	말레이시아, 역사적인 선거의 날짜 설정
+main-news	headlines	2014	0409	4.2	다완은 남아프리카를 상대로 크게 이기기 위해 인도를 박살 냈다.	다완 톤은 남아프리카 공화국을 상대로 인도 트로피 우승
+main-news	headlines	2014	0415	3.8	북한, 가족 상봉 연기	북한은 전쟁으로 헤어진 가족 상봉을 연기한다.
+main-news	headlines	2014	0423	2.6	시리아가 미국을 거부, 영국 화학 무기 요구	미국은 시리아가 화학 무기를 사용했다고 의심한다.
+main-news	headlines	2014	0428	2.2	이집트, 무슬림 조직 최고 가이드 체포	이집트, 무슬림 조직 집단을 금지
+main-news	headlines	2014	0431	0.4	파키스탄 북서부에서 총잡이들이 9명을 살해	이라크에서 총잡이들이 경찰 3명을 살해
+main-news	headlines	2014	0444	1.8	3월 11일 자 뉴스 요약	1월 14일 자 뉴스 요약
+main-news	headlines	2014	0454	1	하와이, 동성 결혼 법안 통과	미국 상원, 게이 노동자 법안 통과
+main-news	headlines	2014	0463	1.6	시리아 야당은 반군에게 무기를 보내라고 EU에 촉구한다.	시리아 야당이 임시 수상을 결정하기 위해 모이다.
+main-news	headlines	2014	0469	1.6	오스카 피스토리우스의 여자친구 리바 스텐캄프의 장례식이 열린다.	오스카 피스토리우스가 화장실에서 스텐캄프를 쐈다.
+main-news	headlines	2014	0473	2.6	뉴욕 매복으로 소방관 2명 사망	치명적인 매복 후 조심스러운 상태에 있는 두 명의 뉴욕 소방관
+main-news	headlines	2014	0476	2.6	더블린 해안 워터포드에서 10명 구조	더블린 만에서 보트 전복 후 6명 구조
+main-news	headlines	2014	0487	0	화성 탐사선은 첫 번째 기반암 샘플을 수집한다.	워링카는 첫 번째 그랜드슬램 결승에 진출했다.
+main-news	headlines	2014	0492	4.4	앙키트 차반은 결혼에 대한 조건부 보석금을 승인했다.	앙키트 차반은 결혼하기 위해 보석금을 승인했다.
+main-news	headlines	2014	0503	3.4	후쿠시마 참사와 싸운 사람이 암으로 사망하다.	후쿠시마 참사와 싸운 전 공장장이 암으로 사망하다.
+main-news	headlines	2014	0507	0.6	이란은 다음 달에 핵회담이 재개될 것이라고 말한다.	이란은 적의 통신 시스템을 방해할 수 있다고 말한다.
+main-news	headlines	2014	0514	0	미국 당국이 리신 조사에 남자를 임명	남아프리카 경찰, 농장 시위에서 50명 체포
+main-news	headlines	2014	0517	4.4	습격당한 알제리 가스 공장에서 25구의 시체 발견	알제리 가스 공장에서 25구의 시체 추가 발견
+main-news	headlines	2014	0570	3.6	페러는 호주 오픈 준준결승에 진출한다.	페러는 니시코리를 꺾고 호주 오픈 준준결승에 진출한다.
+main-news	headlines	2014	0571	3	UBS는 주택 담보대출 소송을 해결한다.	UBS는 주택 담보대출 소송을 해결하고 6억 파운드를 책임진다.
+main-news	headlines	2014	0574	3.8	북한과 남한이 회담에 동의한다.	북한과 남한은 드문 회담을 개최한다.
+main-news	headlines	2014	0590	2.2	파키스탄에서 총잡이들이 여성 정치인을 살해하다.	파키스탄에서 총잡이들이 여성 교사 5명을 살해하다.
+main-news	headlines	2014	0595	0	카다시안 이혼 재판 준비	큰 타격을 입은 호텔들의 가격 전쟁 준비
+main-news	headlines	2014	0608	4.6	뉴질랜드, 동성 결혼 합법화 시작	동성 결혼 합법화에 대한 뉴질랜드의 표결
+main-news	headlines	2014	0637	1.6	시리아 정권, 다마스쿠스 인근 5,000명 대피 요구	시리아군은 다마스쿠스 근처에서 소탕 작전을 계속하고 있다.
+main-news	headlines	2014	0644	4.6	노벨상 수상자인 작가 도리스 레싱 사망	노벨 수상자 도리스 레싱 94세 사망
+main-news	headlines	2014	0655	4.2	시리아 수도에서 인터넷, 전화 서비스 복구	시리아에서 인터넷 서비스 재개
+main-news	headlines	2014	0657	3.8	시리아 수상, 폭탄 공격에서 살아남다.	시리아 수상, 수도 폭탄 공격에서 살아남다.
+main-news	headlines	2014	0666	3	미국 주식 선물은 고용 보고서보다 앞선다.	주식 선물 더 상승, 모두의 이목이 연방 정부에 쏠린다.
+main-news	headlines	2014	0684	1	파키스탄 남서부에서 폭탄 폭발로 10명 사망	파키스탄에서 큰 지진으로 39명 사망
+main-news	headlines	2014	0687	3.6	데이비드 카메론, 스리랑카에 전쟁 범죄 혐의 통지	스리랑카는 전쟁 범죄 혐의에 대해 경고했다.
+main-news	headlines	2014	0689	0.8	모르시 지지자들은 카이로에서 전경과 충돌한다.	시위자들은 키예프에서 전경과 충돌한다.
+main-news	headlines	2014	0699	2.2	아프가니스탄 경찰은 탈리반 전사 5명을 살해했다.	탈리반 5명, 아프간 5명이 매복으로 사망했다.
+main-news	headlines	2014	0708	4.2	레바논에서 항공기 조종사를 총잡이가 납치	레바논에서 터키 항공사 조종사 2명을 총잡이가 납치
+main-news	headlines	2014	0738	4.2	쿠르드족 반군, 3월에 터키에서 철수 : 보고	쿠르드족 반군, 터키에서 철수
+main-news	headlines	2014	0742	3.4	일본은 GDP 성장을 3분기에 연간 1.1%로 수정한다.	일본의 GDP 성장률은 연간 1.1%로 하향 조정되었다.
+main-news	headlines	2015	0001	1.30	남아프리카의 토대는 넬슨 만델라의 기억에 기초하고 있다	넬슨 만델라의 죽음에 대해 호주 정치인들이 애도한다.
+main-news	headlines	2015	0006	1.20	우크라이나 시위 지도자들은 장관, 러시아군을 경계 태세로 임명한다.	우크라이나는 러시아의 '도발'에 반대하는 행동을 거부한다.
+main-news	headlines	2015	0011	3.60	말라라, 스노우덴, 벨라루시안이 사하로프 상 후보자 명단에 올랐다.	유럽 인권상 후보에 오른 도망자 스노우덴
+main-news	headlines	2015	0041	3.20	이집트의 수상이 되는 엘바라데이	이집트 수상에 임명된 엘바라데이, 이슬람주의자들은 부당하다고 외친다.
+main-news	headlines	2015	0075	1.00	대만 경제, 4-6월 분기에 2.27% 성장	중국의 경제성장률, 최근 분기에 7.8%로 반등
+main-news	headlines	2015	0085	3.00	버지니아에 묻힌 타메를란 차르네프	버지니아 묘지에 묻힌 보스턴 폭탄 용의자
+main-news	headlines	2015	0142	3.80	광범위한 여행 경보를 발령하는 주 정부 부서가 테러 공격 가능성을 말한다.	미국, 글로벌 여행경보 발령, 알카에다 위협 도시
+main-news	headlines	2015	0151	1.60	싱가포르 주식은 결국 0.11 PCT로 마감된다.	싱가포르 주식 0.45 % 하락
+main-news	headlines	2015	0187	1.20	러시아, 우크라이나에 EU 협상에 반대하여 경고	반군이 우크라이나 헬리콥터를 격추
+main-news	headlines	2015	0201	3.40	헤르난데스 더블은 멕시코에게 승리를 안겨준다.	헤르난데스 더블은 멕시코에게 일본을 상대로 승리를 안겨준다.
+main-news	headlines	2015	0210	0.40	중국, 최고 경제 관리 파면	중국 FM은 고위 아세안 관계자들을 초대한다.
+main-news	headlines	2015	0225	4.80	캐나다는 태평양 연안에 송유관을 승인한다.	캐나다 정부는 논란이 되고 있는 송유관을 태평양에 승인한다.
+main-news	headlines	2015	0228	0.00	폭풍이 북동쪽을 덮었다. ; NJ에 16 인치의 눈	포럼은 중국과 일본의 안정적인 관계를 촉구한다.
+main-news	headlines	2015	0243	0.40	리버풀의 승리에 대한 자메이카의 연관성	일본 선거 : 아베 신조, 압도적인 승리에 환호
+main-news	headlines	2015	0249	2.80	국제 무기 전문가들이 시리아를 떠난다, 오바마 성명 발표	무기 전문가들이 시리아를 떠나고, 미국은 공격을 준비한다.
+main-news	headlines	2015	0275	3.60	남서부 제트기 앞다리를 먼저 부딪혔다.	남서 제트기 앞다리가 먼저 착륙했다.
+main-news	headlines	2015	0302	2.00	파키스타인 열차에서 폭탄 폭발로 12명 사망	파키스탄 남서부에서 총잡이가 9명 살해 : 경찰
+main-news	headlines	2015	0323	4.00	인도네시아 동부에서 발생한 강력한 지진	인도네시아 동부에서 발생한 6.6mag 지진
+main-news	headlines	2015	0387	3.80	오바마는 북한을 버림받은 국가로 몰아세운다.	오바마는 북한을 약하고 버림받은 국가로 몰아세운다.
+main-news	headlines	2015	0390	1.80	콜롬비아 파업 3회	콜롬비아는 그리스에 너무 매끄럽다.
+main-news	headlines	2015	0447	0.20	팔룸보 경은 아들 제임스와의 관계에 대한 희망을 준다.	정신 평가를 위해 보낸 오스카 피스토리우스 : 그것은 무엇을 의미할 것인가?
+main-news	headlines	2015	0472	2.00	부의장은 새로운 성 주장에 직면한다.	부의장 나이젤 에반스 재구속
+main-news	headlines	2015	0477	5.00	CIA의 최고 책임자, 시리아 회담을 위해 이스라엘 방문	CIA의 최고 책임자, 이스라엘에서 시리아 상황 논의
+main-news	headlines	2015	0526	0.00	자살 폭탄으로 파키스탄에서 4명 사망, 13명 부상	트위터, 파키스탄의 콘텐츠 차단
+main-news	headlines	2015	0527	3.60	우크라이나 반군 '동부 거점에서 도주'	우크라이나는 주요 거점에서 반란군이 쫓겨났다고 주장한다.
+main-news	headlines	2015	0570	3.60	카불 호텔 공격으로 9명 중 4명의 외국인 사망	카불 호텔 공격으로 사망한 사람 중 외국인
+main-news	headlines	2015	0595	3.40	소방관들이 중국 남서부에서 산불과 싸우고 있다.	호키앙가에서 관목숲 화재와 싸우는 소방관들
+main-news	headlines	2015	0625	0.20	하산 루하니, 이란 대통령 선거에서 승리	마두로, 베네수엘라 대통령 투표에서 승리
+main-news	headlines	2015	0629	4.40	여성이 유아의 죽음으로 구금되었다. 8살 소녀가 한 동의 아파트에서 죽은 채 발견된 후 한 여성이 살인 혐의로 구금되었다.	어머니가 딸의 죽음으로 잡혔다. 8살 딸이 한 동의 아파트에서 죽은 채 발견된 후 어머니가 살인 혐의로 구금되었다.
+main-news	headlines	2015	0644	0.60	레드셔츠 지도자는 군대에 반대하지 말라고 요구한다.	석유 굴착기: 군대를 보내지 않는 베이징
+main-news	headlines	2015	0647	0.40	러시아는 우크라이나에 권리 지원을 제공하자는 아이디어를 칭찬한다.	러시아가 모스크바 공습에서 의심되는 이슬람 무장 단체를 구금한다.
+main-news	headlines	2015	0653	4.60	조지아 수상의 협력자가 대통령이 된다. - 출구 조사	조지아 억만장자 수상의 협력자가 대통령이 된다. - 출구 조사
+main-news	headlines	2015	0690	2.60	이라크 수도에서 차량 폭탄으로 최소 16명이 사망	바그다드 지역에서 차량 폭탄으로 최소 47명이 사망
+main-news	headlines	2015	0695	2.80	사우디 아라비아는 유엔 안전보장이사회에 자리를 얻었다.	사우디 아라비아, 유엔 안전보장이사회 의석 거부
+main-news	headlines	2015	0701	3.20	미국 드론 공격으로 파키스탄에서 11명 사망	미국 드론으로 파키스탄에서 16명 사망
+main-news	headlines	2015	0749	2.00	파키스탄 기지에서 폭탄 공격으로 20명 사망	파키스탄 북서부에서 폭탄 공격으로 8명의 군인 사망
+main-news	headlines	2015	0766	1.80	선전 주가지수가 월요일에 상승 마감한다.	선전 주가지수는 10월 31일 하락 마감한다.
+main-news	headlines	2015	0783	0.40	해리 왕자는 미국 전쟁 사망자에 경의를 표한다.	미국 대통령들은 만델라에게 경의를 표한다
+main-news	headlines	2015	0810	1.40	이라크 공격으로 15명 사망, 축구 경기장에서 폭탄 공격	이라크 공습으로 46명 사망
+main-news	headlines	2015	0824	1.20	미얀마는 종파 간 폭력으로 44명을 체포한다.	교회는 시리아 공격으로 종파 간 폭력이 악화될 수 있다고 경고한다.
+main-news	headlines	2015	0849	2.60	이란 공식 발표: 이란 특사에 대한 미국 비자 거부는 핵 회담에 영향을 미치지 않을 것이다.	이란 협상가는 최근 핵회담에 대해 낙관적이다.
+main-news	headlines	2015	0871	2.40	정부와 그룹들은 태풍 구제를 위해 수백만 달러를 약속한다.	캐나다는 태풍 구제에 5백만 달러를 약속한다.
+main-news	headlines	2015	0877	4.20	그리스, 국영 방송사 중단	돈을 절약하기 위해 국영 방송사를 폐쇄하는 그리스
+main-news	headlines	2015	0882	5.00	과테말라 법원은 전 독재자를 대량학살로 유죄 판결한다.	과테말라의 전 지도자는 대량학살로 유죄 판결을 받았다.
+main-news	headlines	2015	0920	0.40	이스라엘에서 석방된 구타당한 플로리다 십 대	팔레스타인 10대가 이스라엘 총격으로 입은 부상으로 사망
+main-news	headlines	2015	0939	1.60	이란, 전문가 회담 재개를 위한 6중주단	이란은 '유용한' 전문가 수준의 핵 회담에 낙관적이다.
+main-news	headlines	2015	0943	3.20	방글라데시 붕괴 수색 ; 사망자 1,127명	방글라데시 붕괴 사망 620명을 넘다.
+main-news	headlines	2015	1008	4.40	니마는 브라질을 16강에 진출하게 한다.	니마는 브라질을 월드컵 16강에 진출하게 한다.
+main-news	headlines	2015	1009	4.80	일방적 휴전을 이행하려는 우크라이나	우크라이나가 일방적인 휴전을 제의한다.
+main-news	headlines	2015	1015	5.00	스톤즈, 제2회 하이드 파크 콘서트 추가	롤링 스톤즈, 제2회 하이드 파크 날짜 추가
+main-news	headlines	2015	1019	2.67	신문에 나온 내용, 2013년 8월 19일	신문에 나온 내용, 2013년 12월 30일
+main-news	headlines	2015	1023	0.00	5개국이 안갯속에서 만난다	끝나가는 푸틴의 결혼 생활
+main-news	headlines	2015	1083	5.00	리비아의 벤가지에 있는 스웨덴 영사관에 차량 폭탄, 사상자 없음	벤가지에 있는 스웨덴 영사관에 차량 폭탄 공격, 부상자 없음
+main-news	headlines	2015	1102	3.00	파키스탄 육군 본부 근처에서 폭격기 공격	파키스탄에서 레스토랑 밖의 폭탄 테러로 15명 부상
+main-news	headlines	2015	1123	4.80	크로아티아는 역사적인 EU 가입 초읽기를 시작한다.	크로아티아의 유럽연합 가입 초읽기
+main-news	headlines	2015	1143	2.40	바그다드에서 자살 공격으로 8명이 사망	자살 공격으로 바그다드에서 24명이 사망
+main-news	headlines	2015	1150	5.00	전쟁 범죄자와 영웅에 관한 : 아리엘 샤론ŕä 을 화이트 워싱	전쟁 범죄자와 영웅에 관한 : 아리엘 샤론을 화이트 워싱
+main-news	headlines	2015	1153	4.80	로저스, 비디오트론이 네트워크 공유 거래로 범위 확장	로저스, 비디오트론이 네트워크 공유와 스펙트럼 거래에 도달
+main-news	headlines	2015	1157	5.00	말레이시아 비행기 추락 사고로 저명한 에이즈 연구진 사망	말레이시아 비행기 추락 사고로 최고 에이즈 연구원 사망
+main-news	headlines	2015	1205	3.20	이스라엘군은 팔레스타인 무장 단체 2명을 살해한다.	이스라엘 군대가 급습으로 팔레스타인 무장 단체를 살해한다.
+main-news	headlines	2015	1207	1.20	태풍이 일본을 강타한 후 사망자 수는 17명으로 증가한다.	파키스탄 홍수로 사망자 수가 84명으로 증가하다.
+main-news	headlines	2015	1223	5.00	긴장 속에 우크라이나 수도에서 시위가 계속되고 있다.	우크라이나 수도에서 시위가 계속되고 있다.
+main-news	headlines	2015	1229	4.60	말리 납치 후 두 명의 프랑스 언론인이 살해되었다.	두 명의 프랑스 언론인이 납치되어 말리 북부에서 살해되었다.
+main-news	headlines	2015	1231	2.00	12월 14일 주요 이란 신문의 헤드라인	7월 29일 주요 이란 신문의 헤드라인
+main-news	headlines	2015	1233	1.80	이란, 시리아에 대한 전쟁 가능성 유출 경고	이란 대표단이 시리아 레바논으로 향한다.
+main-news	headlines	2015	1242	3.00	페르베즈 무샤라프 전 파키스탄 대통령이 다시 체포되었다.	전 파키스탄 군 통치자 페르베즈 무샤라프의 보석이 허가되었다.
+main-news	headlines	2015	1263	3.80	미국 드론 공격으로 파키스탄에서 무장 단체 4명 사망	미국 드론 공격으로 파키스탄에서 10명 사망
+main-news	headlines	2015	1271	4.00	영국의 전 수상 마가렛 대처 87세로 사망	전 영국 수상 마가렛 대처 사망
+main-news	headlines	2015	1303	4.80	북극곰 DNA '비만 퇴치에 도움이 될 수 있다'	북극곰 연구는 비만과의 전쟁을 촉진시킬 수 있다.
+main-news	headlines	2015	1311	4.80	분노의 질주' 스타, 폴 워커가 자동차 충돌로 사망	폴 워커 사망: '분노의 질주' 스타, 40세, 자동차 충돌로 사망
+main-news	headlines	2015	1316	2.80	시리아 하마에서 공습으로 한 사람이 사망	미국 드론 공격으로 파키스탄에서 11명 사망
+main-news	headlines	2015	1321	2.60	터키 수상과 대통령, 시위에 대한 답변 충돌	터키 대통령은 전국적인 시위 속에서 침착함을 요구한다.
+main-news	headlines	2015	1351	4.40	강한 새로운 지진이 산산조각 난 파키스탄 지역을 강타	산산조각 난 파키스탄에 6.8 지진
+main-news	headlines	2015	1383	4.60	중부 유럽의 홍수는 계속해서 대혼란을 일으키고 있다.	유럽 홍수는 계속해서 대혼란을 일으키고 있다.
+main-news	headlines	2015	1403	2.20	룩셈부르크 수상은 스파이 스캔들로 사퇴한다.	룩셈부르크는 첩보 분쟁에 관해 투표한다
+main-news	headlines	2015	1425	0.40	중국 중부 건설 사고로 3명 사망, 4명 실종	베트남 보트 사고로 사망한 사람 1명, 실종된 사람 8명
+main-news	headlines	2015	1438	0.40	미국과 중국, 관계의 균열을 임시적으로 막는데 실패	중국 : 사라진 페이드에 대한 희망에 초점을 둔 안도
+main-news	headlines	2015	1454	1.40	월드컵 생중계 : 프랑스 0-0 독일	월드컵 생중계 : 독일 0-0 가나
+main-news	headlines	2015	1456	4.80	2020 경기를 개최하는 도쿄	도쿄, 2020 올림픽 개최 경쟁에서 우승
+main-news	headlines	2015	1463	4.40	프랑스는 이집트 폭력으로 이득을 보는 극단 주의자들에 대해 경고한다.	프랑스는 극단 주의자들이 이집트 폭력으로부터 이익을 얻을 것을 우려한다.
+main-news	headlines	2015	1482	5.00	마갈루프 호텔에서 떨어져 살해된 영국 십 대	마갈루프 호텔 추락으로 살해된 영국 십 대
+main-news	headlines	2016	0135	2	와지리스탄에서 미국 드론 공격으로 8명 사망	미국 드론 공격으로 파키스탄에서 11명 사망
+main-news	headlines	2016	0152	5	가택연금 중인 러시아 야당 지도자	가택연금 상태에 놓인 러시아 야당 지도자
+main-news	headlines	2016	0154	5	상원은 자넷 옐런이 미국 연방준비제도이사회 의장임을 확인했다.	상원, 자넷 옐런을 차기 연방 예비 의장으로 확정
+main-news	headlines	2016	0221	5	이스라엘, 시리아 표적 무기 공격 확인	이스라엘 공식 발표: 시리아 표적 무기에 대한 공격
+main-news	headlines	2016	0244	5	배심원들은 조디 아리아스가 사형 대상이 된다고 생각한다.	조디 아리아스는 사형 대상이 된다고 배심원은 말한다.
+main-news	headlines	2016	0273	4	트위터는 베네수엘라에서의 차단을 알린다.	트위터는 베네수엘라에서 차단된 이미지라고 말한다.
+main-news	headlines	2016	0321	3	고아 빌딩 붕괴 사망자 수 15명에 달하다.	인도 건물 붕괴 사망 14명으로 증가하다.
+main-news	headlines	2016	0325	3	파키스탄 종교 단체는 미성년 결혼을 지지한다.	CII는 미성년 결혼을 지지한다
+main-news	headlines	2016	0405	5	Mt Gox는 20만 개의 '잊혀진' 비트코인을 밝힌다.	Mt Gox는 20만 개의 '잊혀진' 비트코인을 발견한다.
+main-news	headlines	2016	0471	4	텍사스 공장 폭발로 100명 이상이 부상당했다.	수백 명의 사람들이 텍사스 비료 공장 폭발로 부상당한 것으로 추정된다.
+main-news	headlines	2016	0572	2	레드포드는 리더십에 대한 투표를 앞두고 알베르타 경제를 선전한다.	레드포드는 리더십 검토에 앞서 PC 컨벤션을 다루고 있다.
+main-news	headlines	2016	0656	1	오바마는 시리아 공격에 대해 버티고 있다.	영국은 시리아 원조에 대해 국가들을 촉구한다.
+main-news	headlines	2016	0735	4	보도에 따르면 남한 군인은 북한과의 국경에서 5명의 동지들을 살해한 후 도망친다고 한다.	남한 군인이 동지들을 죽이고 도망친다.
+main-news	headlines	2016	0775	0	거물들은 우크라이나에서 승리하고 유럽연합에서 미래를 모색하겠다고 약속한다.	우크라이나 대통령 선거에서 개소되는 투표소
+main-news	headlines	2016	0788	2	시리아는 화학무기를 항복하기로 합의했다.	영국 카메론 :. 시리아, 러시아는 화학 무기 제안이 진실임을 보여야 한다
+main-news	headlines	2016	0904	5	애비는 세금 변경 후 550억 달러 샤이어 거래에 관심을 잃는다.	애비는 미국 세금 변경 후 550억 달러 샤이어 거래에 관심이 식는다.
+main-news	headlines	2016	0935	3	아프가니스탄의 무장 공격으로 상부에서 4명이 사망했다.	아프가니스탄의 무장 공격으로 발로치스탄에서 FC 병사가 사망했다.
+main-news	headlines	2016	1029	2	아프가니스탄 테러로 13명 사망	아프가니스탄 수도 모스크 공격으로 6명 사망
+main-news	headlines	2016	1032	2	REV의 초기 읽기 : 3월 2일	REV.의 초기 읽기 : 2015년 9월 3일
+main-news	headlines	2016	1108	0	교황은 팔레스타인인 2명을 성인으로 공표한다.	스웨덴은 팔레스타인 국가를 인정한다.
+main-news	headlines	2016	1164	0	벨파스트에서 열리는 이안 페이즐리 장례식	MH17 희생자 리암 스위니의 장례식이 뉴캐슬에서 열린다.
+main-news	headlines	2016	1170	1	와바가 새로운 NLC 사장을 출현시키다.	차기 대통령을 기다리는 것
+main-news	headlines	2016	1181	1	다섯 번의 미국 공습은 이슬람 국가 전투기를 표적으로 삼는다.	쿠르드족은 터키가 이슬람 국가 싸움을 방해하는 것을 본다.
+main-news	headlines	2016	1264	1	미국 상원은 이란 핵 검토 법안을 진전시키기 위해 투표한다.	미국 과학자들은 이란 핵 협상을 칭찬한다.
+main-news	headlines	2016	1298	2	전 세계의 편집자들은 터키가 언론을 보호할 것을 촉구한다	터키가 반란군과 싸우면서 언론의 자유가 위태롭다.
+main-news	headlines	2016	1354	0	필리핀과 캐나다는 더 나아가 관계를 증진시키겠다고 약속한다.	필리핀은 여객선 침몰 후 100명을 구한다.
+main-news	headlines	2016	1360	1	이스라엘은 팔레스타인인의 예루살렘의 구 시가지 출입을 금지한다.	팔레스타인인과 이스라엘 두 국가 해결안은 그림의 떡
+main-news	headlines	2016	1368	1	비밀경호국에 대해 얼마나 알고 계십니까?	양측 의원들은 비밀경호국에 분노를 표출한다
+main-news	headlines	2016	1420	0	이란 회담이 재개되면서 오바마는 사우디의 두려움을 달래기 위해 고군분투하고 있다.	미얀마는 일요일 투표를 위한 유권자 명단을 확정하기 위해 고군분투하고 있다.
+main-news	headlines	2016	1432	0	한국은 메르스 발생을 종식시키겠다고 선언한다.	북한 대표단은 한국 관리들과 만난다.

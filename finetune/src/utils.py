@@ -5,6 +5,7 @@ import logging
 import torch
 import numpy as np
 
+from scipy.stats import pearsonr, spearmanr
 from seqeval.metrics import precision_score, recall_score, f1_score, classification_report
 
 from src import (
@@ -102,6 +103,16 @@ def acc_score(labels, preds):
     }
 
 
+def pearson_and_spearman(labels, preds):
+    pearson_corr = pearsonr(preds, labels)[0]
+    spearman_corr = spearmanr(preds, labels)[0]
+    return {
+        "pearson": pearson_corr,
+        "spearmanr": spearman_corr,
+        "corr": (pearson_corr + spearman_corr) / 2,
+    }
+
+
 def f1_pre_rec(labels, preds):
     return {
         "precision": precision_score(labels, preds, suffix=True),
@@ -112,3 +123,21 @@ def f1_pre_rec(labels, preds):
 
 def show_ner_report(labels, preds):
     return classification_report(labels, preds, suffix=True)
+
+
+def compute_metrics(task_name, labels, preds):
+    assert len(preds) == len(labels)
+    if task_name == "kornli":
+        return acc_score(labels, preds)
+    elif task_name == "nsmc":
+        return acc_score(labels, preds)
+    elif task_name == "paws":
+        return acc_score(labels, preds)
+    elif task_name == "korsts":
+        return pearson_and_spearman(labels, preds)
+    elif task_name == "question-pair":
+        return acc_score(labels, preds)
+    elif task_name == 'naver-ner':
+        return f1_pre_rec(labels, preds)
+    else:
+        raise KeyError(task_name)

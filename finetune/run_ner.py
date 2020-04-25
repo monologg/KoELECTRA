@@ -21,7 +21,7 @@ from src import (
     MODEL_FOR_TOKEN_CLASSIFICATION,
     init_logger,
     set_seed,
-    f1_pre_rec,
+    compute_metrics,
     show_ner_report
 )
 
@@ -210,7 +210,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
 
-    result = f1_pre_rec(out_label_list, preds_list)
+    result = compute_metrics(args.task, out_label_list, preds_list)
     results.update(result)
 
     output_dir = os.path.join(args.output_dir, mode)
