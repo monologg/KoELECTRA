@@ -28,5 +28,5 @@
   "eval_batch_size": 64,
   "logging_steps": 100,
   "save_steps": 100,
-  "learning_rate": 3e-5
+  "learning_rate": 5e-5
 }
