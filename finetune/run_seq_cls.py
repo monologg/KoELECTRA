@@ -204,7 +204,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
         logger.info("***** Eval results on {} dataset *****".format(mode))
         for key in sorted(result.keys()):
             logger.info("  {} = {}".format(key, str(result[key])))
-            f_w.write("  {} = {}".format(key, str(result[key])))
+            f_w.write("  {} = {}\n".format(key, str(result[key])))
 
     return results
 
