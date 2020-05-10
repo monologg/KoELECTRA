@@ -59,8 +59,8 @@ def train(args,
             os.path.join(args.model_name_or_path, "scheduler.pt")
     ):
         # Load optimizer and scheduler states
-        optimizer.load_stae_dict(torch.load(os.path.join(args.model_name_or_path, "optimizer.pt")))
-        scheduler.load_stae_dict(torch.load(os.path.join(args.model_name_or_path, "scheduler.pt")))
+        optimizer.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "optimizer.pt")))
+        scheduler.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "scheduler.pt")))
 
     # Train!
     logger.info("***** Running training *****")
