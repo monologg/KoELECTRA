@@ -8,6 +8,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from fastprogress.fastprogress import master_bar, progress_bar
+from attrdict import AttrDict
 
 from transformers import (
     AdamW,
@@ -85,10 +86,8 @@ def train(args,
                 "attention_mask": batch[1],
                 "labels": batch[3]
             }
-            if args.model_type not in ["distilkobert"]:
-                inputs["token_type_ids"] = (
-                    batch[2] if args.model_type in ["kobert", "hanbert", "electra-base", "electra-small"] else None
-                )  # XLM-Roberta don't use segment_ids
+            if args.model_type not in ["distilkobert", "xlm-roberta"]:
+                inputs["token_type_ids"] = batch[2]  # Distilkobert, XLM-Roberta don't use segment_ids
             outputs = model(**inputs)
 
             loss = outputs[0]
@@ -171,10 +170,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
                 "attention_mask": batch[1],
                 "labels": batch[3]
             }
-            if args.model_type not in ["distilkobert"]:
-                inputs["token_type_ids"] = (
-                    batch[2] if args.model_type in ["kobert", "hanbert", "electra-base", "electra-small"] else None
-                )  # XLM-Roberta don't use segment_ids
+            if args.model_type not in ["distilkobert", "xlm-roberta"]:
+                inputs["token_type_ids"] = batch[2]  # Distilkobert, XLM-Roberta don't use segment_ids
             outputs = model(**inputs)
             tmp_eval_loss, logits = outputs[:2]
 
@@ -212,21 +209,28 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
 def main(cli_args):
     # Read from config file and make args
     with open(os.path.join(cli_args.config_dir, cli_args.task, cli_args.config_file)) as f:
-        config = json.load(f)
-    logger.info("Training/evaluation parameters {}".format(config))
+        args = AttrDict(json.load(f))
+    logger.info("Training/evaluation parameters {}".format(args))
 
-    args = argparse.Namespace()
-    for key, value in config.items():
-        args.__setattr__(key, value)
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
     init_logger()
     set_seed(args)
 
-    config = CONFIG_CLASSES[args.model_type].from_pretrained(
-        args.model_name_or_path,
-        num_labels=tasks_num_labels[args.task],
-    )
+    processor = processors[args.task](args)
+    labels = processor.get_labels()
+    if output_modes[args.task] == "regression":
+        config = CONFIG_CLASSES[args.model_type].from_pretrained(
+            args.model_name_or_path,
+            num_labels=tasks_num_labels[args.task]
+        )
+    else:
+        config = CONFIG_CLASSES[args.model_type].from_pretrained(
+            args.model_name_or_path,
+            num_labels=tasks_num_labels[args.task],
+            id2label={str(i): label for i, label in enumerate(labels)},
+            label2id={label: i for i, label in enumerate(labels)},
+        )
     tokenizer = TOKENIZER_CLASSES[args.model_type].from_pretrained(
         args.model_name_or_path,
         do_lower_case=args.do_lower_case

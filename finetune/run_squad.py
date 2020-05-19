@@ -28,6 +28,7 @@ import torch
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from torch.utils.data.distributed import DistributedSampler
 from fastprogress.fastprogress import master_bar, progress_bar
+from attrdict import AttrDict
 
 from src import (
     eval_during_train,
@@ -394,15 +395,11 @@ def load_and_cache_examples(args, tokenizer, evaluate=False, output_examples=Fal
 
 
 def main(cli_args):
-
     # Read from config file and make args
     with open(os.path.join(cli_args.config_dir, cli_args.task, cli_args.config_file)) as f:
-        config = json.load(f)
-    logger.info("Training/evaluation parameters {}".format(config))
+        args = AttrDict(json.load(f))
+    logger.info("Training/evaluation parameters {}".format(args))
 
-    args = argparse.Namespace()
-    for key, value in config.items():
-        args.__setattr__(key, value)
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
     if args.doc_stride >= args.max_seq_length - args.max_query_length:
