@@ -17,6 +17,15 @@ just install the `Transformers` library and it will be ready to use regardless o
 
 **April 27, 2020** - Add two additional subtasks (`KorSTS`, `QuestionPair`), and the results were updated for the existing 5 subtasks.
 
+**June 3, 2020** - `KoELECTRA-v2` is released for both base and small model, which is trained with new vocabulary that is used in [EnlipleAI PLM](https://github.com/enlipleai/kor_pratrain_LM). Both Base and Small models showed improved performance in `KorQuaD`.
+
+```python
+from transformers import ElectraModel, ElectraTokenizer
+
+model = ElectraModel.from_pretrained("monologg/koelectra-base-v2-discriminator")
+tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discriminator")
+```
+
 ## About KoELECTRA
 
 |                   |               | Layers | Embedding Size | Hidden Size | # heads | Size |
@@ -75,6 +84,14 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-discrimina
 # KoELECTRA-Small
 model = ElectraModel.from_pretrained("monologg/koelectra-small-discriminator")
 tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-discriminator")
+
+# KoELECTRA-Base-v2
+model = ElectraModel.from_pretrained("monologg/koelectra-base-v2-discriminator")
+tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discriminator")
+
+# KoELECTRA-Small-v2
+model = ElectraModel.from_pretrained("monologg/koelectra-small-v2-discriminator")
+tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-v2-discriminator")
 ```
 
 ```python
@@ -94,27 +111,29 @@ For code and more detail, see [[Finetuning]](./finetune/README_EN.md)
 
 ### Base Model
 
-|                    | Size  | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
-| :----------------- | :---: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
-| KoBERT             | 351M  |       89.63        |         86.11          |       80.65        |        79.00         |           79.64           |            93.93            |         52.81 / 80.27         |
-| XLM-Roberta-Base        | 1.03G |       89.49        |         86.26          |     **82.95**      |        79.92         |           79.09           |            93.53            |         64.70 / 88.94         |
-| HanBERT            | 614M  |       90.16        |       **87.31**        |       82.40        |      **80.89**       |         **83.33**         |            94.19            |       **78.74 / 92.02**       |
-| **KoELECTRA-Base** | 423M  |     **90.21**      |         86.87          |       81.90        |        80.85         |           83.21           |          **94.20**          |         61.10 / 89.59         |
+|                       | Size  | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
+| :-------------------- | :---: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
+| KoBERT                | 351M  |       89.63        |         86.11          |       80.65        |        79.00         |           79.64           |            93.93            |         52.81 / 80.27         |
+| XLM-Roberta-Base      | 1.03G |       89.49        |         86.26          |       82.95        |        79.92         |           79.09           |            93.53            |         64.70 / 88.94         |
+| HanBERT               | 614M  |       90.16        |       **87.31**        |       82.40        |      **80.89**       |           83.33           |            94.19            |         78.74 / 92.02         |
+| **KoELECTRA-Base**    | 423M  |     **90.21**      |         86.87          |       81.90        |        80.85         |           83.21           |            94.20            |         61.10 / 89.59         |
+| **KoELECTRA-Base-v2** | 423M  |       89.70        |         87.02          |     **83.90**      |        80.61         |         **84.30**         |          **94.72**          |       **84.34 / 92.58**       |
 
 In case of `KoELECTRA-Base`, it shows better performance than `KoBERT`, and similar performance in `HanBERT` on some tasks.
 
 ### Small Model
 
-|                     | Size | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
-| :------------------ | :--: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
-| DistilKoBERT        | 108M |       88.41        |       **84.13**        |       62.55        |        70.55         |           73.21           |            92.48            |         54.12 / 77.80         |
-| **KoELECTRA-Small** | 53M  |     **88.76**      |         84.11          |     **74.15**      |      **76.27**       |         **77.00**         |          **93.01**          |       **58.13 / 86.82**       |
+|                        | Size | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
+| :--------------------- | :--: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
+| DistilKoBERT           | 108M |       88.41        |         84.13          |       62.55        |        70.55         |           73.21           |            92.48            |         54.12 / 77.80         |
+| **KoELECTRA-Small**    | 53M  |     **88.76**      |         84.11          |       74.15        |        76.27         |           77.00           |            93.01            |         58.13 / 86.82         |
+| **KoELECTRA-Small-v2** | 53M  |       88.64        |       **85.05**        |     **74.50**      |      **76.76**       |         **78.28**         |          **93.66**          |       **81.43 / 90.37**       |
 
 In case of `KoELECTRA-Small`, overall performance is better than `DistilKoBERT`.
 
 ## Acknowledgement
 
-KoELECTRA was created with Cloud TPU support from the Tensorflow Research Cloud (TFRC) program.
+KoELECTRA was created with Cloud TPU support from the **Tensorflow Research Cloud (TFRC)** program.
 
 ## Reference
 
@@ -122,3 +141,4 @@ KoELECTRA was created with Cloud TPU support from the Tensorflow Research Cloud 
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 - [Tensorflow Research Cloud](https://www.tensorflow.org/tfrc?hl=ko)
 - [Chinese ELECTRA](https://github.com/ymcui/Chinese-ELECTRA/blob/master/README_EN.md)
+- [Enliple AI Korean PLM](https://github.com/enlipleai/kor_pratrain_LM)

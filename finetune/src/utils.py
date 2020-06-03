@@ -39,6 +39,8 @@ CONFIG_CLASSES = {
     "hanbert": BertConfig,
     "koelectra-base": ElectraConfig,
     "koelectra-small": ElectraConfig,
+    "koelectra-base-v2": ElectraConfig,
+    "koelectra-small-v2": ElectraConfig,
     "xlm-roberta": XLMRobertaConfig
 }
 
@@ -48,6 +50,8 @@ TOKENIZER_CLASSES = {
     "hanbert": HanBertTokenizer,
     "koelectra-base": ElectraTokenizer,
     "koelectra-small": ElectraTokenizer,
+    "koelectra-base-v2": ElectraTokenizer,
+    "koelectra-small-v2": ElectraTokenizer,
     "xlm-roberta": XLMRobertaTokenizer
 }
 
@@ -57,6 +61,8 @@ MODEL_FOR_SEQUENCE_CLASSIFICATION = {
     "hanbert": BertForSequenceClassification,
     "koelectra-base": ElectraForSequenceClassification,
     "koelectra-small": ElectraForSequenceClassification,
+    "koelectra-base-v2": ElectraForSequenceClassification,
+    "koelectra-small-v2": ElectraForSequenceClassification,
     "xlm-roberta": XLMRobertaForSequenceClassification
 }
 
@@ -66,6 +72,8 @@ MODEL_FOR_TOKEN_CLASSIFICATION = {
     "hanbert": BertForTokenClassification,
     "koelectra-base": ElectraForTokenClassification,
     "koelectra-small": ElectraForTokenClassification,
+    "koelectra-base-v2": ElectraForTokenClassification,
+    "koelectra-small-v2": ElectraForTokenClassification,
     "xlm-roberta": XLMRobertaForTokenClassification
 }
 
@@ -75,6 +83,8 @@ MODEL_FOR_QUESTION_ANSWERING = {
     "hanbert": BertForQuestionAnswering,
     "koelectra-base": ElectraForQuestionAnswering,
     "koelectra-small": ElectraForQuestionAnswering,
+    "koelectra-base-v2": ElectraForQuestionAnswering,
+    "koelectra-small-v2": ElectraForQuestionAnswering,
     "xlm-roberta": XLMRobertaForQuestionAnswering
 }
 
