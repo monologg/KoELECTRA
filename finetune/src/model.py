@@ -1,13 +1,15 @@
 import torch.nn as nn
 from torch.nn import CrossEntropyLoss, MSELoss
 from transformers.modeling_electra import ElectraModel, ElectraPreTrainedModel
-from transformers import XLMRobertaModel, RobertaForQuestionAnswering, \
-    XLMRobertaConfig, XLM_ROBERTA_PRETRAINED_MODEL_ARCHIVE_MAP
+from transformers import (
+    XLMRobertaConfig,
+    XLMRobertaModel,
+    RobertaForQuestionAnswering,
+)
 
 
 class XLMRobertaForQuestionAnswering(RobertaForQuestionAnswering):
     config_class = XLMRobertaConfig
-    pretrained_model_archive_map = XLM_ROBERTA_PRETRAINED_MODEL_ARCHIVE_MAP
 
 
 class ElectraForSequenceClassification(ElectraPreTrainedModel):
@@ -17,7 +19,7 @@ class ElectraForSequenceClassification(ElectraPreTrainedModel):
 
         self.electra = ElectraModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
 
         self.init_weights()
 
