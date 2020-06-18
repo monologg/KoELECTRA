@@ -4,7 +4,7 @@ from transformers.modeling_electra import ElectraModel, ElectraPreTrainedModel
 from transformers import (
     XLMRobertaConfig,
     XLMRobertaModel,
-    RobertaForQuestionAnswering,
+    RobertaForQuestionAnswering
 )
 
 
@@ -41,7 +41,7 @@ class ElectraForSequenceClassification(ElectraPreTrainedModel):
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
 
-        outputs = (logits,)
+        outputs = (logits,) + discriminator_hidden_states[1:]  # add hidden states and attention if they are here
 
         if labels is not None:
             if self.num_labels == 1:
