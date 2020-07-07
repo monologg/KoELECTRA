@@ -26,6 +26,15 @@ model = ElectraModel.from_pretrained("monologg/koelectra-base-v2-discriminator")
 tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discriminator")
 ```
 
+## Download Link
+
+| Model                |                                                                 Discriminator |                                                                 Generator |                                                                                         Tensorflow-v1 |
+| -------------------- | ----------------------------------------------------------------------------: | ------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------: |
+| `KoELECTRA-Base-v1`  |     [Discriminator](https://huggingface.co/monologg/koelectra-base-discriminator) |     [Generator](https://huggingface.co/monologg/koelectra-base-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1RFeXvGOhRJjFgtWKSyNHY40RTX5zdfKR?usp=sharing) |
+| `KoELECTRA-Small-v1` |    [Discriminator](https://huggingface.co/monologg/koelectra-small-discriminator) |    [Generator](https://huggingface.co/monologg/koelectra-small-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1m2XHmU11_p75UxHXLaN7bzRemkmArV36?usp=sharing) |
+| `KoELECTRA-Base-v2`  |  [Discriminator](https://huggingface.co/monologg/koelectra-base-v2-discriminator) |  [Generator](https://huggingface.co/monologg/koelectra-base-v2-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1QX5KGJmRQVbPIEdMUnpgjJdXGskkoUT_?usp=sharing) |
+| `KoELECTRA-Small-v2` | [Discriminator](https://huggingface.co/monologg/koelectra-small-v2-discriminator) | [Generator](https://huggingface.co/monologg/koelectra-small-v2-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1YAqJgbD69pP9h5cymZfShHhWZ3CXCCb4?usp=sharing) |
+
 ## About KoELECTRA
 
 |                   |               | Layers | Embedding Size | Hidden Size | # heads | Size |
@@ -74,25 +83,26 @@ For more detail, see [[Wordpiece Vocabulary]](./docs/wordpiece_vocab_EN.md)
 
 - ELECTRA uses `discriminator` for finetuning.
 
+### 1. Pytorch Model & Tokenizer
+
 ```python
 from transformers import ElectraModel, ElectraTokenizer
 
-# KoELECTRA-Base
-model = ElectraModel.from_pretrained("monologg/koelectra-base-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-discriminator")
-
-# KoELECTRA-Small
-model = ElectraModel.from_pretrained("monologg/koelectra-small-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-discriminator")
-
-# KoELECTRA-Base-v2
-model = ElectraModel.from_pretrained("monologg/koelectra-base-v2-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discriminator")
-
-# KoELECTRA-Small-v2
-model = ElectraModel.from_pretrained("monologg/koelectra-small-v2-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-v2-discriminator")
+model = ElectraModel.from_pretrained("monologg/koelectra-base-discriminator")  # KoELECTRA-Base
+model = ElectraModel.from_pretrained("monologg/koelectra-small-discriminator")  # KoELECTRA-Small
+model = ElectraModel.from_pretrained("monologg/koelectra-base-v2-discriminator")  # KoELECTRA-Base-v2
+model = ElectraModel.from_pretrained("monologg/koelectra-small-v2-discriminator")  # KoELECTRA-Small-v2
 ```
+
+### 2. Tensorflow v2 Model
+
+```python
+from transformers import TFElectraModel
+
+model = TFElectraModel.from_pretrained("monologg/koelectra-base-discriminator", from_pt=True)
+```
+
+### 3. Tokenizer Example
 
 ```python
 >>> from transformers import ElectraTokenizer
