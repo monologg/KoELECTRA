@@ -10,10 +10,7 @@ from seqeval.metrics import precision_score, recall_score, f1_score, classificat
 
 from src import (
     KoBertTokenizer,
-    HanBertTokenizer,
-    ElectraForSequenceClassification,
-    ElectraForQuestionAnswering,
-    XLMRobertaForQuestionAnswering
+    HanBertTokenizer
 )
 from transformers import (
     BertConfig,
@@ -24,13 +21,16 @@ from transformers import (
     XLMRobertaTokenizer,
     BertForSequenceClassification,
     DistilBertForSequenceClassification,
+    ElectraForSequenceClassification,
     XLMRobertaForSequenceClassification,
     BertForTokenClassification,
     DistilBertForTokenClassification,
-    XLMRobertaForTokenClassification,
     ElectraForTokenClassification,
+    XLMRobertaForTokenClassification,
     BertForQuestionAnswering,
-    DistilBertForQuestionAnswering
+    DistilBertForQuestionAnswering,
+    ElectraForQuestionAnswering,
+    XLMRobertaForQuestionAnswering,
 )
 
 CONFIG_CLASSES = {

@@ -6,11 +6,19 @@
 - For finetuning, `discriminator` was used
 - Write the code based on single GPU
 
-# Requirements
+## Updates
+
+**July 7, 2020**
+
+- The code has been modified for `transformers v3` compatibility. Previously, `ElectraForSequenceClassification` was not supported in official transformers library so I implemented it myself. But recently it has been implemented in official library, so I used the official implementation.
+- The `ElectraForSequenceClassification` in `src/model.py` and [modeling_electra.py](https://github.com/huggingface/transformers/blob/master/src/transformers/modeling_electra.py) are implemented differently.
+  - Accuracy of nsmc in [Result](https://github.com/monologg/KoELECTRA/blob/master/finetune/README.md#result) is based on the model of `src/model.py`.
+
+## Requirements
 
 ```python
-torch==1.4.0
-transformers==2.11.0
+torch==1.5.1
+transformers==3.0.2
 seqeval
 fastprogress
 attrdict

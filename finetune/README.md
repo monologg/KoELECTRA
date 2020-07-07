@@ -6,11 +6,19 @@
 - Finetuning에는 `discriminator`를 사용
 - Single GPU 기준으로 코드 작성
 
-# Requirements
+## Updates
+
+**July 7, 2020**
+
+- `transformers v3`에 맞춰서 코드를 수정하였습니다. 기존에는 `ElectraForSequenceClassification` 등이 지원되지 않아 직접 구현하였지만, 최근에는 공식 라이브러리에 구현이 되어 있어서 이를 사용하는 방향으로 수정하였습니다.
+- 기존 `src/model.py`에서의 `ElectraForSequenceClassification`과 [modeling_electra.py](https://github.com/huggingface/transformers/blob/master/src/transformers/modeling_electra.py)의 `ElectraForSequenceClassification` 구현 방식이 상이합니다.
+  - [Result](https://github.com/monologg/KoELECTRA/blob/master/finetune/README.md#result)의 nsmc 결과는 이전 `src/model.py` 기준입니다.
+
+## Requirements
 
 ```python
-torch==1.4.0
-transformers==2.11.0
+torch==1.5.1
+transformers==3.0.2
 seqeval
 fastprogress
 attrdict

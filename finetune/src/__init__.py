@@ -1,4 +1,3 @@
-from .model import ElectraForQuestionAnswering, ElectraForSequenceClassification, XLMRobertaForQuestionAnswering
 from .tokenization_kobert import KoBertTokenizer
 from .tokenization_hanbert import HanBertTokenizer
 from .utils import CONFIG_CLASSES, TOKENIZER_CLASSES, \
