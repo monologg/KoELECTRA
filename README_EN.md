@@ -28,8 +28,8 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discrim
 
 ## Download Link
 
-| Model                |                                                                 Discriminator |                                                                 Generator |                                                                                         Tensorflow-v1 |
-| -------------------- | ----------------------------------------------------------------------------: | ------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------: |
+| Model                |                                                                     Discriminator |                                                                 Generator |                                                                                         Tensorflow-v1 |
+| -------------------- | --------------------------------------------------------------------------------: | ------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------: |
 | `KoELECTRA-Base-v1`  |     [Discriminator](https://huggingface.co/monologg/koelectra-base-discriminator) |     [Generator](https://huggingface.co/monologg/koelectra-base-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1RFeXvGOhRJjFgtWKSyNHY40RTX5zdfKR?usp=sharing) |
 | `KoELECTRA-Small-v1` |    [Discriminator](https://huggingface.co/monologg/koelectra-small-discriminator) |    [Generator](https://huggingface.co/monologg/koelectra-small-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1m2XHmU11_p75UxHXLaN7bzRemkmArV36?usp=sharing) |
 | `KoELECTRA-Base-v2`  |  [Discriminator](https://huggingface.co/monologg/koelectra-base-v2-discriminator) |  [Generator](https://huggingface.co/monologg/koelectra-base-v2-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1QX5KGJmRQVbPIEdMUnpgjJdXGskkoUT_?usp=sharing) |
@@ -144,6 +144,21 @@ In case of `KoELECTRA-Small`, overall performance is better than `DistilKoBERT`.
 ## Acknowledgement
 
 KoELECTRA was created with Cloud TPU support from the **Tensorflow Research Cloud (TFRC)** program.
+
+## Citation
+
+If you use this code for research, please cite:
+
+```
+@misc{park2020koelectra,
+  author = {Park, Jangwon},
+  title = {KoELECTRA: Pretrained ELECTRA Model for Korean},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/monologg/KoELECTRA}}
+}
+```
 
 ## Reference
 
