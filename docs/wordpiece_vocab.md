@@ -30,6 +30,8 @@ BERT, ELECTRA 등은 기본적으로 `Wordpiece`를 사용하기에 기본적으
 
 ## Code for building Wordpiece vocab
 
+(`tokenizers==0.7.0`을 기준으로 작성했습니다. 라이브러리가 업데이트되면 API가 바뀔 수 있습니다.)
+
 ```python
 import os
 import argparse

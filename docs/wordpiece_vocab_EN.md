@@ -30,6 +30,8 @@ Using this library, even if corpus is very large, there is no memory issue, and 
 
 ## Code for building Wordpiece vocab
 
+(This code is based on `tokenizers==0.7.0`. API might be changed on higher version.)
+
 ```python
 import os
 import argparse
