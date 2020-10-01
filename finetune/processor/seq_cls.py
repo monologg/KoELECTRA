@@ -55,13 +55,7 @@ class InputFeatures(object):
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
 
-def seq_cls_convert_examples_to_features(
-        args,
-        examples,
-        tokenizer,
-        max_length,
-        task
-):
+def seq_cls_convert_examples_to_features(args, examples, tokenizer, max_length, task):
     processor = seq_cls_processors[task](args)
     label_list = processor.get_labels()
     logger.info("Using label list {} for task {}".format(label_list, task))
@@ -80,7 +74,11 @@ def seq_cls_convert_examples_to_features(
     labels = [label_from_example(example) for example in examples]
 
     batch_encoding = tokenizer.batch_encode_plus(
-        [(example.text_a, example.text_b) for example in examples], max_length=max_length, pad_to_max_length=True
+        [(example.text_a, example.text_b) for example in examples],
+        max_length=max_length,
+        padding="max_length",
+        add_special_tokens=True,
+        truncation=True,
     )
 
     features = []
@@ -125,7 +123,7 @@ class KorNLIProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines[1:]):
-            line = line.split('\t')
+            line = line.split("\t")
             guid = "%s-%s" % (set_type, i)
             text_a = line[0]
             text_b = line[1]
@@ -141,17 +139,17 @@ class KorNLIProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file  # Only mnli for training
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, self.args.task, file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        return self._create_examples(
+            self._read_file(os.path.join(self.args.data_dir, self.args.task, file_to_read)), mode
+        )
 
 
 class NsmcProcessor(object):
@@ -176,7 +174,7 @@ class NsmcProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines[1:]):
-            line = line.split('\t')
+            line = line.split("\t")
             guid = "%s-%s" % (set_type, i)
             text_a = line[1]
             label = line[2]
@@ -191,17 +189,17 @@ class NsmcProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, self.args.task, file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        return self._create_examples(
+            self._read_file(os.path.join(self.args.data_dir, self.args.task, file_to_read)), mode
+        )
 
 
 class PawsProcessor(object):
@@ -226,7 +224,7 @@ class PawsProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines[1:]):
-            line = line.split('\t')
+            line = line.split("\t")
             guid = "%s-%s" % (set_type, i)
             text_a = line[1]
             text_b = line[2]
@@ -244,17 +242,17 @@ class PawsProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, self.args.task, file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        return self._create_examples(
+            self._read_file(os.path.join(self.args.data_dir, self.args.task, file_to_read)), mode
+        )
 
 
 class KorSTSProcessor(object):
@@ -279,7 +277,7 @@ class KorSTSProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines[1:]):
-            line = line.split('\t')
+            line = line.split("\t")
             guid = "%s-%s" % (set_type, i)
             text_a = line[5]
             text_b = line[6]
@@ -295,17 +293,17 @@ class KorSTSProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file  # Only mnli for training
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, self.args.task, file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        return self._create_examples(
+            self._read_file(os.path.join(self.args.data_dir, self.args.task, file_to_read)), mode
+        )
 
 
 class QuestionPairProcessor(object):
@@ -330,7 +328,7 @@ class QuestionPairProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines[1:]):
-            line = line.split('\t')
+            line = line.split("\t")
             guid = "%s-%s" % (set_type, i)
             text_a = line[0]
             text_b = line[1]
@@ -348,17 +346,17 @@ class QuestionPairProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, self.args.task, file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        return self._create_examples(
+            self._read_file(os.path.join(self.args.data_dir, self.args.task, file_to_read)), mode
+        )
 
 
 seq_cls_processors = {
@@ -366,23 +364,17 @@ seq_cls_processors = {
     "nsmc": NsmcProcessor,
     "paws": PawsProcessor,
     "korsts": KorSTSProcessor,
-    "question-pair": QuestionPairProcessor
+    "question-pair": QuestionPairProcessor,
 }
 
-seq_cls_tasks_num_labels = {
-    "kornli": 3,
-    "nsmc": 2,
-    "paws": 2,
-    "korsts": 1,
-    "question-pair": 2
-}
+seq_cls_tasks_num_labels = {"kornli": 3, "nsmc": 2, "paws": 2, "korsts": 1, "question-pair": 2}
 
 seq_cls_output_modes = {
     "kornli": "classification",
     "nsmc": "classification",
     "paws": "classification",
     "korsts": "regression",
-    "question-pair": "classification"
+    "question-pair": "classification",
 }
 
 
@@ -393,11 +385,8 @@ def seq_cls_load_and_cache_examples(args, tokenizer, mode):
     cached_features_file = os.path.join(
         args.data_dir,
         "cached_{}_{}_{}_{}".format(
-            str(args.task),
-            list(filter(None, args.model_name_or_path.split("/"))).pop(),
-            str(args.max_seq_len),
-            mode
-        )
+            str(args.task), list(filter(None, args.model_name_or_path.split("/"))).pop(), str(args.max_seq_len), mode
+        ),
     )
     if os.path.exists(cached_features_file):
         logger.info("Loading features from cached file %s", cached_features_file)

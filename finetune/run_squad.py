@@ -45,7 +45,6 @@ from transformers import (
     squad_convert_examples_to_features
 )
 from transformers.data.metrics.squad_metrics import (
-    compute_predictions_log_probs,
     compute_predictions_logits,
     squad_evaluate,
 )
@@ -80,7 +79,7 @@ def train(args, train_dataset, model, tokenizer):
     ]
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
     scheduler = get_linear_schedule_with_warmup(
-        optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total
+        optimizer, num_warmup_steps=int(t_total * args.warmup_proportion), num_training_steps=t_total
     )
 
     # Check if saved optimizer or scheduler states exist

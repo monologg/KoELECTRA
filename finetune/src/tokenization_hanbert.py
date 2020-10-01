@@ -18,18 +18,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""Tokenization classes."""
+""" Tokenization classes for HanBert model """
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import collections
-import re
 import unicodedata
 import six
 from ctypes import *
 
 import logging
 import os
-from shutil import copyfile
 
 import unicodedata
 import six
@@ -38,17 +37,16 @@ from transformers import PreTrainedTokenizer
 
 logger = logging.getLogger(__name__)
 
-VOCAB_FILES_NAMES = {'vocab_file': 'vocab_54k.txt',
-                     'moran_file': 'libmoran4dnlp.so'}
+VOCAB_FILES_NAMES = {"vocab_file": "vocab_54k.txt", "moran_file": "libmoran4dnlp.so"}
 
 PRETRAINED_INIT_CONFIGURATION = {
-    'HanBert-54kN-torch': {'do_lower_case': False},
-    'HanBert-54kN-IP-torch': {'do_lower_case': False}
+    "HanBert-54kN-torch": {"do_lower_case": False},
+    "HanBert-54kN-IP-torch": {"do_lower_case": False},
 }
 
 
 class MorAn16(object):
-    def __init__(self, moran_file='libmoran4dnlp.so'):
+    def __init__(self, moran_file="libmoran4dnlp.so"):
         self.moran = CDLL(moran_file)
         self.moran.Moran4dnlp.restype = c_char_p
         self.moran.Moran4dnlp.argtypes = [c_char_p, c_char_p, c_int]
@@ -106,7 +104,7 @@ def load_vocab(vocab_file):
     """Loads a vocabulary file into a dictionary."""
     vocab = collections.OrderedDict()
     index = 0
-    with open(vocab_file, 'r', encoding='utf-8') as reader:
+    with open(vocab_file, "r", encoding="utf-8") as reader:
         while True:
             token = convert_to_unicode(reader.readline())
             if not token:
@@ -129,7 +127,7 @@ def whitespace_tokenize(text):
 class BasicTokenizer(object):
     """Runs basic tokenization (punctuation splitting, lower casing, etc.)."""
 
-    def __init__(self, use_moran=False, use_zwj=True, moran_file='libmoran4dnlp.so'):
+    def __init__(self, use_moran=False, use_zwj=True, moran_file="libmoran4dnlp.so"):
         self.moran = None
         try:
             self.moran = MorAn16(moran_file)
@@ -232,14 +230,16 @@ class BasicTokenizer(object):
         # as is Japanese Hiragana and Katakana. Those alphabets are used to write
         # space-separated words, so they are not treated specially and handled
         # like the all of the other languages.
-        if ((cp >= 0x4E00 and cp <= 0x9FFF) or  #
-            (cp >= 0x3400 and cp <= 0x4DBF) or  #
-            (cp >= 0x20000 and cp <= 0x2A6DF) or  #
-            (cp >= 0x2A700 and cp <= 0x2B73F) or  #
-            (cp >= 0x2B740 and cp <= 0x2B81F) or  #
-            (cp >= 0x2B820 and cp <= 0x2CEAF) or
-            (cp >= 0xF900 and cp <= 0xFAFF) or  #
-                (cp >= 0x2F800 and cp <= 0x2FA1F)):  #
+        if (
+            (cp >= 0x4E00 and cp <= 0x9FFF)
+            or (cp >= 0x3400 and cp <= 0x4DBF)  #
+            or (cp >= 0x20000 and cp <= 0x2A6DF)  #
+            or (cp >= 0x2A700 and cp <= 0x2B73F)  #
+            or (cp >= 0x2B740 and cp <= 0x2B81F)  #
+            or (cp >= 0x2B820 and cp <= 0x2CEAF)  #
+            or (cp >= 0xF900 and cp <= 0xFAFF)
+            or (cp >= 0x2F800 and cp <= 0x2FA1F)  #
+        ):  #
             return True
 
         return False
@@ -249,7 +249,7 @@ class BasicTokenizer(object):
         output = []
         for char in text:
             cp = ord(char)
-            if cp == 0 or cp == 0xfffd or _is_control(char):
+            if cp == 0 or cp == 0xFFFD or _is_control(char):
                 continue
             if _is_whitespace(char):
                 output.append(" ")
@@ -348,8 +348,7 @@ def _is_punctuation(char, use_zwj=False):
     # Characters such as "^", "$", and "`" are not in the Unicode
     # Punctuation class but we treat them as punctuation anyways, for
     # consistency.
-    if ((cp >= 33 and cp <= 47) or (cp >= 58 and cp <= 64) or
-            (cp >= 91 and cp <= 96) or (cp >= 123 and cp <= 126)):
+    if (cp >= 33 and cp <= 47) or (cp >= 58 and cp <= 64) or (cp >= 91 and cp <= 96) or (cp >= 123 and cp <= 126):
         return True
     cat = unicodedata.category(char)
     if cat.startswith("P"):
@@ -367,16 +366,25 @@ class HanBertTokenizer(PreTrainedTokenizer):
         do_basic_tokenize: Whether to do basic tokenization before wordpiece.
         max_len: An artificial maximum length to truncate tokenized sequences to; Effective maximum length is always the
             minimum of this value (if specified) and the underlying BERT model's sequence length.
-        never_split: List of tokens which will never be split during tokenization. Only has an effect when
-            do_wordpiece_only=False
     """
 
     vocab_files_names = VOCAB_FILES_NAMES
     pretrained_init_configuration = PRETRAINED_INIT_CONFIGURATION
 
-    def __init__(self, vocab_file, moran_file, do_lower_case=False, never_split=None, do_basic_tokenize=True, use_moran=True,
-                 unk_token="[UNK]", sep_token="[SEP]", pad_token="[PAD]", cls_token="[CLS]",
-                 mask_token="[MASK]", **kwargs):
+    def __init__(
+        self,
+        vocab_file,
+        moran_file,
+        do_lower_case=False,
+        do_basic_tokenize=True,
+        use_moran=True,
+        unk_token="[UNK]",
+        sep_token="[SEP]",
+        pad_token="[PAD]",
+        cls_token="[CLS]",
+        mask_token="[MASK]",
+        **kwargs
+    ):
         """Constructs a BertTokenizer.
         Args:
             **vocab_file**: Path to a one-wordpiece-per-line vocabulary file
@@ -385,28 +393,28 @@ class HanBertTokenizer(PreTrainedTokenizer):
                 Only has an effect when do_basic_tokenize=True
             **do_basic_tokenize**: (`optional`) boolean (default True)
                 Whether to do basic tokenization before wordpiece.
-            **never_split**: (`optional`) list of string
-                List of tokens which will never be split during tokenization.
-                Only has an effect when do_basic_tokenize=True
             **tokenize_chinese_chars**: (`optional`) boolean (default True)
                 Whether to tokenize Chinese characters.
                 This should likely be deactivated for Japanese:
                 see: https://github.com/huggingface/pytorch-pretrained-BERT/issues/328
         """
-        super(HanBertTokenizer, self).__init__(unk_token=unk_token, sep_token=sep_token,
-                                               pad_token=pad_token, cls_token=cls_token,
-                                               mask_token=mask_token, **kwargs)
-        self.max_len = 512  # hard-coded
-        self.max_len_single_sentence = self.max_len - 2  # take into account special tokens
-        self.max_len_sentences_pair = self.max_len - 3  # take into account special tokens
+        super(HanBertTokenizer, self).__init__(
+            unk_token=unk_token,
+            sep_token=sep_token,
+            pad_token=pad_token,
+            cls_token=cls_token,
+            mask_token=mask_token,
+            **kwargs
+        )
+        self.model_max_length = 512  # hard-coded
 
         if not os.path.isfile(vocab_file):
             raise ValueError(
                 "Can't find a vocabulary file at path '{}'. To load the vocabulary from a Google pretrained "
-                "model use `tokenizer = HanBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)`".format(vocab_file))
+                "model use `tokenizer = HanBertTokenizer.from_pretrained(PRETRAINED_MODEL_NAME)`".format(vocab_file)
+            )
         self.vocab = load_vocab(vocab_file)
-        self.ids_to_tokens = collections.OrderedDict(
-            [(ids, tok) for tok, ids in self.vocab.items()])
+        self.ids_to_tokens = collections.OrderedDict([(ids, tok) for tok, ids in self.vocab.items()])
         self.do_basic_tokenize = do_basic_tokenize
         self.do_lower_case = do_lower_case
         if do_basic_tokenize:
@@ -434,7 +442,7 @@ class HanBertTokenizer(PreTrainedTokenizer):
 
     def convert_tokens_to_string(self, tokens):
         """ Converts a sequence of tokens (string) in a single string. """
-        tok_text = ' '.join(tokens)
+        tok_text = " ".join(tokens)
 
         # De-tokenize WordPieces that have been split off.
         tok_text = tok_text.replace(" ##", "")
@@ -476,8 +484,10 @@ class HanBertTokenizer(PreTrainedTokenizer):
 
         if already_has_special_tokens:
             if token_ids_1 is not None:
-                raise ValueError("You should not supply a second sequence if the provided sequence of "
-                                 "ids is already formated with special tokens for the model.")
+                raise ValueError(
+                    "You should not supply a second sequence if the provided sequence of "
+                    "ids is already formated with special tokens for the model."
+                )
             return list(map(lambda x: 1 if x in [self.sep_token_id, self.cls_token_id] else 0, token_ids_0))
 
         if token_ids_1 is not None:
@@ -502,15 +512,17 @@ class HanBertTokenizer(PreTrainedTokenizer):
         """Save the tokenizer vocabulary to a directory or file."""
         index = 0
         if os.path.isdir(vocab_path):
-            vocab_file = os.path.join(vocab_path, VOCAB_FILES_NAMES['vocab_file'])
+            vocab_file = os.path.join(vocab_path, VOCAB_FILES_NAMES["vocab_file"])
         else:
             vocab_file = vocab_path
         with open(vocab_file, "w", encoding="utf-8") as writer:
             for token, token_index in sorted(self.vocab.items(), key=lambda kv: kv[1]):
                 if index != token_index:
-                    logger.warning("Saving vocabulary to {}: vocabulary indices are not consecutive."
-                                   " Please check that the vocabulary is not corrupted!".format(vocab_file))
+                    logger.warning(
+                        "Saving vocabulary to {}: vocabulary indices are not consecutive."
+                        " Please check that the vocabulary is not corrupted!".format(vocab_file)
+                    )
                     index = token_index
-                writer.write(token + u'\n')
+                writer.write(token + "\n")
                 index += 1
         return (vocab_file,)

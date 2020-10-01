@@ -8,10 +8,7 @@ import numpy as np
 from scipy.stats import pearsonr, spearmanr
 from seqeval.metrics import precision_score, recall_score, f1_score, classification_report
 
-from src import (
-    KoBertTokenizer,
-    HanBertTokenizer
-)
+from src import KoBertTokenizer, HanBertTokenizer
 from transformers import (
     BertConfig,
     DistilBertConfig,
@@ -40,8 +37,10 @@ CONFIG_CLASSES = {
     "koelectra-base": ElectraConfig,
     "koelectra-small": ElectraConfig,
     "koelectra-base-v2": ElectraConfig,
+    "koelectra-base-v3": ElectraConfig,
     "koelectra-small-v2": ElectraConfig,
-    "xlm-roberta": XLMRobertaConfig
+    "koelectra-small-v3": ElectraConfig,
+    "xlm-roberta": XLMRobertaConfig,
 }
 
 TOKENIZER_CLASSES = {
@@ -51,8 +50,10 @@ TOKENIZER_CLASSES = {
     "koelectra-base": ElectraTokenizer,
     "koelectra-small": ElectraTokenizer,
     "koelectra-base-v2": ElectraTokenizer,
+    "koelectra-base-v3": ElectraTokenizer,
     "koelectra-small-v2": ElectraTokenizer,
-    "xlm-roberta": XLMRobertaTokenizer
+    "koelectra-small-v3": ElectraTokenizer,
+    "xlm-roberta": XLMRobertaTokenizer,
 }
 
 MODEL_FOR_SEQUENCE_CLASSIFICATION = {
@@ -62,8 +63,10 @@ MODEL_FOR_SEQUENCE_CLASSIFICATION = {
     "koelectra-base": ElectraForSequenceClassification,
     "koelectra-small": ElectraForSequenceClassification,
     "koelectra-base-v2": ElectraForSequenceClassification,
+    "koelectra-base-v3": ElectraForSequenceClassification,
     "koelectra-small-v2": ElectraForSequenceClassification,
-    "xlm-roberta": XLMRobertaForSequenceClassification
+    "koelectra-small-v3": ElectraForSequenceClassification,
+    "xlm-roberta": XLMRobertaForSequenceClassification,
 }
 
 MODEL_FOR_TOKEN_CLASSIFICATION = {
@@ -73,8 +76,11 @@ MODEL_FOR_TOKEN_CLASSIFICATION = {
     "koelectra-base": ElectraForTokenClassification,
     "koelectra-small": ElectraForTokenClassification,
     "koelectra-base-v2": ElectraForTokenClassification,
+    "koelectra-base-v3": ElectraForTokenClassification,
     "koelectra-small-v2": ElectraForTokenClassification,
-    "xlm-roberta": XLMRobertaForTokenClassification
+    "koelectra-small-v3": ElectraForTokenClassification,
+    "koelectra-small-v3-51000": ElectraForTokenClassification,
+    "xlm-roberta": XLMRobertaForTokenClassification,
 }
 
 MODEL_FOR_QUESTION_ANSWERING = {
@@ -84,15 +90,19 @@ MODEL_FOR_QUESTION_ANSWERING = {
     "koelectra-base": ElectraForQuestionAnswering,
     "koelectra-small": ElectraForQuestionAnswering,
     "koelectra-base-v2": ElectraForQuestionAnswering,
+    "koelectra-base-v3": ElectraForQuestionAnswering,
     "koelectra-small-v2": ElectraForQuestionAnswering,
-    "xlm-roberta": XLMRobertaForQuestionAnswering
+    "koelectra-small-v3": ElectraForQuestionAnswering,
+    "xlm-roberta": XLMRobertaForQuestionAnswering,
 }
 
 
 def init_logger():
-    logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
-                        datefmt='%m/%d/%Y %H:%M:%S',
-                        level=logging.INFO)
+    logging.basicConfig(
+        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        datefmt="%m/%d/%Y %H:%M:%S",
+        level=logging.INFO,
+    )
 
 
 def set_seed(args):
@@ -127,7 +137,7 @@ def f1_pre_rec(labels, preds):
     return {
         "precision": precision_score(labels, preds, suffix=True),
         "recall": recall_score(labels, preds, suffix=True),
-        "f1": f1_score(labels, preds, suffix=True)
+        "f1": f1_score(labels, preds, suffix=True),
     }
 
 
@@ -147,7 +157,7 @@ def compute_metrics(task_name, labels, preds):
         return pearson_and_spearman(labels, preds)
     elif task_name == "question-pair":
         return acc_score(labels, preds)
-    elif task_name == 'naver-ner':
+    elif task_name == "naver-ner":
         return f1_pre_rec(labels, preds)
     else:
         raise KeyError(task_name)
