@@ -28,12 +28,12 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v2-discrim
 
 ## Download Link
 
-| Model                |                                                                     Discriminator |                                                                 Generator |                                                                                         Tensorflow-v1 |
-| -------------------- | --------------------------------------------------------------------------------: | ------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------: |
-| `KoELECTRA-Base-v1`  |     [Discriminator](https://huggingface.co/monologg/koelectra-base-discriminator) |     [Generator](https://huggingface.co/monologg/koelectra-base-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1RFeXvGOhRJjFgtWKSyNHY40RTX5zdfKR?usp=sharing) |
-| `KoELECTRA-Small-v1` |    [Discriminator](https://huggingface.co/monologg/koelectra-small-discriminator) |    [Generator](https://huggingface.co/monologg/koelectra-small-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1m2XHmU11_p75UxHXLaN7bzRemkmArV36?usp=sharing) |
-| `KoELECTRA-Base-v2`  |  [Discriminator](https://huggingface.co/monologg/koelectra-base-v2-discriminator) |  [Generator](https://huggingface.co/monologg/koelectra-base-v2-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1QX5KGJmRQVbPIEdMUnpgjJdXGskkoUT_?usp=sharing) |
-| `KoELECTRA-Small-v2` | [Discriminator](https://huggingface.co/monologg/koelectra-small-v2-discriminator) | [Generator](https://huggingface.co/monologg/koelectra-small-v2-generator) | [Tensorflow-v1](https://drive.google.com/drive/folders/1YAqJgbD69pP9h5cymZfShHhWZ3CXCCb4?usp=sharing) |
+| Model                |                                                                     Discriminator |                                                                 Generator |                                                                                       Tensorflow-v1 |
+| -------------------- | --------------------------------------------------------------------------------: | ------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------: |
+| `KoELECTRA-Base-v1`  |     [Discriminator](https://huggingface.co/monologg/koelectra-base-discriminator) |     [Generator](https://huggingface.co/monologg/koelectra-base-generator) | [Tensorflow-v1](https://drive.google.com/file/d/1AnyoxEG0nI7NZM7luy7yCL_3_8h00Oaw/view?usp=sharing) |
+| `KoELECTRA-Small-v1` |    [Discriminator](https://huggingface.co/monologg/koelectra-small-discriminator) |    [Generator](https://huggingface.co/monologg/koelectra-small-generator) | [Tensorflow-v1](https://drive.google.com/file/d/1P9ry0g9NbqUBd7X8WbHIcB627EodpDb6/view?usp=sharing) |
+| `KoELECTRA-Base-v2`  |  [Discriminator](https://huggingface.co/monologg/koelectra-base-v2-discriminator) |  [Generator](https://huggingface.co/monologg/koelectra-base-v2-generator) | [Tensorflow-v1](https://drive.google.com/file/d/1i028LR4BIa0c5z6o03gzrb67KqR_74FV/view?usp=sharing) |
+| `KoELECTRA-Small-v2` | [Discriminator](https://huggingface.co/monologg/koelectra-small-v2-discriminator) | [Generator](https://huggingface.co/monologg/koelectra-small-v2-generator) | [Tensorflow-v1](https://drive.google.com/file/d/1y_SKg9XT5dsDXXElo8DmZuUk1sRXR8p5/view?usp=sharing) |
 
 ## About KoELECTRA
 
