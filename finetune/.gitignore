@@ -3,3 +3,4 @@ ckpt/
 
 HanBert-54kN-torch
 koelectra-*/
+script*.sh
