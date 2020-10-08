@@ -1,12 +1,13 @@
-import os
 import random
 import logging
+from numpy.lib.function_base import average
 
 import torch
 import numpy as np
 
 from scipy.stats import pearsonr, spearmanr
-from seqeval.metrics import precision_score, recall_score, f1_score, classification_report
+from seqeval import metrics as seqeval_metrics
+from sklearn import metrics as sklearn_metrics
 
 from src import KoBertTokenizer, HanBertTokenizer
 from transformers import (
@@ -133,16 +134,23 @@ def pearson_and_spearman(labels, preds):
     }
 
 
-def f1_pre_rec(labels, preds):
-    return {
-        "precision": precision_score(labels, preds, suffix=True),
-        "recall": recall_score(labels, preds, suffix=True),
-        "f1": f1_score(labels, preds, suffix=True),
-    }
+def f1_pre_rec(labels, preds, is_ner=True):
+    if is_ner:
+        return {
+            "precision": seqeval_metrics.precision_score(labels, preds, suffix=True),
+            "recall": seqeval_metrics.recall_score(labels, preds, suffix=True),
+            "f1": seqeval_metrics.f1_score(labels, preds, suffix=True),
+        }
+    else:
+        return {
+            "precision": sklearn_metrics.precision_score(labels, preds, average="macro"),
+            "recall": sklearn_metrics.recall_score(labels, preds, average="macro"),
+            "f1": sklearn_metrics.f1_score(labels, preds, average="macro"),
+        }
 
 
 def show_ner_report(labels, preds):
-    return classification_report(labels, preds, suffix=True)
+    return seqeval_metrics.classification_report(labels, preds, suffix=True)
 
 
 def compute_metrics(task_name, labels, preds):
@@ -158,6 +166,8 @@ def compute_metrics(task_name, labels, preds):
     elif task_name == "question-pair":
         return acc_score(labels, preds)
     elif task_name == "naver-ner":
-        return f1_pre_rec(labels, preds)
+        return f1_pre_rec(labels, preds, is_ner=True)
+    elif task_name == "hate-speech":
+        return f1_pre_rec(labels, preds, is_ner=False)
     else:
         raise KeyError(task_name)
