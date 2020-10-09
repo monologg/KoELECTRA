@@ -74,12 +74,12 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 
 ### Pretraining Details
 
-| Model          | Batch Size | Train Steps | Learning Rate | Max Seq Len | Generator Size | Training Time |
-| :------------- | ---------: | ----------: | ------------: | ----------: | -------------: | ------------: |
-| `Base v1, v2`  |        256 |        700K |          2e-4 |         512 |           0.33 |            7d |
-| `Base v3`      |        256 |        1.5M |          2e-4 |         512 |           0.33 |           14d |
-| `Small v1, v2` |        512 |        300K |          5e-4 |         512 |            1.0 |            3d |
-| `Small v3`     |        512 |        800K |          5e-4 |         512 |            1.0 |            7d |
+| Model        | Batch Size | Train Steps |   LR | Max Seq Len | Generator Size | Train Time |
+| :----------- | ---------: | ----------: | ---: | ----------: | -------------: | ---------: |
+| `Base v1,2`  |        256 |        700K | 2e-4 |         512 |           0.33 |         7d |
+| `Base v3`    |        256 |        1.5M | 2e-4 |         512 |           0.33 |        14d |
+| `Small v1,2` |        512 |        300K | 5e-4 |         512 |            1.0 |         3d |
+| `Small v3`   |        512 |        800K | 5e-4 |         512 |            1.0 |         7d |
 
 - In case of `KoELECTRA-Small` model, the same options as `ELECTRA-Small++` in the original paper were used.
 
