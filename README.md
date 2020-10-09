@@ -73,12 +73,12 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 
 ### Pretraining Details
 
-| Model                      | Batch Size | Train Steps | Learning Rate | Max Seq Len | Generator Size | Training Time |
-| :------------------------- | ---------: | ----------: | ------------: | ----------: | -------------: | ------------: |
-| `KoELECTRA-Base` (v1, v2)  |        256 |        700K |          2e-4 |         512 |           0.33 |            7d |
-| `KoELECTRA-Base` (v3)      |        256 |        1.5M |          2e-4 |         512 |           0.33 |           14d |
-| `KoELECTRA-Small` (v1, v2) |        512 |        300K |          5e-4 |         512 |            1.0 |            3d |
-| `KoELECTRA-Small` (v3)     |        512 |        800K |          5e-4 |         512 |            1.0 |            7d |
+| Model          | Batch Size | Train Steps | Learning Rate | Max Seq Len | Generator Size | Training Time |
+| :------------- | ---------: | ----------: | ------------: | ----------: | -------------: | ------------: |
+| `Base v1, v2`  |        256 |        700K |          2e-4 |         512 |           0.33 |            7d |
+| `Base v3`      |        256 |        1.5M |          2e-4 |         512 |           0.33 |           14d |
+| `Small v1, v2` |        512 |        300K |          5e-4 |         512 |            1.0 |            3d |
+| `Small v3`     |        512 |        800K |          5e-4 |         512 |            1.0 |            7d |
 
 - `KoELECTRA-Small` 모델의 경우 원 논문에서의 `ELECTRA-Small++`와 **동일한 옵션**을 사용하였습니다.
 
