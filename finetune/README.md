@@ -12,13 +12,12 @@
 
 - `transformers v3`에 맞춰서 코드를 수정하였습니다. 기존에는 `ElectraForSequenceClassification` 등이 지원되지 않아 직접 구현하였지만, 최근에는 공식 라이브러리에 구현이 되어 있어서 이를 사용하는 방향으로 수정하였습니다.
 - 기존 `src/model.py`에서의 `ElectraForSequenceClassification`과 [modeling_electra.py](https://github.com/huggingface/transformers/blob/master/src/transformers/modeling_electra.py)의 `ElectraForSequenceClassification` 구현 방식이 상이합니다.
-  - [Result](https://github.com/monologg/KoELECTRA/blob/master/finetune/README.md#result)의 nsmc 결과는 이전 `src/model.py` 기준입니다.
 
 ## Requirements
 
 ```python
-torch==1.5.1
-transformers==3.0.2
+torch==1.6.0
+transformers==3.3.1
 seqeval
 fastprogress
 attrdict
@@ -44,28 +43,23 @@ $ python3 run_squad.py --task korquad --config_file xlm-roberta.json
 
 ### Base Model
 
-|                       | Size  | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
-| :-------------------- | :---: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
-| KoBERT                | 351M  |       89.63        |         86.11          |       80.65        |        79.00         |           79.64           |            93.93            |         52.81 / 80.27         |
-| XLM-Roberta-Base      | 1.03G |       89.49        |         86.26          |       82.95        |        79.92         |           79.09           |            93.53            |         64.70 / 88.94         |
-| HanBERT               | 614M  |       90.16        |       **87.31**        |       82.40        |      **80.89**       |           83.33           |            94.19            |         78.74 / 92.02         |
-| **KoELECTRA-Base**    | 423M  |     **90.21**      |         86.87          |       81.90        |        80.85         |           83.21           |            94.20            |         61.10 / 89.59         |
-| **KoELECTRA-Base-v2** | 423M  |       89.70        |         87.02          |     **83.90**      |        80.61         |         **84.30**         |          **94.72**          |       **84.34 / 92.58**       |
-
-\*HanBERT의 Size는 Bert Model과 Tokenizer DB를 합친 것입니다.
+|                       | Size  | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) | **Korean-Hate-Speech (Dev)**<br/>(F1) |
+| :-------------------- | :---: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: | ------------------------------------: |
+| KoBERT                | 351M  |       89.59        |         87.92          |       81.25        |        79.62         |           81.59           |            94.85            |         51.75 / 79.15         |                                 66.21 |
+| XLM-Roberta-Base      | 1.03G |       89.03        |         86.65          |       82.80        |        80.23         |           78.45           |            93.80            |         64.70 / 88.94         |                                 64.06 |
+| HanBERT               | 614M  |       90.06        |         87.70          |       82.95        |        80.32         |           82.73           |            94.72            |         78.74 / 92.02         |                             **68.32** |
+| KoELECTRA-Base        | 423M  |       90.33        |         87.18          |       81.70        |        80.64         |           82.00           |            93.54            |         60.86 / 89.28         |                                 66.09 |
+| KoELECTRA-Base-v2     | 423M  |       89.56        |         87.16          |       80.70        |        80.72         |           82.30           |            94.85            |         84.01 / 92.40         |                                 67.45 |
+| **KoELECTRA-Base-v3** | 431M  |     **90.63**      |       **88.11**        |     **84.45**      |      **82.24**       |         **85.53**         |          **95.25**          |       **84.83 / 93.45**       |                                 67.61 |
 
 ### Small Model
 
-|                        | Size | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) |
-| :--------------------- | :--: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: |
-| DistilKoBERT           | 108M |       88.41        |         84.13          |       62.55        |        70.55         |           73.21           |            92.48            |         54.12 / 77.80         |
-| **KoELECTRA-Small**    | 53M  |     **88.76**      |         84.11          |       74.15        |        76.27         |           77.00           |            93.01            |         58.13 / 86.82         |
-| **KoELECTRA-Small-v2** | 53M  |       88.64        |       **85.05**        |     **74.50**      |      **76.76**       |         **78.28**         |          **93.66**          |       **81.43 / 90.37**       |
-
-\***config의 세팅을 그대로 하여 돌린 결과이며, hyperparameter tuning을 추가적으로 할 시 더 좋은 성능이 나올 수 있습니다.**
-
-- `KoELECTRA-Base`의 경우 `KoBERT`보다 좋은 성능을 보이며, `HanBERT`와 일부 Task에서 유사한 성능을 보입니다.
-- `KoELECTRA-Small`의 경우 전반적으로 `DistilKoBERT`보다 좋은 성능을 보입니다.
+|                        | Size | **NSMC**<br/>(acc) | **Naver NER**<br/>(F1) | **PAWS**<br/>(acc) | **KorNLI**<br/>(acc) | **KorSTS**<br/>(spearman) | **Question Pair**<br/>(acc) | **KorQuaD (Dev)**<br/>(EM/F1) | **Korean-Hate-Speech (Dev)**<br/>(F1) |
+| :--------------------- | :--: | :----------------: | :--------------------: | :----------------: | :------------------: | :-----------------------: | :-------------------------: | :---------------------------: | ------------------------------------: |
+| DistilKoBERT           | 108M |       88.60        |         84.65          |       60.50        |        72.00         |           72.59           |            92.48            |         54.40 / 77.97         |                                 60.72 |
+| KoELECTRA-Small        | 53M  |       88.83        |         84.38          |       73.10        |        76.45         |           76.56           |            93.01            |         58.04 / 86.76         |                                 63.03 |
+| KoELECTRA-Small-v2     | 53M  |       88.83        |         85.00          |       72.35        |        78.14         |           77.84           |            93.27            |         81.43 / 90.46         |                                 60.14 |
+| **KoELECTRA-Small-v3** | 54M  |     **89.36**      |       **85.40**        |     **77.45**      |      **78.60**       |         **80.79**         |          **94.85**          |       **82.11 / 91.13**       |                             **63.07** |
 
 ## Reference
 
@@ -76,6 +70,7 @@ $ python3 run_squad.py --task korquad --config_file xlm-roberta.json
 - [KorNLI/KorSTS](https://github.com/kakaobrain/KorNLUDatasets)
 - [Question Pair](https://github.com/songys/Question_pair)
 - [KorQuad](https://korquad.github.io/category/1.0_KOR.html)
+- [Korean Hate Speech](https://github.com/kocohub/korean-hate-speech)
 - [KoBERT](https://github.com/SKTBrain/KoBERT)
 - [HanBERT](https://github.com/tbai2019/HanBert-54k-N)
 - [HanBert Transformers](https://github.com/monologg/HanBert-Transformers)
