@@ -59,24 +59,26 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 - 이번 프로젝트의 가장 큰 목적은 **Transformers 라이브러리만 있으면 모델을 곧바로 사용 가능하게 만드는 것**이었고, 이에 Sentencepiece, Mecab을 사용하지 않고 원 논문과 코드에서 사용한 `Wordpiece`를 사용하였습니다.
 - 자세한 내용은 [[Wordpiece Vocabulary]](./docs/wordpiece_vocab.md) 참고
 
-|     | Vocab Len | `do_lower_case` |
-| --- | --------: | --------------: |
-| v1  |     32200 |           False |
-| v2  |     32200 |           False |
-| v3  |     35000 |           False |
+|     | Vocab Len | do_lower_case |
+| --- | --------: | ------------: |
+| v1  |     32200 |         False |
+| v2  |     32200 |         False |
+| v3  |     35000 |         False |
 
 ### Data
 
-- `v1`, `v2`의 경우 **약 14G Corpus**(2.6B tokens)를 사용했습니다. (뉴스, 위키, 나무위키)
+- `v1`, `v2`의 경우 **약 14G Corpus** (2.6B tokens)를 사용했습니다. (뉴스, 위키, 나무위키)
 - `v3`의 경우 **약 20G의 모두의 말뭉치**를 추가적으로 사용했습니다. (신문, 문어, 구어, 메신저, 웹)
 - 전처리 관련 내용은 [[Preprocessing]](./docs/preprocessing.md) 참고
 
 ### Pretraining Details
 
-|       Model       | Batch Size |                       Train Steps | Learning Rate | Max Seq Len | Generator Size |                  Training Time |
-| :---------------: | ---------: | --------------------------------: | ------------: | ----------: | -------------: | -----------------------------: |
-| `KoELECTRA-Base`  |        256 | 700K (`v1`, `v2`)<br/>1.5M (`v3`) |          2e-4 |         512 |           0.33 | 7d (`v1`, `v2`)<br/>14d (`v3`) |
-| `KoELECTRA-Small` |        512 | 300K (`v1`, `v2`)<br/>800K (`v3`) |          5e-4 |         512 |            1.0 |  3d (`v1`, `v2`)<br/>7d (`v3`) |
+| Model                      | Batch Size | Train Steps | Learning Rate | Max Seq Len | Generator Size | Training Time |
+| :------------------------- | ---------: | ----------: | ------------: | ----------: | -------------: | ------------: |
+| `KoELECTRA-Base` (v1, v2)  |        256 |        700K |          2e-4 |         512 |           0.33 |            7d |
+| `KoELECTRA-Base` (v3)      |        256 |        1.5M |          2e-4 |         512 |           0.33 |           14d |
+| `KoELECTRA-Small` (v1, v2) |        512 |        300K |          5e-4 |         512 |            1.0 |            3d |
+| `KoELECTRA-Small` (v3)     |        512 |        800K |          5e-4 |         512 |            1.0 |            7d |
 
 - `KoELECTRA-Small` 모델의 경우 원 논문에서의 `ELECTRA-Small++`와 **동일한 옵션**을 사용하였습니다.
 

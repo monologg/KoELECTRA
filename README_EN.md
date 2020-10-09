@@ -60,11 +60,11 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 - The main purpose of this project was to **make the model immediately available with the Transformers library**, therefore, instead of using the Sentencepiece and Mecab, the `Wordpiece` used in the original paper and code was used.
 - For more detail, see [[Wordpiece Vocabulary]](./docs/wordpiece_vocab_EN.md)
 
-|     | Vocab Len | `do_lower_case` |
-| --- | --------: | --------------: |
-| v1  |     32200 |           False |
-| v2  |     32200 |           False |
-| v3  |     35000 |           False |
+|     | Vocab Len | do_lower_case |
+| --- | --------: | ------------: |
+| v1  |     32200 |         False |
+| v2  |     32200 |         False |
+| v3  |     35000 |         False |
 
 ### Data
 
@@ -74,10 +74,12 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 
 ### Pretraining Details
 
-|       Model       | Batch Size |                       Train Steps | Learning Rate | Max Seq Len | Generator Size |                  Training Time |
-| :---------------: | ---------: | --------------------------------: | ------------: | ----------: | -------------: | -----------------------------: |
-| `KoELECTRA-Base`  |        256 | 700K (`v1`, `v2`)<br/>1.5M (`v3`) |          2e-4 |         512 |           0.33 | 7d (`v1`, `v2`)<br/>14d (`v3`) |
-| `KoELECTRA-Small` |        512 | 300K (`v1`, `v2`)<br/>800K (`v3`) |          5e-4 |         512 |            1.0 |  3d (`v1`, `v2`)<br/>7d (`v3`) |
+| Model                      | Batch Size | Train Steps | Learning Rate | Max Seq Len | Generator Size | Training Time |
+| :------------------------- | ---------: | ----------: | ------------: | ----------: | -------------: | ------------: |
+| `KoELECTRA-Base` (v1, v2)  |        256 |        700K |          2e-4 |         512 |           0.33 |            7d |
+| `KoELECTRA-Base` (v3)      |        256 |        1.5M |          2e-4 |         512 |           0.33 |           14d |
+| `KoELECTRA-Small` (v1, v2) |        512 |        300K |          5e-4 |         512 |            1.0 |            3d |
+| `KoELECTRA-Small` (v3)     |        512 |        800K |          5e-4 |         512 |            1.0 |            7d |
 
 - In case of `KoELECTRA-Small` model, the same options as `ELECTRA-Small++` in the original paper were used.
 
