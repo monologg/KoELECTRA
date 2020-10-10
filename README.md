@@ -129,7 +129,7 @@ model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator
 >>> tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 >>> tokenizer.tokenize("[CLS] 한국어 ELECTRA를 공유합니다. [SEP]")
 ['[CLS]', '한국어', 'EL', '##EC', '##TRA', '##를', '공유', '##합니다', '.', '[SEP]']
->>> tokenizer.convert_tokens_to_ids(['[CLS]', '한국어', 'E', '##L', '##EC', '##T', '##RA', '##를', '공유', '##합니다', '.', '[SEP]'])
+>>> tokenizer.convert_tokens_to_ids(['[CLS]', '한국어', 'EL', '##EC', '##TRA', '##를', '공유', '##합니다', '.', '[SEP]'])
 [2, 11229, 29173, 13352, 25541, 4110, 7824, 17788, 18, 3]
 ```
 
