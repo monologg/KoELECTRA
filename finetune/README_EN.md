@@ -5,6 +5,7 @@
 - Write the code based on [Transformers examples](https://github.com/huggingface/transformers/blob/master/examples/README.md)
 - For finetuning, `discriminator` was used
 - Write the code based on single GPU
+- Apart from the KoELECTRA license, there is a separate license for each dataset
 
 ## Updates
 

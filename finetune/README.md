@@ -5,6 +5,7 @@
 - [Transformers examples](https://github.com/huggingface/transformers/blob/master/examples/README.md)를 참고하여 제작
 - Finetuning에는 `discriminator`를 사용
 - Single GPU 기준으로 코드 작성
+- KoELECTRA의 라이센스와는 별개로 데이터별로도 라이센스가 별도로 존재합니다
 
 ## Updates
 
