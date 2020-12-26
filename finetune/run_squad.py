@@ -180,7 +180,6 @@ def train(args, train_dataset, model, tokenizer):
                 if args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Only evaluate when single GPU otherwise metrics may not average well
                     if args.evaluate_during_training:
-                        logger.info("***** Eval results *****")
                         results = evaluate(args, model, tokenizer, global_step=global_step)
                         for key in sorted(results.keys()):
                             logger.info("  %s = %s", key, str(results[key]))
@@ -216,7 +215,7 @@ def train(args, train_dataset, model, tokenizer):
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, tokenizer, prefix="", global_step=None):
+def evaluate(args, model, tokenizer, global_step=None):
     dataset, examples, features = load_and_cache_examples(args, tokenizer, evaluate=True, output_examples=True)
 
     if not os.path.exists(args.output_dir):
@@ -227,7 +226,7 @@ def evaluate(args, model, tokenizer, prefix="", global_step=None):
     eval_dataloader = DataLoader(dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
 
     # Eval!
-    logger.info("***** Running evaluation {} *****".format(prefix))
+    logger.info("***** Running evaluation {} *****".format(global_step))
     logger.info("  Num examples = %d", len(dataset))
     logger.info("  Batch size = %d", args.eval_batch_size)
 
@@ -286,11 +285,11 @@ def evaluate(args, model, tokenizer, prefix="", global_step=None):
     logger.info("  Evaluation done in total %f secs (%f sec per example)", evalTime, evalTime / len(dataset))
 
     # Compute predictions
-    output_prediction_file = os.path.join(args.output_dir, "predictions_{}.json".format(prefix))
-    output_nbest_file = os.path.join(args.output_dir, "nbest_predictions_{}.json".format(prefix))
+    output_prediction_file = os.path.join(args.output_dir, "predictions_{}.json".format(global_step))
+    output_nbest_file = os.path.join(args.output_dir, "nbest_predictions_{}.json".format(global_step))
 
     if args.version_2_with_negative:
-        output_null_log_odds_file = os.path.join(args.output_dir, "null_odds_{}.json".format(prefix))
+        output_null_log_odds_file = os.path.join(args.output_dir, "null_odds_{}.json".format(global_step))
     else:
         output_null_log_odds_file = None
 
@@ -321,12 +320,10 @@ def evaluate(args, model, tokenizer, prefix="", global_step=None):
     output_eval_file = os.path.join(output_dir, "eval_result_{}_{}.txt".format(list(filter(None, args.model_name_or_path.split("/"))).pop(),
                                                                                global_step))
 
-    logger.info("***** Official Eval results *****")
     with open(output_eval_file, "w", encoding='utf-8') as f:
-        official_eval_results = eval_during_train(args)
-        for key in sorted(official_eval_results.keys()):
-            logger.info("  %s = %s", key, str(official_eval_results[key]))
-            f.write(" {} = {}\n".format(key, str(official_eval_results[key])))
+        official_eval_results = eval_during_train(args, step=global_step)
+        results.update(official_eval_results)
+
     return results
 
 
@@ -457,15 +454,14 @@ def main(cli_args):
             global_step = checkpoint.split("-")[-1]
             model = MODEL_FOR_QUESTION_ANSWERING[args.model_type].from_pretrained(checkpoint)
             model.to(args.device)
-            result = evaluate(args, model, tokenizer, prefix=global_step)
+            result = evaluate(args, model, tokenizer, global_step=global_step)
             result = dict((k + ("_{}".format(global_step) if global_step else ""), v) for k, v in result.items())
             results.update(result)
 
-        with open("eval_result.txt", "w", encoding='utf-8') as f:
-            official_eval_results = eval_during_train(args)
-            for key in sorted(official_eval_results.keys()):
-                logger.info("  %s = %s", key, str(official_eval_results[key]))
-                f.write(" {} = {}\n".format(key, str(official_eval_results[key])))
+        output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
+        with open(output_eval_file, "w") as f_w:
+            for key in sorted(results.keys()):
+                f_w.write("{} = {}\n".format(key, str(results[key])))
 
 
 if __name__ == "__main__":

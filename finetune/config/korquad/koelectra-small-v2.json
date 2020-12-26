@@ -19,7 +19,7 @@
   "save_optimizer": false,
   "do_lower_case": false,
   "do_train": true,
-  "do_eval": false,
+  "do_eval": true,
   "num_train_epochs": 7,
   "weight_decay": 0.0,
   "gradient_accumulation_steps": 1,

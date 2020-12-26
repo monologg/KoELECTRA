@@ -103,11 +103,11 @@ def evaluate(dataset, predictions):
     return {'official_exact_match': exact_match, 'official_f1': f1}
 
 
-def eval_during_train(args):
+def eval_during_train(args, step):
     expected_version = 'KorQuAD_v1.0'
 
     dataset_file = os.path.join(args.data_dir, args.task, args.predict_file)
-    prediction_file = os.path.join(args.output_dir, 'predictions_.json')
+    prediction_file = os.path.join(args.output_dir, 'predictions_{}.json'.format(step))
 
     with open(dataset_file) as dataset_f:
         dataset_json = json.load(dataset_f)
