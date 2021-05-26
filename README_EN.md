@@ -35,6 +35,11 @@ model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
 tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 ```
 
+**May 26, 2021**
+
+- Fix the issue that model can't loaded on `torch<=1.4` (Re-uploaded model after fix) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
+- Upload `tensorflow v2` model on huggingface hub (`tf_model.h5`)
+
 ## Download Link
 
 | Model                |                                                                     Discriminator |                                                                 Generator |                                                                                       Tensorflow-v1 |
@@ -118,7 +123,7 @@ model = ElectraModel.from_pretrained("monologg/koelectra-small-v3-discriminator"
 ```python
 from transformers import TFElectraModel
 
-model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator", from_pt=True)
+model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
 ```
 
 ### 3. Tokenizer Example
