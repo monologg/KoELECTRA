@@ -75,7 +75,6 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 
 - For `v1` and `v2`, **14G Corpus** (2.6B tokens) was used. (News, Wiki, Namu Wiki)
 - For `v3`, **20G Corpus** from `Everyone's Corpus` was additionally used. (Newspaper, written, spoken, messenger, web)
-- For more detail, see [[Preprocessing]](./docs/preprocessing_EN.md)
 
 ### Pretraining Details
 

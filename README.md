@@ -74,7 +74,6 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 
 - `v1`, `v2`의 경우 **약 14G Corpus** (2.6B tokens)를 사용했습니다. (뉴스, 위키, 나무위키)
 - `v3`의 경우 **약 20G의 모두의 말뭉치**를 추가적으로 사용했습니다. (신문, 문어, 구어, 메신저, 웹)
-- 전처리 관련 내용은 [[Preprocessing]](./docs/preprocessing.md) 참고
 
 ### Pretraining Details
 
