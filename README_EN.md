@@ -174,7 +174,7 @@ KoELECTRA was created with Cloud TPU support from the **Tensorflow Research Clou
 
 If you use this code for research, please cite:
 
-```
+```bibtex
 @misc{park2020koelectra,
   author = {Park, Jangwon},
   title = {KoELECTRA: Pretrained ELECTRA Model for Korean},
