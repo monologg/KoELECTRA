@@ -175,7 +175,7 @@ KoELECTRA은 **Tensorflow Research Cloud (TFRC)** 프로그램의 Cloud TPU 지�
 
 이 코드를 연구용으로 사용하는 경우 아래와 같이 인용해주세요.
 
-```
+```bibtex
 @misc{park2020koelectra,
   author = {Park, Jangwon},
   title = {KoELECTRA: Pretrained ELECTRA Model for Korean},
