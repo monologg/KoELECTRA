@@ -39,6 +39,10 @@ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discrim
 - `torch<=1.4` 에서 로딩이 되지 않는 이슈 해결 (모델 수정 후 재업로드 완료) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
 - huggingface hub에 `tensorflow v2` 모델 업로드 (`tf_model.h5`)
 
+**Oct 20, 2021**
+
+- `tf_model.h5`에서 바로 로딩하는 부분이 여러 이슈가 존재하여 제거 (`from_pt=True`로 로딩하는 것으로 되돌림)
+
 ## Download Link
 
 | Model                |                                                                     Discriminator |                                                                 Generator |                                                                                       Tensorflow-v1 |
@@ -123,7 +127,7 @@ model = ElectraModel.from_pretrained("monologg/koelectra-small-v3-discriminator"
 ```python
 from transformers import TFElectraModel
 
-model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator", from_pt=True)
 ```
 
 ### 3. Tokenizer Example
