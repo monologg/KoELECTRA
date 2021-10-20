@@ -13,33 +13,6 @@ KoELECTRA is trained with **34GB Korean text**, and I'm releasing `KoELECTRA-Bas
 Also KoELECTRA **uses Wordpiece** and **model is uploaded on s3**, so
 just install the `Transformers` library and it will be ready to use regardless of the OS you use.
 
-## Updates
-
-**April 27, 2020**
-
-- Add two additional subtasks (`KorSTS`, `QuestionPair`), and the results were updated for the existing 5 subtasks.
-
-**June 3, 2020**
-
-- `KoELECTRA-v2` is released for both base and small model, which is trained with new vocabulary that is used in [EnlipleAI PLM](https://github.com/enlipleai/kor_pratrain_LM). Both Base and Small models showed improved performance in `KorQuaD`.
-
-**October 9, 2020**
-
-- `KoELECTRA-v3` was produced by additionally using `Everyone's Corpus`. Vocab was also newly produced using `Mecab` and `Wordpiece`.
-- In consideration of the official support of `ElectraForSequenceClassification` of `Huggingface Transformers`, the existing subtask results have been updated. Also the result of [Korean-Hate-Speech](https://github.com/kocohub/korean-hate-speech) is added.
-
-```python
-from transformers import ElectraModel, ElectraTokenizer
-
-model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
-```
-
-**May 26, 2021**
-
-- Fix the issue that model can't loaded on `torch<=1.4` (Re-uploaded model after fix) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
-- Upload `tensorflow v2` model on huggingface hub (`tf_model.h5`)
-
 ## Download Link
 
 | Model                |                                                                     Discriminator |                                                                 Generator |                                                                                       Tensorflow-v1 |
@@ -122,7 +95,7 @@ model = ElectraModel.from_pretrained("monologg/koelectra-small-v3-discriminator"
 ```python
 from transformers import TFElectraModel
 
-model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator", from_pt=True)
 ```
 
 ### 3. Tokenizer Example
@@ -161,6 +134,37 @@ For code and more detail, see [[Finetuning]](./finetune/README_EN.md)
 | KoELECTRA-Small        |       88.83        |         84.38          |       73.10        |        76.45         |           76.56           |            93.01            |         58.04 / 86.76         |                 63.03                 |
 | KoELECTRA-Small-v2     |       88.83        |         85.00          |       72.35        |        78.14         |           77.84           |            93.27            |         81.43 / 90.46         |                 60.14                 |
 | **KoELECTRA-Small-v3** |     **89.36**      |       **85.40**        |     **77.45**      |      **78.60**       |         **80.79**         |          **94.85**          |       **82.11 / 91.13**       |               **63.07**               |
+
+## Updates
+
+**April 27, 2020**
+
+- Add two additional subtasks (`KorSTS`, `QuestionPair`), and the results were updated for the existing 5 subtasks.
+
+**June 3, 2020**
+
+- `KoELECTRA-v2` is released for both base and small model, which is trained with new vocabulary that is used in [EnlipleAI PLM](https://github.com/enlipleai/kor_pratrain_LM). Both Base and Small models showed improved performance in `KorQuaD`.
+
+**October 9, 2020**
+
+- `KoELECTRA-v3` was produced by additionally using `Everyone's Corpus`. Vocab was also newly produced using `Mecab` and `Wordpiece`.
+- In consideration of the official support of `ElectraForSequenceClassification` of `Huggingface Transformers`, the existing subtask results have been updated. Also the result of [Korean-Hate-Speech](https://github.com/kocohub/korean-hate-speech) is added.
+
+```python
+from transformers import ElectraModel, ElectraTokenizer
+
+model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+```
+
+**May 26, 2021**
+
+- Fix the issue that model can't loaded on `torch<=1.4` (Re-uploaded model after fix) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
+- Upload `tensorflow v2` model on huggingface hub (`tf_model.h5`)
+
+**Oct 20, 2021**
+
+- Remove `tf_model.h5` on huggingface hub. (Use `from_pt=True`)
 
 ## Acknowledgement
 
