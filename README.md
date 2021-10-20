@@ -12,37 +12,6 @@ KoELECTRA는 **34GB의 한국어 text**로 학습하였고, 이를 통해 나온
 
 또한 KoELECTRA는 **Wordpiece 사용**, **모델 s3 업로드** 등을 통해 OS 상관없이 `Transformers` 라이브러리만 설치하면 곧바로 사용할 수 있습니다.
 
-## Updates
-
-**April 27, 2020**
-
-- 2개의 Subtask (`KorSTS`, `QuestionPair`)에 대해 추가적으로 finetuning을 진행하였고, 기존 5개의 Subtask에 대해서도 결과를 업데이트하였습니다.
-
-**June 3, 2020**
-
-- [EnlipleAI PLM](https://github.com/enlipleai/kor_pratrain_LM)에서 사용된 vocabulary를 이용하여 `KoELECTRA-v2`를 제작하였습니다. Base 모델과 Small 모델 모두 `KorQuaD`에서 성능 향상을 보였습니다.
-
-**October 9, 2020**
-
-- `모두의 말뭉치`를 추가적으로 사용하여 `KoELECTRA-v3`를 제작하였습니다. Vocab도 `Mecab`과 `Wordpiece`를 이용하여 새로 제작하였습니다.
-- `Huggingface Transformers`의 `ElectraForSequenceClassification` 공식 지원 등을 고려하여 기존 Subtask 결과를 새로 Update하였습니다. 또한 [Korean-Hate-Speech](https://github.com/kocohub/korean-hate-speech)의 결과도 추가했습니다.
-
-```python
-from transformers import ElectraModel, ElectraTokenizer
-
-model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
-```
-
-**May 26, 2021**
-
-- `torch<=1.4` 에서 로딩이 되지 않는 이슈 해결 (모델 수정 후 재업로드 완료) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
-- huggingface hub에 `tensorflow v2` 모델 업로드 (`tf_model.h5`)
-
-**Oct 20, 2021**
-
-- `tf_model.h5`에서 바로 로딩하는 부분이 여러 이슈가 존재하여 제거 (`from_pt=True`로 로딩하는 것으로 되돌림)
-
 ## Download Link
 
 | Model                |                                                                     Discriminator |                                                                 Generator |                                                                                       Tensorflow-v1 |
@@ -166,6 +135,37 @@ model = TFElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator
 | KoELECTRA-Small        |       88.83        |         84.38          |       73.10        |        76.45         |           76.56           |            93.01            |         58.04 / 86.76         |                 63.03                 |
 | KoELECTRA-Small-v2     |       88.83        |         85.00          |       72.35        |        78.14         |           77.84           |            93.27            |         81.43 / 90.46         |                 60.14                 |
 | **KoELECTRA-Small-v3** |     **89.36**      |       **85.40**        |     **77.45**      |      **78.60**       |         **80.79**         |          **94.85**          |       **82.11 / 91.13**       |               **63.07**               |
+
+## Updates
+
+**April 27, 2020**
+
+- 2개의 Subtask (`KorSTS`, `QuestionPair`)에 대해 추가적으로 finetuning을 진행하였고, 기존 5개의 Subtask에 대해서도 결과를 업데이트하였습니다.
+
+**June 3, 2020**
+
+- [EnlipleAI PLM](https://github.com/enlipleai/kor_pratrain_LM)에서 사용된 vocabulary를 이용하여 `KoELECTRA-v2`를 제작하였습니다. Base 모델과 Small 모델 모두 `KorQuaD`에서 성능 향상을 보였습니다.
+
+**October 9, 2020**
+
+- `모두의 말뭉치`를 추가적으로 사용하여 `KoELECTRA-v3`를 제작하였습니다. Vocab도 `Mecab`과 `Wordpiece`를 이용하여 새로 제작하였습니다.
+- `Huggingface Transformers`의 `ElectraForSequenceClassification` 공식 지원 등을 고려하여 기존 Subtask 결과를 새로 Update하였습니다. 또한 [Korean-Hate-Speech](https://github.com/kocohub/korean-hate-speech)의 결과도 추가했습니다.
+
+```python
+from transformers import ElectraModel, ElectraTokenizer
+
+model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+```
+
+**May 26, 2021**
+
+- `torch<=1.4` 에서 로딩이 되지 않는 이슈 해결 (모델 수정 후 재업로드 완료) ([Related Issue](https://github.com/pytorch/pytorch/issues/48915))
+- huggingface hub에 `tensorflow v2` 모델 업로드 (`tf_model.h5`)
+
+**Oct 20, 2021**
+
+- `tf_model.h5`에서 바로 로딩하는 부분이 여러 이슈가 존재하여 제거 (`from_pt=True`로 로딩하는 것으로 되돌림)
 
 ## Acknowledgement
 
