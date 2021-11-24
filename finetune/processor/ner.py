@@ -56,12 +56,12 @@ class InputFeatures(object):
 
 
 def ner_convert_examples_to_features(
-        args,
-        examples,
-        tokenizer,
-        max_seq_length,
-        task,
-        pad_token_label_id=-100,
+    args,
+    examples,
+    tokenizer,
+    max_seq_length,
+    task,
+    pad_token_label_id=-100,
 ):
     label_lst = ner_processors[task](args).get_labels()
     label_map = {label: i for i, label in enumerate(label_lst)}
@@ -80,12 +80,14 @@ def ner_convert_examples_to_features(
                 word_tokens = [tokenizer.unk_token]  # For handling the bad-encoded word
             tokens.extend(word_tokens)
             # Use the real label id for the first token of the word, and padding ids for the remaining tokens
-            label_ids.extend([label_map[label]] + [pad_token_label_id] * (len(word_tokens) - 1))
+            label_ids.extend(
+                [label_map[label]] + [pad_token_label_id] * (len(word_tokens) - 1)
+            )
 
         special_tokens_count = 2
         if len(tokens) > max_seq_length - special_tokens_count:
-            tokens = tokens[:(max_seq_length - special_tokens_count)]
-            label_ids = label_ids[:(max_seq_length - special_tokens_count)]
+            tokens = tokens[: (max_seq_length - special_tokens_count)]
+            label_ids = label_ids[: (max_seq_length - special_tokens_count)]
 
         # Add [SEP]
         tokens += [tokenizer.sep_token]
@@ -117,31 +119,43 @@ def ner_convert_examples_to_features(
             logger.info("guid: %s" % example.guid)
             logger.info("tokens: %s" % " ".join([str(x) for x in tokens]))
             logger.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
-            logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
-            logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+            logger.info(
+                "attention_mask: %s" % " ".join([str(x) for x in attention_mask])
+            )
+            logger.info(
+                "token_type_ids: %s" % " ".join([str(x) for x in token_type_ids])
+            )
             logger.info("label: %s " % " ".join([str(x) for x in label_ids]))
 
         features.append(
-            InputFeatures(input_ids=input_ids,
-                          attention_mask=attention_mask,
-                          token_type_ids=token_type_ids,
-                          label_ids=label_ids)
+            InputFeatures(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                token_type_ids=token_type_ids,
+                label_ids=label_ids,
+            )
         )
     return features
 
 
 class NaverNerProcessor(object):
-    """Processor for the Naver NER data set """
+    """Processor for the Naver NER data set"""
 
     def __init__(self, args):
         self.args = args
 
     def get_labels(self):
-        return ["O",
-                "PER-B", "PER-I", "FLD-B", "FLD-I", "AFW-B", "AFW-I", "ORG-B", "ORG-I",
-                "LOC-B", "LOC-I", "CVL-B", "CVL-I", "DAT-B", "DAT-I", "TIM-B", "TIM-I",
-                "NUM-B", "NUM-I", "EVT-B", "EVT-I", "ANM-B", "ANM-I", "PLT-B", "PLT-I",
-                "MAT-B", "MAT-I", "TRM-B", "TRM-I"]
+        return [
+            "O",
+            "PER-B",
+            "PER-I",
+            "COM-B",
+            "COM-I",
+            "LOC-B",
+            "LOC-I",
+            "DAT-B",
+            "DAT-I",
+        ]
 
     @classmethod
     def _read_file(cls, input_file):
@@ -156,7 +170,7 @@ class NaverNerProcessor(object):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, data) in enumerate(dataset):
-            words, labels = data.split('\t')
+            words, labels = data.split("\t")
             words = words.split()
             labels = labels.split()
             guid = "%s-%s" % (set_type, i)
@@ -174,28 +188,29 @@ class NaverNerProcessor(object):
             mode: train, dev, test
         """
         file_to_read = None
-        if mode == 'train':
+        if mode == "train":
             file_to_read = self.args.train_file
-        elif mode == 'dev':
+        elif mode == "dev":
             file_to_read = self.args.dev_file
-        elif mode == 'test':
+        elif mode == "test":
             file_to_read = self.args.test_file
 
-        logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir,
-                                                        self.args.task,
-                                                        file_to_read)))
-        return self._create_examples(self._read_file(os.path.join(self.args.data_dir,
-                                                                  self.args.task,
-                                                                  file_to_read)), mode)
+        logger.info(
+            "LOOKING AT {}".format(
+                os.path.join(self.args.data_dir, self.args.task, file_to_read)
+            )
+        )
+        return self._create_examples(
+            self._read_file(
+                os.path.join(self.args.data_dir, self.args.task, file_to_read)
+            ),
+            mode,
+        )
 
 
-ner_processors = {
-    "naver-ner": NaverNerProcessor
-}
+ner_processors = {"naver-ner": NaverNerProcessor}
 
-ner_tasks_num_labels = {
-    "naver-ner": 29
-}
+ner_tasks_num_labels = {"naver-ner": 29}
 
 
 def ner_load_and_cache_examples(args, tokenizer, mode):
@@ -207,8 +222,8 @@ def ner_load_and_cache_examples(args, tokenizer, mode):
             str(args.task),
             list(filter(None, args.model_name_or_path.split("/"))).pop(),
             str(args.max_seq_len),
-            mode
-        )
+            mode,
+        ),
     )
     if os.path.exists(cached_features_file):
         logger.info("Loading features from cached file %s", cached_features_file)
@@ -231,16 +246,22 @@ def ner_load_and_cache_examples(args, tokenizer, mode):
             tokenizer,
             max_seq_length=args.max_seq_len,
             task=args.task,
-            pad_token_label_id=pad_token_label_id
+            pad_token_label_id=pad_token_label_id,
         )
         logger.info("Saving features into cached file %s", cached_features_file)
         torch.save(features, cached_features_file)
 
     # Convert to Tensors and build dataset
     all_input_ids = torch.tensor([f.input_ids for f in features], dtype=torch.long)
-    all_attention_mask = torch.tensor([f.attention_mask for f in features], dtype=torch.long)
-    all_token_type_ids = torch.tensor([f.token_type_ids for f in features], dtype=torch.long)
+    all_attention_mask = torch.tensor(
+        [f.attention_mask for f in features], dtype=torch.long
+    )
+    all_token_type_ids = torch.tensor(
+        [f.token_type_ids for f in features], dtype=torch.long
+    )
     all_label_ids = torch.tensor([f.label_ids for f in features], dtype=torch.long)
 
-    dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_label_ids)
+    dataset = TensorDataset(
+        all_input_ids, all_attention_mask, all_token_type_ids, all_label_ids
+    )
     return dataset
