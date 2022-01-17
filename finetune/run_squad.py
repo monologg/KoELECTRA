@@ -21,6 +21,7 @@ import glob
 import logging
 import os
 import random
+import re
 import timeit
 
 import numpy as np
@@ -439,7 +440,8 @@ def main(cli_args):
     if args.do_eval:
         checkpoints = list(
             os.path.dirname(c)
-            for c in sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True))
+            for c in sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True),
+                            key=lambda path_with_steps: list(map(int, re.findall(r"\d+", path_with_steps)))[-1])
         )
         if not args.eval_all_checkpoints:
             checkpoints = checkpoints[-1:]
@@ -460,7 +462,8 @@ def main(cli_args):
 
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
         with open(output_eval_file, "w") as f_w:
-            for key in sorted(results.keys()):
+            for key in sorted(results.keys(),
+                              key=lambda key_with_steps: list(map(int, re.findall(r"\d+", key_with_steps)))[-1]):
                 f_w.write("{} = {}\n".format(key, str(results[key])))
 
 
