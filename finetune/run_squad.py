@@ -438,11 +438,9 @@ def main(cli_args):
     # Evaluation - we can ask to evaluate all the checkpoints (sub-directories) in a directory
     results = {}
     if args.do_eval:
-        checkpoints = list(
-            os.path.dirname(c)
-            for c in sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True),
-                            key=lambda path_with_step: list(map(int, re.findall(r"\d+", path_with_step)))[-1])
-        )
+        checkpoints = list(os.path.dirname(c) for c in
+                           sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True),
+                                  key=lambda path_with_step: list(map(int, re.findall(r"\d+", path_with_step)))[-1]))
         if not args.eval_all_checkpoints:
             checkpoints = checkpoints[-1:]
         else:

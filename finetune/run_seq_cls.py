@@ -3,6 +3,7 @@ import json
 import logging
 import os
 import glob
+import re
 
 import numpy as np
 import torch
@@ -258,9 +259,9 @@ def main(cli_args):
 
     results = {}
     if args.do_eval:
-        checkpoints = list(
-            os.path.dirname(c) for c in sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True))
-        )
+        checkpoints = list(os.path.dirname(c) for c in
+                           sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True),
+                                  key=lambda path_with_step: list(map(int, re.findall(r"\d+", path_with_step)))[-1]))
         if not args.eval_all_checkpoints:
             checkpoints = checkpoints[-1:]
         else:
@@ -277,7 +278,8 @@ def main(cli_args):
 
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
         with open(output_eval_file, "w") as f_w:
-            for key in sorted(results.keys()):
+            for key in sorted(results.keys(),
+                              key=lambda key_with_step: list(map(int, re.findall(r"\d+", key_with_step)))[-1]):
                 f_w.write("{} = {}\n".format(key, str(results[key])))
 
 
