@@ -460,9 +460,15 @@ def main(cli_args):
 
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
         with open(output_eval_file, "w") as f_w:
-            for key in sorted(results.keys(),
-                              key=lambda key_with_step: list(map(int, re.findall(r"\d+", key_with_step)))[-1]):
-                f_w.write("{} = {}\n".format(key, str(results[key])))
+            if len(checkpoints) > 1:
+                for key in sorted(results.keys(), key=lambda key_with_step: (
+                    "".join(re.findall(r'[^_]+_', key_with_step)),
+                    int(re.findall(r"_\d+", key_with_step)[-1][1:])
+                )):
+                    f_w.write("{} = {}\n".format(key, str(results[key])))
+            else:
+                for key in sorted(results.keys()):
+                    f_w.write("{} = {}\n".format(key, str(results[key])))
 
 
 if __name__ == "__main__":
