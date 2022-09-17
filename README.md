@@ -2,6 +2,10 @@
 
 # KoELECTRA
 
+<p>
+<a href="https://console.tiyaro.ai/explore/monologg-koelectra-base-v3-generator"> <img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/try_on_tiyaro_badge.svg"></a>
+</p>
+
 <p float="left" align="center">
     <img width="900" src="https://user-images.githubusercontent.com/28896432/80024445-0f444e00-851a-11ea-9137-9da2abfd553d.png" />  
 </p>
