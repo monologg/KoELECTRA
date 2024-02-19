@@ -146,6 +146,129 @@ def train(args,
     return global_step, tr_loss / global_step
 
 
+
+def train_v2(args,
+            model,
+            train_dataset,
+            output_dir,
+            dev_dataset=None,
+            test_dataset=None):
+    train_sampler = RandomSampler(train_dataset)
+    train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
+    if args.max_steps > 0:
+        t_total = args.max_steps
+        args.num_train_epochs = args.max_steps // (len(train_dataloader) // args.gradient_accumulation_steps) + 1
+    else:
+        t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
+
+    # Prepare optimizer and schedule (linear warmup and decay)
+    no_decay = ['bias', 'LayerNorm.weight']
+    optimizer_grouped_parameters = [
+        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
+         'weight_decay': args.weight_decay},
+        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+    ]
+    optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=int(t_total * args.warmup_proportion), num_training_steps=t_total)
+
+    if os.path.isfile(os.path.join(args.model_name_or_path, "optimizer.pt")) and os.path.isfile(
+            os.path.join(args.model_name_or_path, "scheduler.pt")
+    ):
+        # Load optimizer and scheduler states
+        optimizer.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "optimizer.pt")))
+        scheduler.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "scheduler.pt")))
+
+    # Train!
+    logger.info("***** Running training *****")
+    logger.info("  Num examples = %d", len(train_dataset))
+    logger.info("  Num Epochs = %d", args.num_train_epochs)
+    logger.info("  Total train batch size = %d", args.train_batch_size)
+    logger.info("  Gradient Accumulation steps = %d", args.gradient_accumulation_steps)
+    logger.info("  Total optimization steps = %d", t_total)
+    logger.info("  Logging steps = %d", args.logging_steps)
+    logger.info("  Save steps = %d", args.save_steps)
+
+    global_step = 0
+    tr_loss = 0.0
+    best_dev_loss = float('inf')  # 최소 손실을 저장할 변수
+
+    model.zero_grad()
+    mb = master_bar(range(int(args.num_train_epochs)))
+    for epoch in mb:
+        epoch_iterator = progress_bar(train_dataloader, parent=mb)
+        for step, batch in enumerate(epoch_iterator):
+            # 이전 코드와 동일
+            model.train()
+            batch = tuple(t.to(args.device) for t in batch)
+            inputs = {
+                "input_ids": batch[0],
+                "attention_mask": batch[1],
+                "labels": batch[3]
+            }
+            if args.model_type not in ["distilkobert", "xlm-roberta"]:
+                inputs["token_type_ids"] = batch[2]  # Distilkobert, XLM-Roberta don't use segment_ids
+            outputs = model(**inputs)
+
+            loss = outputs[0]
+
+            if args.gradient_accumulation_steps > 1:
+                loss = loss / args.gradient_accumulation_steps
+
+            loss.backward()
+            tr_loss += loss.item()
+            if (step + 1) % args.gradient_accumulation_steps == 0 or (
+                    len(train_dataloader) <= args.gradient_accumulation_steps
+                    and (step + 1) == len(train_dataloader)
+            ):
+                torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+
+                optimizer.step()
+                scheduler.step()
+                model.zero_grad()
+                global_step += 1
+                
+            if args.logging_steps > 0 and global_step % args.logging_steps == 0:
+                # 이전 코드와 동일
+                if args.evaluate_test_during_training:
+                    evaluate(args, model, test_dataset, "test", global_step)
+                else:
+                    evaluate(args, model, dev_dataset, "dev", global_step)
+                    
+            if args.save_steps > 0 and global_step % args.save_steps == 0:
+                # 현재 손실과 저장된 최소 손실을 비교하여 더 낮은 경우에만 모델 저장
+                # print("loss : %s"%loss.item(), "best_dev_loss : %s"%best_dev_loss)
+                if loss.item() < best_dev_loss:
+                    print("############## save model -- %s ##############"%global_step)
+                    # Save model checkpoint
+                    # output_dir = os.path.join(args.output_dir, "%s-%s"%(args.model_type, args.task), "checkpoint-best")
+                    # if not os.path.exists(output_dir):
+                    #     os.makedirs(output_dir)
+                    model_to_save = (
+                        model.module if hasattr(model, "module") else model
+                    )
+                    model_to_save.save_pretrained(output_dir)
+
+                    torch.save(args, os.path.join(output_dir, "pytorch_bin.bin"))
+                    logger.info("Saving best model checkpoint to {}".format(output_dir))
+
+                    if args.save_optimizer:
+                        torch.save(optimizer.state_dict(), os.path.join(output_dir, "optimizer.pt"))
+                        torch.save(scheduler.state_dict(), os.path.join(output_dir, "scheduler.pt"))
+                        logger.info("Saving optimizer and scheduler states to {}".format(output_dir))
+
+                    best_dev_loss = loss.item()  # 최소 손실 업데이트
+            if args.max_steps > 0 and global_step > args.max_steps:
+                break
+
+        mb.write("Epoch {} done".format(epoch + 1))
+
+        if args.max_steps > 0 and global_step > args.max_steps:
+            break
+
+    return global_step, tr_loss / global_step
+
+
+
 def evaluate(args, model, eval_dataset, mode, global_step=None):
     results = {}
     eval_sampler = SequentialSampler(eval_dataset)

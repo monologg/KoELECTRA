@@ -203,6 +203,7 @@ def ner_load_and_cache_examples(args, tokenizer, mode):
     # Load data features from cache or dataset file
     cached_features_file = os.path.join(
         args.data_dir,
+        "cached",
         "cached_{}_{}_{}_{}".format(
             str(args.task),
             list(filter(None, args.model_name_or_path.split("/"))).pop(),
