@@ -150,6 +150,7 @@ def train(args,
 def train_v2(args,
             model,
             train_dataset,
+            output_dir,
             dev_dataset=None,
             test_dataset=None):
     train_sampler = RandomSampler(train_dataset)
@@ -239,15 +240,15 @@ def train_v2(args,
                 if loss.item() < best_dev_loss:
                     print("############## save model -- %s ##############"%global_step)
                     # Save model checkpoint
-                    output_dir = os.path.join(args.output_dir, "checkpoint-best")
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)
+                    # output_dir = os.path.join(args.output_dir, "%s-%s"%(args.model_type, args.task), "checkpoint-best")
+                    # if not os.path.exists(output_dir):
+                    #     os.makedirs(output_dir)
                     model_to_save = (
                         model.module if hasattr(model, "module") else model
                     )
                     model_to_save.save_pretrained(output_dir)
 
-                    torch.save(args, os.path.join(output_dir, "training_args.bin"))
+                    torch.save(args, os.path.join(output_dir, "pytorch_bin.bin"))
                     logger.info("Saving best model checkpoint to {}".format(output_dir))
 
                     if args.save_optimizer:
